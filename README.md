@@ -8,6 +8,7 @@ ID | Platform | Function |  Lnguage  | Build Status
  5  |   Api | [Interface](https://github.com/jiangshide/zd112_api) |	Golang	| [![Build Status](https://travis-ci.org/Bilibili/ci-ijk-ffmpeg-ios.svg?branch=master)](https://github.com/jiangshide/zd112_api)
  6  |   Spark | [Analysis](https://github.com/jiangshide/analysis) |	Scala	| [![Build Status](https://travis-ci.org/Bilibili/ci-ijk-ffmpeg-ios.svg?branch=master)](https://github.com/jiangshide/analysis)
  7  |   Block Chain | [Identification](https://github.com/jiangshide/idendification) |	Golang	| [![Build Status](https://travis-ci.org/Bilibili/ci-ijk-ffmpeg-ios.svg?branch=master)](https://github.com/jiangshide/idendification) 
+ 8  |   Android | [客户端平台基础架构](https://github.com/jiangshide/zd112) |	[Java](https://github.com/jiangshide/zd112)	| [![Build Status](https://travis-ci.org/Bilibili/ci-ijk-ffmpeg-ios.svg?branch=master)](https://github.com/jiangshide/idendification) 
  
 # 组件化+插件化平台基础架构实现
 Platfor |	Module | Status	|	Open Level
@@ -23,7 +24,7 @@ Platfor |	Module | Status	|	Open Level
  Android | ZdRouter |	基础完成	|	中(可定制)
  
 ## 项目目的
-最大力度简化开发逻辑，提升开发效力,欢迎start
+最大力度简化开发逻辑，提升开发效力,希望有兴趣的朋友可以一起加入完善,欢迎start
 ## 项目核心
 插件化+组件化基础平台实现
 ## 项目架构
@@ -56,10 +57,11 @@ Platfor |	Module | Status	|	Open Level
 #### 1.提供专业的技术支持
 #### 2.可做高度定制化需求
 
-#项目案例:
+# 飞文吧
+基于国际化文化交流小程序即将上线,欢迎关注
+   ![Image](https://github.com/jiangshide/zd112/blob/master/imgs/zd112.svg)
 
-
-# 友情合作:
+# 友情合作:备注(本人正在创业中,有兴趣的朋友可以一起加入,或者有对跨平台技术flutter有兴趣的朋友都可以关注以下本人微信便于及时沟通)
    ![Image](https://raw.githubusercontent.com/jiangshide/framework/master/img/weixin.jpeg)
 # 鼓励与支持:   
    ![Image](https://raw.githubusercontent.com/jiangshide/framework/master/img/play.png)
