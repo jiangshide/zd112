@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xl="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.1" viewBox="128.5 194.5 569.5 355.5" width="569.5" height="355.5">
+  <defs>
+    <font-face font-family="PingFang SC" font-size="16" panose-1="2 11 4 0 0 0 0 0 0 0" units-per-em="1000" underline-position="-150" underline-thickness="58" slope="0" x-height="600" cap-height="860" ascent="1060.0021" descent="-340.0007" font-weight="400">
+      <font-face-src>
+        <font-face-name name="PingFangSC-Regular"/>
+      </font-face-src>
+    </font-face>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -4 10 8" markerWidth="10" markerHeight="8" color="black">
+      <g>
+        <path d="M 8 0 L 0 -3 L 0 3 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.10.2 
+    <dc:date>2019-08-05 15:34:08 +0000</dc:date>
+  </metadata>
+  <g id="版面___1" fill="none" fill-opacity="1" stroke-opacity="1" stroke="none" stroke-dasharray="none">
+    <title>Canvas 1</title>
+    <rect fill="white" x="128.5" y="194.5" width="569.5" height="355.5"/>
+    <g id="版面___1: Layer 1">
+      <title>Layer 1</title>
+      <g id="Graphic_30">
+        <rect x="129" y="195" width="568.5" height="354.5" fill="white"/>
+        <rect x="129" y="195" width="568.5" height="354.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_32">
+        <rect x="302" y="343" width="217.5" height="54.5" fill="#8080ff"/>
+        <rect x="302" y="343" width="217.5" height="54.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"/>
+      </g>
+      <g id="Graphic_29">
+        <rect x="418" y="355.9612" width="87.38127" height="30.372388" fill="#ff4040"/>
+        <rect x="418" y="355.9612" width="87.38127" height="30.372388" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(423 359.6474)" fill="black">
+          <tspan font-family="PingFang SC" font-size="16" font-weight="400" fill="black" x="17.986633" y="17">Event</tspan>
+        </text>
+      </g>
+      <g id="Graphic_28">
+        <rect x="466.3509" y="274.68566" width="87.38127" height="30.372388" fill="#80ffff"/>
+        <rect x="466.3509" y="274.68566" width="87.38127" height="30.372388" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"/>
+        <text transform="translate(471.3509 278.37186)" fill="black">
+          <tspan font-family="PingFang SC" font-size="16" font-weight="400" fill="black" x="11.458633" y="17">Module</tspan>
+        </text>
+      </g>
+      <g id="Graphic_27">
+        <rect x="265.82212" y="276.61775" width="87.38127" height="30.372388" fill="yellow"/>
+        <rect x="265.82212" y="276.61775" width="87.38127" height="30.372388" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"/>
+        <text transform="translate(270.82212 280.30395)" fill="black">
+          <tspan font-family="PingFang SC" font-size="16" font-weight="400" fill="black" x="11.458633" y="17">Module</tspan>
+        </text>
+      </g>
+      <g id="Graphic_26">
+        <rect x="466.3509" y="428.78247" width="87.38127" height="30.372388" fill="#ff80ff"/>
+        <rect x="466.3509" y="428.78247" width="87.38127" height="30.372388" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"/>
+        <text transform="translate(471.3509 432.46866)" fill="black">
+          <tspan font-family="PingFang SC" font-size="16" font-weight="400" fill="black" x="11.458633" y="17">Module</tspan>
+        </text>
+      </g>
+      <g id="Graphic_25">
+        <rect x="265.82212" y="428.78247" width="87.38127" height="30.372388" fill="#c0c0ff"/>
+        <rect x="265.82212" y="428.78247" width="87.38127" height="30.372388" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"/>
+        <text transform="translate(270.82212 432.46866)" fill="black">
+          <tspan font-family="PingFang SC" font-size="16" font-weight="400" fill="black" x="11.458633" y="17">Module</tspan>
+        </text>
+      </g>
+      <g id="Graphic_24">
+        <rect x="158.5" y="259.30758" width="87.38127" height="30.372388" fill="#ffffc0"/>
+        <rect x="158.5" y="259.30758" width="87.38127" height="30.372388" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(163.5 262.99377)" fill="black">
+          <tspan font-family="PingFang SC" font-size="16" font-weight="400" fill="black" x="24.058633" y="17">App</tspan>
+        </text>
+      </g>
+      <g id="Graphic_23">
+        <rect x="158.5" y="300.92702" width="87.38127" height="30.372388" fill="#c0ffff"/>
+        <rect x="158.5" y="300.92702" width="87.38127" height="30.372388" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(163.5 304.6132)" fill="black">
+          <tspan font-family="PingFang SC" font-size="16" font-weight="400" fill="black" x="27.250633" y="17">Lib</tspan>
+        </text>
+      </g>
+      <g id="Graphic_22">
+        <rect x="580.6187" y="250.20332" width="87.38127" height="30.372388" fill="#ffffc0"/>
+        <rect x="580.6187" y="250.20332" width="87.38127" height="30.372388" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(585.6187 253.88952)" fill="black">
+          <tspan font-family="PingFang SC" font-size="16" font-weight="400" fill="black" x="24.058633" y="17">App</tspan>
+        </text>
+      </g>
+      <g id="Graphic_21">
+        <rect x="580.6187" y="291.82277" width="87.38127" height="30.372388" fill="#c0ffff"/>
+        <rect x="580.6187" y="291.82277" width="87.38127" height="30.372388" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(585.6187 295.50896)" fill="black">
+          <tspan font-family="PingFang SC" font-size="16" font-weight="400" fill="black" x="27.250633" y="17">Lib</tspan>
+        </text>
+      </g>
+      <g id="Graphic_20">
+        <rect x="158.5" y="407.97275" width="87.38127" height="30.372388" fill="#ffffc0"/>
+        <rect x="158.5" y="407.97275" width="87.38127" height="30.372388" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(163.5 411.65894)" fill="black">
+          <tspan font-family="PingFang SC" font-size="16" font-weight="400" fill="black" x="24.058633" y="17">App</tspan>
+        </text>
+      </g>
+      <g id="Graphic_19">
+        <rect x="158.5" y="449.5922" width="87.38127" height="30.372388" fill="#c0ffff"/>
+        <rect x="158.5" y="449.5922" width="87.38127" height="30.372388" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(163.5 453.2784)" fill="black">
+          <tspan font-family="PingFang SC" font-size="16" font-weight="400" fill="black" x="27.250633" y="17">Lib</tspan>
+        </text>
+      </g>
+      <g id="Graphic_18">
+        <rect x="580.6187" y="407.97275" width="87.38127" height="30.372388" fill="#ffffc0"/>
+        <rect x="580.6187" y="407.97275" width="87.38127" height="30.372388" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(585.6187 411.65894)" fill="black">
+          <tspan font-family="PingFang SC" font-size="16" font-weight="400" fill="black" x="24.058633" y="17">App</tspan>
+        </text>
+      </g>
+      <g id="Graphic_17">
+        <rect x="580.6187" y="449.5922" width="87.38127" height="30.372388" fill="#c0ffff"/>
+        <rect x="580.6187" y="449.5922" width="87.38127" height="30.372388" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(585.6187 453.2784)" fill="black">
+          <tspan font-family="PingFang SC" font-size="16" font-weight="400" fill="black" x="27.250633" y="17">Lib</tspan>
+        </text>
+      </g>
+      <g id="Line_16">
+        <line x1="375.58297" y1="343" x2="336.93663" y2="313.054" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_15">
+        <line x1="444.41207" y1="343" x2="483.5872" y2="311.28708" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_14">
+        <line x1="463.3384" y1="397.5" x2="514.9189" y2="424.2277" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_13">
+        <line x1="362.8115" y1="397.5" x2="320.8081" y2="421.3763" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_12">
+        <line x1="265.82212" y1="287.4874" x2="255.5811" y2="285.39618" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_11">
+        <line x1="265.82212" y1="301.7002" x2="255.53668" y2="304.02994" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_10">
+        <line x1="553.7322" y1="280.51096" x2="570.9384" y2="276.82446" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_9">
+        <line x1="553.7322" y1="296.42428" x2="570.8282" y2="298.98823" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_8">
+        <line x1="265.82212" y1="435.49707" x2="255.60025" y2="433.51505" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_7">
+        <line x1="265.82212" y1="452.44026" x2="255.60025" y2="454.4223" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_6">
+        <line x1="553.7322" y1="436.012" x2="570.8789" y2="432.88935" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_5">
+        <line x1="553.7322" y1="451.9253" x2="570.8789" y2="455.048" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_4">
+        <rect x="367.05937" y="473.5" width="87.38127" height="30.372388" fill="#999"/>
+        <rect x="367.05937" y="473.5" width="87.38127" height="30.372388" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"/>
+        <text transform="translate(372.05937 477.1862)" fill="white">
+          <tspan font-family="PingFang SC" font-size="16" font-weight="400" fill="white" x="14.690633" y="17">更多…</tspan>
+        </text>
+      </g>
+      <g id="Graphic_3">
+        <rect x="145.5" y="210.2355" width="161.5" height="30.372388" fill="white"/>
+        <rect x="145.5" y="210.2355" width="161.5" height="30.372388" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"/>
+        <text transform="translate(150.5 213.9217)" fill="black">
+          <tspan font-family="PingFang SC" font-size="16" font-weight="400" fill="black" x="3.75" y="17">组件化核心架构简图</tspan>
+        </text>
+      </g>
+      <g id="Line_2">
+        <line x1="410.75" y1="397.5" x2="410.75" y2="463.6" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_31">
+        <rect x="319" y="357.0638" width="87.38127" height="30.372388" fill="#ff8080"/>
+        <rect x="319" y="357.0638" width="87.38127" height="30.372388" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(324 360.75)" fill="black">
+          <tspan font-family="PingFang SC" font-size="16" font-weight="400" fill="black" x="4.234633" y="17">ZdRouter</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>
