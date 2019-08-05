@@ -61,7 +61,7 @@ Platfor |	Module | Status	|	Open Level
 基于国际化文化交流小程序即将上线,欢迎关注
    ![Image](https://github.com/jiangshide/zd112/blob/master/imgs/zd112.png)
 
-# 友情合作:备注(本人正在创业中,有兴趣的朋友可以一起加入,或者有对跨平台技术flutter有兴趣的朋友都可以关注以下本人微信便于及时沟通)
+# 友情合作:备注(本人正在创业中,有兴趣的朋友可以一起加入,或者有对跨平台技术flutter有兴趣的朋友都可以关注以下本人微信便于技术交流)
    ![Image](https://raw.githubusercontent.com/jiangshide/framework/master/img/weixin.jpeg)
 # 鼓励与支持:   
    ![Image](https://raw.githubusercontent.com/jiangshide/framework/master/img/play.png)
