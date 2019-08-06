@@ -26,8 +26,10 @@ Platfor |	Module | Status	|	Open Level
  Android | Im |    定制开发    |    中(可定制)
  ... | ... |    ...    |    ...
 
- 
- 
+##简单描述:
+ [简书](https://www.jianshu.com/p/8cfdfaa6b636)
+ [CSDN](https://blog.csdn.net/weixin_42863668/article/details/98622149)
+    
 ## 项目目的
 实现平台化基础支撑能力的基础上最大力度简化开发逻辑，提升开发效力,希望有兴趣的朋友可以一起加入完善,欢迎start
 ## 项目核心
