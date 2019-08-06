@@ -11,7 +11,7 @@ android {
 
     signingConfigs {
         sign {
-            storeFile file(STORE_FILE)
+            storeFile file("$rootDir/$STORE_FILE")
             storePassword STORE_PSW
             keyAlias = KEY_ALIAS
             keyPassword KEY_PSW

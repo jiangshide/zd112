@@ -1,9 +1,20 @@
 apply plugin: 'com.android.application'
 
 android {
+
+    signingConfigs {
+        sign {
+            storeFile file("$rootDir/$STORE_FILE")
+            storePassword STORE_PSW
+            keyAlias = KEY_ALIAS
+            keyPassword KEY_PSW
+
+            v1SigningEnabled = true
+            v2SigningEnabled = true
+        }
+    }
+
     compileSdkVersion COMPILE_SDK_VERSION.toInteger()
-
-
     defaultConfig {
         applicationId "com.android.host"
         minSdkVersion MIN_SDK_VERSION.toInteger()
@@ -16,9 +27,15 @@ android {
     }
 
     buildTypes {
-        release {
+        debug {
             minifyEnabled false
+            signingConfig signingConfigs.sign
+        }
+
+        release {
+            minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.sign
         }
     }
 

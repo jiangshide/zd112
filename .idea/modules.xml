@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ZdAnnotations/ZdAnnotations.iml" filepath="$PROJECT_DIR$/ZdAnnotations/ZdAnnotations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ZdAnnotations_Compile/ZdAnnotations_Compile.iml" filepath="$PROJECT_DIR$/ZdAnnotations_Compile/ZdAnnotations_Compile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ZdRouter/ZdRouter.iml" filepath="$PROJECT_DIR$/ZdRouter/ZdRouter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base/base.iml" filepath="$PROJECT_DIR$/base/base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cache/cache.iml" filepath="$PROJECT_DIR$/cache/cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/event/event.iml" filepath="$PROJECT_DIR$/event/event.iml" />
+      <module fileurl="file://$PROJECT_DIR$/home/home.iml" filepath="$PROJECT_DIR$/home/home.iml" />
+      <module fileurl="file://$PROJECT_DIR$/host/host.iml" filepath="$PROJECT_DIR$/host/host.iml" />
+      <module fileurl="file://$PROJECT_DIR$/login/login.iml" filepath="$PROJECT_DIR$/login/login.iml" />
+      <module fileurl="file://$PROJECT_DIR$/main/main.iml" filepath="$PROJECT_DIR$/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/monitor/monitor.iml" filepath="$PROJECT_DIR$/monitor/monitor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/network/network.iml" filepath="$PROJECT_DIR$/network/network.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shop/shop.iml" filepath="$PROJECT_DIR$/shop/shop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/skin/skin.iml" filepath="$PROJECT_DIR$/skin/skin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/star/star.iml" filepath="$PROJECT_DIR$/star/star.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user/user.iml" filepath="$PROJECT_DIR$/user/user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/utils/utils.iml" filepath="$PROJECT_DIR$/utils/utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/widget/widget.iml" filepath="$PROJECT_DIR$/widget/widget.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zd112.iml" filepath="$PROJECT_DIR$/zd112.iml" />
+    </modules>
+  </component>
+</project>

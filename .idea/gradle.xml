@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/ZdAnnotations" />
+            <option value="$PROJECT_DIR$/ZdAnnotations_Compile" />
+            <option value="$PROJECT_DIR$/ZdRouter" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/base" />
+            <option value="$PROJECT_DIR$/cache" />
+            <option value="$PROJECT_DIR$/event" />
+            <option value="$PROJECT_DIR$/home" />
+            <option value="$PROJECT_DIR$/host" />
+            <option value="$PROJECT_DIR$/login" />
+            <option value="$PROJECT_DIR$/main" />
+            <option value="$PROJECT_DIR$/monitor" />
+            <option value="$PROJECT_DIR$/network" />
+            <option value="$PROJECT_DIR$/shop" />
+            <option value="$PROJECT_DIR$/skin" />
+            <option value="$PROJECT_DIR$/star" />
+            <option value="$PROJECT_DIR$/user" />
+            <option value="$PROJECT_DIR$/utils" />
+            <option value="$PROJECT_DIR$/widget" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
