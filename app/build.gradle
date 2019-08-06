@@ -1,0 +1,99 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        sign {
+            storeFile file(STORE_FILE)
+            storePassword STORE_PSW
+            keyAlias = KEY_ALIAS
+            keyPassword KEY_PSW
+
+            v1SigningEnabled = true
+            v2SigningEnabled = true
+        }
+    }
+    compileSdkVersion COMPILE_SDK_VERSION.toInteger()
+    defaultConfig {
+        applicationId APPLICATION_ID
+        minSdkVersion MIN_SDK_VERSION.toInteger()
+        targetSdkVersion TARGET_SDK_VERSION.toInteger()
+        versionCode APP_VERSION_CODE.toInteger()
+        versionName APP_VERSION_NAME
+
+        multiDexEnabled true
+
+        resConfigs "zh-rCN"
+
+        manifestPlaceholders = [appName : APP_NAME]
+        buildConfigField('String', 'appNAME', "\"${APP_NAME}\"")
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        debug {
+            minifyEnabled false
+            signingConfig signingConfigs.sign
+            applicationIdSuffix 'debug'
+        }
+
+        release {
+            minifyEnabled true
+//            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.sign
+        }
+    }
+
+    assemble.doLast {
+        android.applicationVariants.all { variant ->
+            if (variant.name == "release") {
+                variant.outputs.each { output ->
+                    File originFile = output.outputFile
+                    println originFile.absolutePath
+                    copy {
+                        from originFile
+                        into "$rootDir/host/src/main/assets"
+                    }
+                }
+            }
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    implementation project(path: ':ZdAnnotations')
+    annotationProcessor project(path: ':ZdAnnotations_Compile')
+    implementation project(path: ':ZdRouter')
+    implementation project(path: ':widget')
+    implementation project(path: ':base')
+    implementation project(path: ':skin')
+
+    implementation project(path: ':utils')
+    implementation project(path: ':event')
+    implementation project(path: ':network')
+
+    if(!IS_LOGIN_APP.toBoolean()){
+        implementation project(path: ':login')
+    }
+    if(!IS_MAIN_APP.toBoolean()){
+        implementation project(path: ':main')
+    }
+    if (!IS_HOME_APP.toBoolean()) {
+        implementation project(path: ':home')
+    }
+    if(!IS_STAR_APP.toBoolean()){
+        implementation project(path: ':star')
+    }
+    if(!IS_SHOP_APP.toBoolean()){
+        implementation project(path: ':shop')
+    }
+    if (!IS_USER_APP.toBoolean()) {
+        implementation project(path: ':user')
+    }
+}

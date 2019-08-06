@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">@string/appName</string>
+
+    <string name="protocal">登录既同意<u>Zd112用户协议Login</u></string>
+
+    <string name="share_success">分享成功</string>
+    <string name="weixin_false">微信拒绝</string>
+    <string name="back">返回</string>
+
+    <string name="me">我</string>
+    <string name="app_settings">设置</string>
+</resources>

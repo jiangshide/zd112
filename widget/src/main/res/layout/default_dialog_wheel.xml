@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+    <LinearLayout
+            android:id="@+id/defaultDialogWheelL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            android:paddingTop="30dp"/>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/white"
+    >
+
+        <com.android.widget.ZdButton
+                android:id="@+id/defaultDialogWheelLeft"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:text="@string/cancel"
+                android:textColor="@color/cancel"
+                android:textSize="14sp"
+                app:corner="1px"
+                app:normal_color="@color/white"
+                app:press_color="@color/line"/>
+
+        <View
+                android:id="@+id/dialogLine"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/line"/>
+
+        <com.android.widget.ZdButton
+                android:id="@+id/defaultDialogWheelRight"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:text="@string/sure"
+                android:textColor="@color/sure"
+                android:textSize="14sp"
+                app:corner="1px"
+                app:normal_color="@color/white"
+                app:press_color="@color/line"
+        />
+    </LinearLayout>
+</LinearLayout>
