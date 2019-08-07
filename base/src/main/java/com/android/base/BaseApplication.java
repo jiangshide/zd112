@@ -6,12 +6,13 @@ import android.os.Build;
 import android.os.Handler;
 import android.os.Looper;
 import android.support.annotation.RequiresApi;
+import android.support.multidex.MultiDex;
 
 import com.android.event.LiveEventBus;
 import com.android.monitor.Monitor;
 import com.android.network.NetWorkApi;
-import com.android.skin.Skin;
 import com.android.utils.LogUtil;
+import com.android.zdplugin.ZdPlugin;
 import com.android.zdrouter.ZdRouter;
 import com.tencent.mm.opensdk.openapi.IWXAPI;
 import com.tencent.mm.opensdk.openapi.WXAPIFactory;
@@ -26,6 +27,8 @@ public class BaseApplication extends Application {
 
     @Override
     protected void attachBaseContext(Context base) {
+        MultiDex.install(base);
+        ZdPlugin.getInstance().init(base).fixDex();//todo 热修复待优化
         super.attachBaseContext(base);
         loop();
         ZdRouter.getInstance().init(this);//路由初始化

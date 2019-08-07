@@ -1,1 +1,1 @@
-include ':app', ':ZdRouter', ':ZdAnnotations', ':ZdAnnotations_Compile', ':user', ':host', ':home', ':widget', ':utils', ':base', ':event', ':network', ':skin', ':login', ':shop', ':star', ':main', ':cache', ':monitor'
+include ':app', ':ZdRouter', ':ZdAnnotations', ':ZdAnnotations_Compile', ':user', ':host', ':home', ':widget', ':utils', ':base', ':event', ':network', ':skin', ':login', ':shop', ':star', ':main', ':cache', ':monitor', ':ZdPlugin'

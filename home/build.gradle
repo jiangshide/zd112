@@ -93,4 +93,5 @@ dependencies {
     implementation project(path: ':utils')
     implementation project(path: ':event')
     implementation project(path: ':skin')
+    implementation project(path: ':ZdPlugin')
 }

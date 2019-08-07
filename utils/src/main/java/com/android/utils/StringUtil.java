@@ -14,6 +14,7 @@ public final class StringUtil {
 
     /**
      * 转换小写
+     *
      * @param var0
      * @return
      */
@@ -23,6 +24,7 @@ public final class StringUtil {
 
     /**
      * 转换为大写
+     *
      * @param var0
      * @return
      */
@@ -31,7 +33,8 @@ public final class StringUtil {
     }
 
     /**
-     *查找，不区分大小写,没有找到返回-1
+     * 查找，不区分大小写,没有找到返回-1
+     *
      * @param var0
      * @param var1
      * @return
@@ -41,7 +44,8 @@ public final class StringUtil {
     }
 
     /**
-     *从指定位置开始查找，不区分大小写--返回-1
+     * 从指定位置开始查找，不区分大小写--返回-1
+     *
      * @param var0
      * @param var1
      * @param var2
@@ -88,5 +92,18 @@ public final class StringUtil {
             e.printStackTrace();
         }
         return str;
+    }
+
+    /**
+     * 多字符组装
+     * @param params
+     * @return
+     */
+    public static String getAppend(String... params) {
+        StringBuffer stringBuffer = new StringBuffer();
+        for (String param : params) {
+            stringBuffer.append(param);
+        }
+        return stringBuffer.toString();
     }
 }

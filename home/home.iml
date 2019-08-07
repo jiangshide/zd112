@@ -98,7 +98,6 @@
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/library_assets" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/library_java_res" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/library_manifest" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/lint_jar" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/merged_jni_libs" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/merged_manifests" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/merged_shaders" />
@@ -161,6 +160,7 @@
     <orderEntry type="module" module-name="skin" />
     <orderEntry type="module" module-name="event" />
     <orderEntry type="module" module-name="base" />
+    <orderEntry type="module" module-name="ZdPlugin" />
     <orderEntry type="module" module-name="utils" />
     <orderEntry type="module" module-name="ZdAnnotations" />
     <orderEntry type="module" module-name="widget" />

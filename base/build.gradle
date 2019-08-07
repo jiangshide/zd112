@@ -12,13 +12,17 @@ android {
 
         buildConfigField('String', 'WECHAT_APPID', "\"${WECHAT_APPID}\"")
 
+        multiDexEnabled true
+        resConfigs "zh-rCN"
+
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
     }
 
     buildTypes {
         release {
-            minifyEnabled false
+            multiDexKeepFile file('dex.keep')
+            minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
@@ -32,6 +36,7 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    implementation 'com.google.code.gson:gson:2.8.5'
 
     implementation project(path: ':ZdRouter')
     implementation project(path: ':utils')
@@ -40,7 +45,7 @@ dependencies {
     implementation project(path: ':event')
     implementation project(path: ':monitor')
     implementation project(path: ':skin')
-    implementation 'com.google.code.gson:gson:2.8.5'
+    implementation project(path: ':ZdPlugin')
 
     implementation 'com.tencent.mm.opensdk:wechat-sdk-android-with-mta:+'
 }

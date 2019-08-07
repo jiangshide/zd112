@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ZdAnnotations/ZdAnnotations.iml" filepath="$PROJECT_DIR$/ZdAnnotations/ZdAnnotations.iml" />
       <module fileurl="file://$PROJECT_DIR$/ZdAnnotations_Compile/ZdAnnotations_Compile.iml" filepath="$PROJECT_DIR$/ZdAnnotations_Compile/ZdAnnotations_Compile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ZdPlugin/ZdPlugin.iml" filepath="$PROJECT_DIR$/ZdPlugin/ZdPlugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/ZdRouter/ZdRouter.iml" filepath="$PROJECT_DIR$/ZdRouter/ZdRouter.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/base/base.iml" filepath="$PROJECT_DIR$/base/base.iml" />
