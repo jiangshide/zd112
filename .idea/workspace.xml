@@ -131,165 +131,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d9669fc-a5a4-4849-942d-0d1efb89b394" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_aspectj_aspectjrt_1_8_9_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/android/zd112/Contains.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/permission/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/permission/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/permission/permission.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/permission/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/permission/src/androidTest/java/com/android/permission/ExampleInstrumentedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/permission/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/permission/src/main/java/com/android/permission/PermissionActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/permission/src/main/java/com/android/permission/annotation/Permission.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/permission/src/main/java/com/android/permission/annotation/PermissionResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/permission/src/main/java/com/android/permission/listener/IPermission.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/permission/src/main/java/com/android/permission/model/GrantModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/permission/src/main/java/com/android/permission/process/PermissionProcess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/permission/src/main/res/layout/activity_permission.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/permission/src/test/java/com/android/permission/ExampleUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skin/src/main/java/com/android/skin/SkinActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skin/src/main/java/com/android/skin/model/SkinViewItemModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skin/src/main/java/com/android/skin/model/SkinViewModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skin/src/main/res/drawable/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/src/main/java/com/android/utils/PermissionUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileContent/annotation-processors.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileContent/annotation-processors.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileContent/fileContent.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_runtime_1_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_runtime_1_1_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_extensions_1_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_extensions_1_1_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_1_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_1_1_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_core_1_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_core_1_1_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_1_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_viewmodel_1_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_viewmodel_1_1_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_asynclayoutinflater_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_asynclayoutinflater_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_cardview_v7_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_cardview_v7_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_1_1_3_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_1_1_3_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_coordinatorlayout_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_coordinatorlayout_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_cursoradapter_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_cursoradapter_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_customview_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_customview_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_design_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_design_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_documentfile_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_documentfile_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_drawerlayout_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_drawerlayout_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_interpolator_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_interpolator_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_loader_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_loader_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_localbroadcastmanager_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_localbroadcastmanager_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_multidex_1_0_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_multidex_1_0_2_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_multidex_instrumentation_1_0_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_multidex_instrumentation_1_0_2_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_print_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_print_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_recyclerview_v7_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_recyclerview_v7_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_slidingpanelayout_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_slidingpanelayout_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_ui_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_ui_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_utils_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_utils_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_media_compat_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_media_compat_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_v4_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_v4_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_vector_drawable_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_vector_drawable_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_swiperefreshlayout_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_swiperefreshlayout_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_core_3_0_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_core_3_0_2_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_idling_resource_3_0_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_idling_resource_3_0_2_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_monitor_1_0_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_monitor_1_0_2_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_runner_1_0_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_runner_1_0_2_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_transition_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_transition_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_versionedparcelable_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_versionedparcelable_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_viewpager_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_viewpager_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_reactivex_rxjava2_rxandroid_2_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_reactivex_rxjava2_rxandroid_2_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZdAnnotations/ZdAnnotations.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ZdAnnotations/ZdAnnotations.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZdAnnotations/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/ZdAnnotations/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZdAnnotations_Compile/ZdAnnotations_Compile.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ZdAnnotations_Compile/ZdAnnotations_Compile.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZdAnnotations_Compile/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/ZdAnnotations_Compile/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZdAnnotations_Compile/src/main/java/com/android/zdannotations_compile/ZdAnnotationsProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/ZdAnnotations_Compile/src/main/java/com/android/zdannotations_compile/ZdAnnotationsProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZdPlugin/ZdPlugin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ZdPlugin/ZdPlugin.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZdPlugin/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/ZdPlugin/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZdPlugin/src/main/java/com/android/zdplugin/ZdPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/ZdPlugin/src/main/java/com/android/zdplugin/ZdPlugin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZdRouter/ZdRouter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ZdRouter/ZdRouter.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/android/zd112/SplashActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/android/zd112/SplashActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/base.iml" beforeDir="false" afterPath="$PROJECT_DIR$/base/base.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/base/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/android/base/BaseActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/com/android/base/BaseActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/android/base/BaseApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/com/android/base/BaseApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/android/base/CommActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/com/android/base/CommActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/event/event.iml" beforeDir="false" afterPath="$PROJECT_DIR$/event/event.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/home/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/home.iml" beforeDir="false" afterPath="$PROJECT_DIR$/home/home.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/host/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/host/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/host/src/main/assets/app-release.apk" beforeDir="false" afterPath="$PROJECT_DIR$/host/src/main/assets/app-release.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/login/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/login.iml" beforeDir="false" afterPath="$PROJECT_DIR$/login/login.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/src/main/res/layout/activity_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/login/src/main/res/layout/activity_login.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/main/main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/monitor/monitor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/monitor/monitor.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/network/network.iml" beforeDir="false" afterPath="$PROJECT_DIR$/network/network.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/network/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/network/src/main/java/com/android/network/NetWorkApi.kt" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/main/java/com/android/network/NetWorkApi.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/network/src/main/java/com/android/network/listener/NetType.java" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/main/java/com/android/network/listener/NetType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/network/src/main/java/com/android/network/receiver/NetStateReciver.kt" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/main/java/com/android/network/receiver/NetStateReciver.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/shop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/shop/shop.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skin/skin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/skin/skin.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skin/src/main/app/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/skin/src/main/app/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skin/src/main/java/com/android/skin/Skin.java" beforeDir="false" afterPath="$PROJECT_DIR$/skin/src/main/java/com/android/skin/Skin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skin/src/main/java/com/android/skin/factory/SkinFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/skin/src/main/java/com/android/skin/factory/SkinFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skin/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/skin/src/main/res/values/colors.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skin/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/skin/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skin/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/skin/src/main/res/values/styles.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/star/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star/star.iml" beforeDir="false" afterPath="$PROJECT_DIR$/star/star.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/user/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/user.iml" beforeDir="false" afterPath="$PROJECT_DIR$/user/user.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/src/main/java/com/android/utils/StringUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/utils/src/main/java/com/android/utils/StringUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/src/main/java/com/android/utils/annotation/handler/ListenerInvocationHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/utils/src/main/java/com/android/utils/annotation/handler/ListenerInvocationHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/utils.iml" beforeDir="false" afterPath="$PROJECT_DIR$/utils/utils.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/widget/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/widget/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/widget/src/main/java/com/android/widget/refresh/component/ClassicsHeader.java" beforeDir="false" afterPath="$PROJECT_DIR$/widget/src/main/java/com/android/widget/refresh/component/ClassicsHeader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/widget/src/main/java/com/android/widget/refresh/component/InternalClassics.java" beforeDir="false" afterPath="$PROJECT_DIR$/widget/src/main/java/com/android/widget/refresh/component/InternalClassics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/widget/src/main/res/anim/bottom_enter.xml" beforeDir="false" afterPath="$PROJECT_DIR$/skin/src/main/res/anim/bottom_enter.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/widget/src/main/res/anim/bottom_exit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/skin/src/main/res/anim/bottom_exit.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/widget/src/main/res/anim/quit_fullscreen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/skin/src/main/res/anim/quit_fullscreen.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/widget/src/main/res/anim/snackbar_in.xml" beforeDir="false" afterPath="$PROJECT_DIR$/skin/src/main/res/anim/snackbar_in.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/widget/src/main/res/anim/snackbar_out.xml" beforeDir="false" afterPath="$PROJECT_DIR$/skin/src/main/res/anim/snackbar_out.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/widget/src/main/res/anim/start_fullscreen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/skin/src/main/res/anim/start_fullscreen.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/widget/src/main/res/anim/top_enter.xml" beforeDir="false" afterPath="$PROJECT_DIR$/skin/src/main/res/anim/top_enter.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/widget/src/main/res/anim/top_exit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/skin/src/main/res/anim/top_exit.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/widget/src/main/res/anim/top_in.xml" beforeDir="false" afterPath="$PROJECT_DIR$/skin/src/main/res/anim/top_in.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/widget/src/main/res/anim/top_out.xml" beforeDir="false" afterPath="$PROJECT_DIR$/skin/src/main/res/anim/top_out.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/widget/src/main/res/drawable/back.png" beforeDir="false" afterPath="$PROJECT_DIR$/skin/src/main/res/drawable/back.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/widget/src/main/res/drawable/bg_dialog_radius.xml" beforeDir="false" afterPath="$PROJECT_DIR$/skin/src/main/res/drawable/bg_dialog_radius.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/widget/src/main/res/drawable/bg_dialog_radius_top.xml" beforeDir="false" afterPath="$PROJECT_DIR$/skin/src/main/res/drawable/bg_dialog_radius_top.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/widget/src/main/res/drawable/input_delete.png" beforeDir="false" afterPath="$PROJECT_DIR$/skin/src/main/res/drawable/input_delete.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/widget/src/main/res/drawable/progress_style.xml" beforeDir="false" afterPath="$PROJECT_DIR$/skin/src/main/res/drawable/progress_style.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/widget/src/main/res/drawable/recycler_header_arrow.xml" beforeDir="false" afterPath="$PROJECT_DIR$/skin/src/main/res/drawable/recycler_header_arrow.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/widget/src/main/res/drawable/red_dot.xml" beforeDir="false" afterPath="$PROJECT_DIR$/skin/src/main/res/drawable/red_dot.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/widget/src/main/res/layout/default_dialog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/widget/src/main/res/layout/default_dialog.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/widget/src/main/res/layout/default_dialog_list.xml" beforeDir="false" afterPath="$PROJECT_DIR$/widget/src/main/res/layout/default_dialog_list.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/widget/src/main/res/layout/default_dialog_wheel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/widget/src/main/res/layout/default_dialog_wheel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/widget/src/main/res/values/attr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/skin/src/main/res/values/attr.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/widget/src/main/res/values/colors.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/widget/src/main/res/values/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/skin/src/main/res/values/dimens.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/widget/src/main/res/values/strings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/widget/src/main/res/values/styles.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/widget/widget.iml" beforeDir="false" afterPath="$PROJECT_DIR$/widget/widget.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/permission/src/main/java/com/android/permission/PermissionActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/permission/src/main/java/com/android/permission/PermissionActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/permission/src/main/java/com/android/permission/annotation/Permission.java" beforeDir="false" afterPath="$PROJECT_DIR$/permission/src/main/java/com/android/permission/annotation/Permission.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/permission/src/main/java/com/android/permission/annotation/PermissionResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/permission/src/main/java/com/android/permission/annotation/PermissionResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/permission/src/main/java/com/android/permission/listener/IPermission.java" beforeDir="false" afterPath="$PROJECT_DIR$/permission/src/main/java/com/android/permission/listener/IPermission.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/permission/src/main/java/com/android/permission/model/GrantModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/permission/src/main/java/com/android/permission/model/GrantModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/permission/src/main/java/com/android/permission/process/PermissionProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/permission/src/main/java/com/android/permission/process/PermissionProcess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skin/src/main/java/com/android/skin/model/SkinViewItemModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/skin/src/main/java/com/android/skin/model/SkinViewItemModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skin/src/main/java/com/android/skin/model/SkinViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/skin/src/main/java/com/android/skin/model/SkinViewModel.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -354,11 +203,72 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ZdPlugin/src/main/java/com/android/zdplugin/FixDex.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-793">
-              <caret line="37" column="14" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
+            <state relative-caret-position="347">
+              <caret line="113" column="31" lean-forward="true" selection-start-line="113" selection-start-column="31" selection-end-line="113" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/permission/src/main/java/com/android/permission/annotation/Permission.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/permission/src/main/java/com/android/permission/annotation/PermissionResult.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/permission/src/main/java/com/android/permission/listener/IPermission.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/permission/src/main/java/com/android/permission/model/GrantModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/permission/src/main/java/com/android/permission/PermissionActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1281">
+              <caret line="107" column="21" lean-forward="true" selection-start-line="107" selection-start-column="21" selection-end-line="107" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/permission/src/main/java/com/android/permission/process/PermissionProcess.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="302">
+              <caret line="42" column="6" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
+              <folding>
+                <element signature="e#3871#4278#0" expanded="true" />
+                <element signature="e#4277#4278#0" expanded="true" />
+                <element signature="e#4335#4370#0" expanded="true" />
+                <element signature="e#4372#5018#0" expanded="true" />
+                <element signature="e#5017#5018#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -392,7 +302,6 @@
         <option value="$PROJECT_DIR$/permission/src/main/java/com/android/permission/annotation/PermissionDenied.java" />
         <option value="$PROJECT_DIR$/permission/src/main/java/com/android/permission/model/GrantModel.java" />
         <option value="$PROJECT_DIR$/permission/src/main/java/com/android/permission/listener/IPermission.java" />
-        <option value="$PROJECT_DIR$/permission/src/main/java/com/android/permission/PermissionActivity.java" />
         <option value="$PROJECT_DIR$/base/src/main/java/com/android/base/CommActivity.java" />
         <option value="$PROJECT_DIR$/ZdRouter/src/main/java/com/android/zdrouter/ZdRouter.java" />
         <option value="$PROJECT_DIR$/network/src/main/AndroidManifest.xml" />
@@ -401,7 +310,6 @@
         <option value="$PROJECT_DIR$/network/src/main/java/com/android/network/NetWorkApi.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/android/zd112/Contains.java" />
         <option value="$PROJECT_DIR$/permission/src/main/java/com/android/permission/annotation/Permission.java" />
-        <option value="$PROJECT_DIR$/permission/src/main/java/com/android/permission/process/PermissionProcess.java" />
         <option value="$PROJECT_DIR$/host/build.gradle" />
         <option value="$PROJECT_DIR$/user/build.gradle" />
         <option value="$PROJECT_DIR$/star/build.gradle" />
@@ -440,6 +348,8 @@
         <option value="$PROJECT_DIR$/skin/src/main/java/com/android/skin/Skin.java" />
         <option value="$PROJECT_DIR$/skin/src/main/java/com/android/skin/model/SkinViewItemModel.java" />
         <option value="$PROJECT_DIR$/skin/src/main/java/com/android/skin/model/SkinViewModel.java" />
+        <option value="$PROJECT_DIR$/permission/src/main/java/com/android/permission/process/PermissionProcess.java" />
+        <option value="$PROJECT_DIR$/permission/src/main/java/com/android/permission/PermissionActivity.java" />
       </list>
     </option>
   </component>
@@ -515,37 +425,77 @@
             <path>
               <item name="zd112" type="b2602c69:ProjectViewProjectNode" />
               <item name="zd112" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="ZdPlugin" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="permission" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="zd112" type="b2602c69:ProjectViewProjectNode" />
               <item name="zd112" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="ZdPlugin" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="permission" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="zd112" type="b2602c69:ProjectViewProjectNode" />
               <item name="zd112" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="ZdPlugin" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zd112" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zd112" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="ZdPlugin" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="permission" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="zd112" type="b2602c69:ProjectViewProjectNode" />
               <item name="zd112" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="ZdPlugin" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="permission" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zdplugin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zd112" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zd112" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="permission" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="permission" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zd112" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zd112" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="permission" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="permission" type="462c0819:PsiDirectoryNode" />
+              <item name="annotation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zd112" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zd112" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="permission" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="permission" type="462c0819:PsiDirectoryNode" />
+              <item name="listener" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zd112" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zd112" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="permission" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="permission" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zd112" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zd112" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="permission" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="permission" type="462c0819:PsiDirectoryNode" />
+              <item name="process" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -949,34 +899,6 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/widget/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/star/src/main/app/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest" />
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZdAnnotations/src/main/java/com/android/zdannotations/InjectView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/src/main/java/com/android/utils/annotation/ContentView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/skin/build/generated/res/resValues/debug/values/generated.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1082,17 +1004,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/skin/build/outputs/aar/skin-debug.aar" />
-    <entry file="file://$PROJECT_DIR$/permission/src/main/java/com/android/permission/process/PermissionProcess.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="96" column="82" selection-start-line="96" selection-start-column="82" selection-end-line="96" selection-end-column="82" />
-          <folding>
-            <element signature="e#4299#4945#0" expanded="true" />
-            <element signature="e#4944#4945#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Documents/AndroidStudio/DeviceExplorer/emulator-5554/sdcard/skin.apk" />
     <entry file="file://$PROJECT_DIR$/gradle.properties">
       <provider selected="true" editor-type-id="text-editor">
@@ -1304,8 +1215,57 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ZdPlugin/src/main/java/com/android/zdplugin/FixDex.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-793">
-          <caret line="37" column="14" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
+        <state relative-caret-position="347">
+          <caret line="113" column="31" lean-forward="true" selection-start-line="113" selection-start-column="31" selection-end-line="113" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/permission/src/main/java/com/android/permission/annotation/Permission.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/permission/src/main/java/com/android/permission/annotation/PermissionResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/permission/src/main/java/com/android/permission/process/PermissionProcess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="42" column="6" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
+          <folding>
+            <element signature="e#3871#4278#0" expanded="true" />
+            <element signature="e#4277#4278#0" expanded="true" />
+            <element signature="e#4335#4370#0" expanded="true" />
+            <element signature="e#4372#5018#0" expanded="true" />
+            <element signature="e#5017#5018#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/permission/src/main/java/com/android/permission/listener/IPermission.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/permission/src/main/java/com/android/permission/model/GrantModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/permission/src/main/java/com/android/permission/PermissionActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1281">
+          <caret line="107" column="21" lean-forward="true" selection-start-line="107" selection-start-column="21" selection-end-line="107" selection-end-column="21" />
         </state>
       </provider>
     </entry>

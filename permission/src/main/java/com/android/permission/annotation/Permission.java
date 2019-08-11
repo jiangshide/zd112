@@ -11,11 +11,11 @@ import java.lang.annotation.Target;
  */
 @Target(ElementType.METHOD)
 @Retention(RetentionPolicy.RUNTIME)
-public @interface NeedPermission {
+public @interface Permission {
     String[] value();
 
     int requestCode() default 0;
 
-    boolean isSetting() default false;
+    boolean isSetting() default true;
 }
 

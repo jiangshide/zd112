@@ -1,4 +1,4 @@
-package com.android.permission;
+package com.android.permission.listener;
 
 import java.util.List;
 
@@ -10,8 +10,8 @@ public interface IPermission {
     //同意权限
     void PermissionGranted();
 
-    //拒绝权限并且选中不再提示
-    void PermissionDenied(int requestCode, List<String> denyList);
+    //拒绝权限并选中时不再提示
+    void PermissionDenied(int requestCode, List<String> grantResults);
 
     //取消权限
     void PermissionCanceled(int requestCode);

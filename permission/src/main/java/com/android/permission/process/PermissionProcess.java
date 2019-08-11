@@ -39,6 +39,11 @@ public final class PermissionProcess {
     public void requestPermissionMethod(Permission permission) {
     }
 
+    /**
+     *
+     * @param joinPoint
+     * @param permission
+     */
     @Around("requestPermissionMethod(permission)")
     public void AroundJoinPoint(final ProceedingJoinPoint joinPoint, final Permission permission) {
         final Object object = joinPoint.getThis();
@@ -118,6 +123,15 @@ public final class PermissionProcess {
                 });
     }
 
+    /**
+     *
+     * @param object
+     * @param requestCode
+     * @param grantResults
+     * @param isCancel
+     * @param isSupport
+     * @return
+     */
     private boolean result(Object object, int requestCode, List<String> grantResults, boolean isCancel, boolean isSupport) {
         Class<?> clazz = isSupport ? object.getClass().getSuperclass() : object.getClass();
         Method[] methods = clazz.getDeclaredMethods();
@@ -146,6 +160,12 @@ public final class PermissionProcess {
         return !isSupport ? result(object, requestCode, grantResults, isCancel, true) : false;
     }
 
+    /**
+     *
+     * @param method
+     * @param _clazz
+     * @return
+     */
     private boolean isHasAnnotation(Method method, Class _clazz) {
         boolean isHasAnnotation = method.isAnnotationPresent(_clazz);
         if (isHasAnnotation) {

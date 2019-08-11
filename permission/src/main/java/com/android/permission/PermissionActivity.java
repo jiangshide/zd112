@@ -69,7 +69,7 @@ public class PermissionActivity extends Activity {
     /**
      * 申请权限
      *
-     * @param permissions permission list
+     * @param permissions permission arr
      */
     private void requestPermission(String[] permissions) {
 

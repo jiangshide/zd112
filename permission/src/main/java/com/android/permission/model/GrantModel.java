@@ -9,9 +9,10 @@ import java.util.List;
  * mqcoder90@gmail.com
  */
 
-public class Grant {
+public class GrantModel {
 
+    public Context context;
     public int requestCode;
     public List<String> grantResults;
-    public Context context;
+    public boolean isCancel;
 }
