@@ -53,8 +53,7 @@ public class ZdAnnotationsProcessor extends AbstractProcessor {
             String key = typeElement.getAnnotation(BindPath.class).value();
             String value = typeElement.getQualifiedName().toString();
             System.out.println("------key:" + key + " | value:" + value);
-            map.put(key, value);
-
+//            map.put(key, value);
             Writer writer = null;
             //创建类名
             String utilName = "ActivityUtil" + System.nanoTime();

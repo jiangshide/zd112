@@ -19,7 +19,7 @@
                 android:layout_marginTop="15dp"
                 android:gravity="center"
                 android:text="@string/tips"
-                android:textColor="@color/dialog_text"
+                android:textColor="@color/black"
                 android:textSize="18sp"
         />
 
@@ -43,7 +43,7 @@
                 android:paddingLeft="10dp"
                 android:visibility="gone"
                 android:textSize="13sp"
-                android:theme="@style/CusEditText"
+                android:theme="@style/ZdEditText"
         />
         <LinearLayout
                 android:id="@+id/dialogProgressBarL"
@@ -75,7 +75,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="1px"
                 android:layout_marginTop="10dp"
-                android:background="@color/dialog_divider"/>
+                android:background="@color/line"/>
 
         <LinearLayout
                 android:layout_width="match_parent"
@@ -89,7 +89,7 @@
                     android:layout_weight="1"
                     android:padding="10dp"
                     android:text="@string/cancel"
-                    android:textColor="@color/cancel"
+                    android:textColor="@color/gray"
                     android:textSize="14sp"
                     app:bottomCorner="10dp"
                     app:leftCorner="0dp"
@@ -111,7 +111,7 @@
                     android:layout_weight="1"
                     android:padding="10dp"
                     android:text="@string/sure"
-                    android:textColor="@color/sure"
+                    android:textColor="@color/black"
                     android:textSize="14sp"
                     app:bottomCorner="0dp"
                     app:leftCorner="0dp"

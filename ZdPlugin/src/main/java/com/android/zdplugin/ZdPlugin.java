@@ -27,10 +27,16 @@ public final class ZdPlugin {
         return ZdPluginHolder.instance;
     }
 
+    /**
+     * 热修复调用实现
+     */
     public void fixDex() {
         new FixDex().fixDex(mContext);
     }
 
+    /**
+     * 插件加载调用实现
+     */
     public void loadPlugin() {
         //todo 待实现
     }

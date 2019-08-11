@@ -91,5 +91,7 @@ dependencies {
     implementation project(path: ':base')
     implementation project(path: ':utils')
     implementation project(path: ':event')
-    implementation project(path: ':skin')
+    if(!IS_SKIN_APP.toBoolean()){
+        implementation project(path: ':skin')
+    }
 }

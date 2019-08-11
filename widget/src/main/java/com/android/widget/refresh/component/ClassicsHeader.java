@@ -95,7 +95,7 @@ public class ClassicsHeader extends InternalClassics<ClassicsHeader> implements 
         }
 
         mLastUpdateText = new TextView(context);
-        mLastUpdateText.setTextColor(ContextCompat.getColor(context, R.color.font_gray));
+        mLastUpdateText.setTextColor(ContextCompat.getColor(context, R.color.gray));
         mLastUpdateFormat = new SimpleDateFormat(REFRESH_HEADER_UPDATE, Locale.getDefault());
 
         final View thisView = this;

@@ -30,6 +30,6 @@
             android:textSize="16sp"
             app:corner="10dp"
             app:normal_color="@color/white"
-            app:press_color="@color/font_gray"
+            app:press_color="@color/gray"
     />
 </RelativeLayout>

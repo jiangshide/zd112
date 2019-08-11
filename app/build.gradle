@@ -1,4 +1,5 @@
 apply plugin: 'com.android.application'
+apply plugin: 'android-aspectjx'
 
 android {
     signingConfigs {
@@ -31,7 +32,7 @@ android {
         debug {
             minifyEnabled false
             signingConfig signingConfigs.sign
-            applicationIdSuffix 'debug'
+//            applicationIdSuffix 'debug'
         }
 
         release {
@@ -70,11 +71,14 @@ dependencies {
     implementation project(path: ':ZdRouter')
     implementation project(path: ':widget')
     implementation project(path: ':base')
-    implementation project(path: ':skin')
+    implementation project(path: ':permission')
 
     implementation project(path: ':utils')
     implementation project(path: ':event')
     implementation project(path: ':network')
+    if(!IS_SKIN_APP.toBoolean()){
+        implementation project(path: ':skin')
+    }
 
     if (!IS_LOGIN_APP.toBoolean()) {
         implementation project(path: ':login')

@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.view.View;
 
-import com.android.utils.LogUtil;
 import com.android.widget.ZdTabTop;
 
 /**
@@ -23,7 +22,6 @@ public class CommActivity<T> extends BaseActivity {
         ZdTabTop zdTabTop = findViewById(R.id.commTabTop);
         if (intent.hasExtra("title")) {
             String title = intent.getStringExtra("title");
-            LogUtil.e("------title:",title);
             zdTabTop.setTitle(title);
             zdTabTop.setVisibility(View.VISIBLE);
         } else {

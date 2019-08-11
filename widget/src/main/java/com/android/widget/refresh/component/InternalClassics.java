@@ -61,7 +61,7 @@ public abstract class InternalClassics<T extends InternalClassics> extends Inter
         mProgressView = new ImageView(context);
         mTitleText = new TextView(context);
         mTitleText.setVisibility(GONE);
-        mTitleText.setTextColor(ContextCompat.getColor(context, R.color.font_gray));
+        mTitleText.setTextColor(ContextCompat.getColor(context, R.color.gray));
         mCenterLayout = new LinearLayout(context);
         mCenterLayout.setGravity(Gravity.CENTER_HORIZONTAL);
         mCenterLayout.setOrientation(LinearLayout.VERTICAL);

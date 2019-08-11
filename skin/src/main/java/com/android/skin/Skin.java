@@ -1,7 +1,6 @@
 package com.android.skin;
 
 import android.app.Activity;
-import android.app.Application;
 import android.content.Context;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
@@ -21,9 +20,10 @@ import java.lang.reflect.Method;
  * created by jiangshide on 2019-07-26.
  * email:18311271399@163.com
  */
-public class Skin {
+public final class Skin {
 
     private Skin() {
+        mSkinFactory = new SkinFactory();
     }
 
     private Resources mResources;
@@ -40,23 +40,18 @@ public class Skin {
         return SkinManagerHolder.instance;
     }
 
-    public void initContext(Application context) {
+    public void init(Context context) {
         this.mContext = context;
-        mSkinFactory = new SkinFactory();
     }
 
     /**
      * 复制文件与加载apk信息
+     *
      * @param path
      */
     public void loadSkinApk(String path) {
-        //复制文件
-        //todo...
-        //获取包管理器
         PackageManager packageManager = this.mContext.getPackageManager();
-        //获取皮肤apk的包信息类
         PackageInfo packageInfo = packageManager.getPackageArchiveInfo(path, PackageManager.GET_ACTIVITIES);
-        //获取apk的包名
         mSkinPkgName = packageInfo.packageName;
         try {
             AssetManager assetManager = AssetManager.class.newInstance();
@@ -72,8 +67,8 @@ public class Skin {
         LayoutInflaterCompat.setFactory2(activity.getLayoutInflater(), mSkinFactory);
     }
 
-    public void apply(){
-        if(mSkinFactory != null){
+    public void apply() {
+        if (mSkinFactory != null) {
             mSkinFactory.apply();
         }
     }
@@ -88,12 +83,7 @@ public class Skin {
         if (mResources == null) {
             return id;
         }
-        //获取到的属性值的名字 colorPrimary
-        String resourceEntryName = mContext.getResources().getResourceEntryName(id);
-        //获取到的属性值的类型 colorPrimary
-        String typeName = mContext.getResources().getResourceTypeName(id);
-        //就是名字和类型匹配的资源对象中的ID
-        int identifier = mResources.getIdentifier(resourceEntryName, typeName, mSkinPkgName);
+        int identifier = getIdentifier(id);
         if (identifier == 0) {
             return id;
         }
@@ -110,15 +100,39 @@ public class Skin {
         if (mResources == null) {
             return ContextCompat.getDrawable(mContext, id);
         }
-        //获取到资源id的类型
-        String resourceTypeName = mContext.getResources().getResourceTypeName(id);
-        //获取到的就是资源id的名字
-        String resourceEntryName = mContext.getResources().getResourceEntryName(id);
-        //就是colorAccent这个资源在外置apk中的id
-        int identifier = mResources.getIdentifier(resourceEntryName, resourceTypeName, mSkinPkgName);
+        int identifier = getIdentifier(id);
         if (identifier == 0) {
             return ContextCompat.getDrawable(mContext, 0);
         }
         return mResources.getDrawable(identifier);
+    }
+
+    /**
+     * 获取外置apk中String的资源id
+     *
+     * @param id
+     * @return
+     */
+    public String getText(int id) {
+        if (mResources == null) {
+            return mContext.getResources().getString(id);
+        }
+        int identifier = getIdentifier(id);
+        if (identifier == 0) {
+            return mContext.getResources().getString(id);
+        }
+        return mResources.getString(identifier);
+    }
+
+    /**
+     * 与外置apk中的资源id进行匹配
+     *
+     * @param id
+     * @return
+     */
+    public int getIdentifier(int id) {
+        String typeName = mContext.getResources().getResourceTypeName(id);
+        String entryName = mContext.getResources().getResourceEntryName(id);
+        return mResources.getIdentifier(entryName, typeName, mSkinPkgName);
     }
 }

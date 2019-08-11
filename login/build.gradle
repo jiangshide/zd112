@@ -95,7 +95,9 @@ dependencies {
     implementation project(path: ':widget')
     implementation project(path: ':event')
     implementation project(path: ':network')
-    implementation project(path: ':skin')
+    if(!IS_SKIN_APP.toBoolean()){
+        implementation project(path: ':skin')
+    }
 
     implementation 'com.squareup.retrofit2:retrofit:2.5.0'
     implementation 'com.squareup.retrofit2:converter-gson:2.5.0'

@@ -44,8 +44,11 @@ dependencies {
     implementation project(path: ':network')
     implementation project(path: ':event')
     implementation project(path: ':monitor')
-    implementation project(path: ':skin')
     implementation project(path: ':ZdPlugin')
+    implementation project(path: ':permission')
+    if(!IS_SKIN_APP.toBoolean()){
+        implementation project(path: ':skin')
+    }
 
     implementation 'com.tencent.mm.opensdk:wechat-sdk-android-with-mta:+'
 }

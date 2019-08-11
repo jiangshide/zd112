@@ -51,5 +51,7 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 
     implementation project(path: ':utils')
-    implementation project(path: ':skin')
+    if(!IS_SKIN_APP.toBoolean()){
+        implementation project(path: ':skin')
+    }
 }

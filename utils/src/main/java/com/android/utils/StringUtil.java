@@ -96,6 +96,7 @@ public final class StringUtil {
 
     /**
      * 多字符组装
+     *
      * @param params
      * @return
      */
@@ -105,5 +106,24 @@ public final class StringUtil {
             stringBuffer.append(param);
         }
         return stringBuffer.toString();
+    }
+
+    /**
+     *
+     * @param str
+     * @return
+     */
+    public static int strToInt(String str) {
+        str = str.trim();
+        StringBuffer stringBuffer = new StringBuffer(1024);
+        if (str != null && !"".equals(str)) {
+            for (int i = 0; i < str.length(); i++) {
+                if (str.charAt(i) >= 48 && str.charAt(i) <= 57) {
+                    stringBuffer.append(str.charAt(i));
+                }
+            }
+
+        }
+        return Integer.parseInt(stringBuffer.toString());
     }
 }

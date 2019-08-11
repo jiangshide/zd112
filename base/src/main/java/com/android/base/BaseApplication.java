@@ -11,6 +11,7 @@ import android.support.multidex.MultiDex;
 import com.android.event.LiveEventBus;
 import com.android.monitor.Monitor;
 import com.android.network.NetWorkApi;
+import com.android.skin.Skin;
 import com.android.utils.LogUtil;
 import com.android.zdplugin.ZdPlugin;
 import com.android.zdrouter.ZdRouter;
@@ -30,12 +31,12 @@ public class BaseApplication extends Application {
         MultiDex.install(base);
         ZdPlugin.getInstance().init(base).fixDex();//todo 热修复待优化
         super.attachBaseContext(base);
-        loop();
+//        loop();
         ZdRouter.getInstance().init(this);//路由初始化
         NetWorkApi.Companion.getInstance().init(this);//网络初始化
         Monitor.getInstance().init(this);//性能监控
         LiveEventBus.get().config().supportBroadcast(this).lifecycleObserverAlwaysActive(true);//事件分发初始化
-//        Skin.getInstance().initContext(this);//主题初始化
+        Skin.getInstance().init(this);//主题初始化
 
         /**
          * 微信注册

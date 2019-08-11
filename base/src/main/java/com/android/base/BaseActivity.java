@@ -1,6 +1,7 @@
 package com.android.base;
 
 import android.annotation.TargetApi;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
@@ -15,6 +16,8 @@ import android.view.View;
 import com.android.network.NetWorkApi;
 import com.android.network.listener.NetType;
 import com.android.network.listener.NetWork;
+import com.android.permission.annotation.PermissionResult;
+import com.android.permission.model.GrantModel;
 import com.android.skin.Skin;
 import com.android.utils.LogUtil;
 import com.android.utils.ViewUtils;
@@ -38,17 +41,37 @@ public class BaseActivity<T> extends AppCompatActivity implements ZdOnClickListe
 
     protected ZdRefresh mZdRefresh;
 
+    protected NetWorkApi netWorkApi;
 
     protected final String OBJECT = ZdRouter.OBJECT;
+
+    @Override
+    protected void attachBaseContext(Context newBase) {
+        super.attachBaseContext(newBase);
+        if (netWorkApi == null) {
+            netWorkApi = NetWorkApi.Companion.getInstance();
+        }
+    }
 
     @TargetApi(Build.VERSION_CODES.LOLLIPOP)
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
-//        Skin.getInstance().setFactory(this);//监控xml
+        Skin.getInstance().setFactory(this);//监控xml
         super.onCreate(savedInstanceState);
         NetWorkApi.Companion.getInstance().registerObserver(this);//网络监听
         if (null == mZdTab) mZdTab = new ZdTab(this, getSupportFragmentManager());
         ViewUtils.inject(this);
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        Skin.getInstance().apply();
+    }
+
+    @PermissionResult
+    public void requestPermissionResult(GrantModel grantModel) {
+        LogUtil.e("----------grantModel:", grantModel.isCancel);
     }
 
     /**
@@ -108,9 +131,20 @@ public class BaseActivity<T> extends AppCompatActivity implements ZdOnClickListe
 
     /**
      * 网络状态监控
+     * int NONE = -1;
+     * int AVAILABLE = 1;
+     * int AUTO = 2;
+     * int CELLULAR = 3;//cmwap
+     * int WIFI = 4;
+     * int BLUETOOTH = 5;
+     * int ETHERNET = 6;
+     * int VPN = 7;
+     * int WIFI_AWARE = 8;
+     * int LOWPAN = 9;
      */
     @NetWork(netType = NetType.AUTO)
-    public void testNet() {
+    public void netState(@NetType int netType) {
+        LogUtil.e("netType:", netType);
     }
 
     /**

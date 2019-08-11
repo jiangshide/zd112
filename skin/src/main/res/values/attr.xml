@@ -8,6 +8,13 @@
         <item>800001</item>
     </array>
 
+    <array name="skinTyep">
+        <item>background</item>
+        <item>textColor</item>
+        <item>color</item>
+        <item>src</item>
+    </array>
+
     <declare-styleable name="StarView">
         <attr name="autoScrollMode">
             <enum name="disable" value="0" />

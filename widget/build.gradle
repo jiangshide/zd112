@@ -38,4 +38,8 @@ dependencies {
     implementation "com.android.support:cardview-v7:$SUPPORT_SDK_VERSION"
 
     implementation project(path: ':utils')
+
+    if(!IS_SKIN_APP.toBoolean()){
+        implementation project(path: ':skin')
+    }
 }

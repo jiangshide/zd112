@@ -92,6 +92,11 @@ class NetWorkApi private constructor() {
         }
     }
 
+    @RequiresApi(Build.VERSION_CODES.LOLLIPOP)
+    fun ping(times: Int = 3, url: String): Boolean {
+        return netStateReciver!!.ping(times, url)
+    }
+
     fun isNetworkAvailable(): Boolean {
         val connectivityManager: ConnectivityManager =
                 application!!.getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
