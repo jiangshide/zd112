@@ -10,6 +10,7 @@ import com.android.base.BaseFragment
 import com.android.channel.CHANNEL
 import com.android.channel.R
 import com.android.channel.vm.ChannelVM
+import com.android.entity.Entity
 import com.android.entity.entity.Channel
 import com.android.event.ZdEvent
 import com.android.utils.LogUtil
@@ -31,7 +32,7 @@ class ManagerChannelFragment : BaseFragment() {
   lateinit var channeledAdapter: KAdapter<Channel>
   lateinit var channelAdapter: KAdapter<Channel>
 
-  val channeledList = ArrayList<Channel>()
+  var channeledList = ArrayList<Channel>()
   val channelList = ArrayList<Channel>()
 
   private lateinit var channelVM: ChannelVM
@@ -56,13 +57,15 @@ class ManagerChannelFragment : BaseFragment() {
       channelVM.channel()
     }
 
-    resources.getStringArray(R.array.channel)
-        .forEach {
-          val channelEntity = Channel()
-          channelEntity.name = it
-          channeledList.add(channelEntity)
-        }
-
+    channeledList = Entity.getChannels() as ArrayList<Channel>
+//    if (channeledList == null || channelList.size == 0) {
+//      resources.getStringArray(R.array.channel)
+//          .forEach {
+//            val channelEntity = Channel()
+//            channelEntity.name = it
+//            channeledList.add(channelEntity)
+//          }
+//    }
     channeledRecycleViewBtn.setOnClickListener {
       if (channeledRecycleViewBtn.text.equals("编辑")) {
         channeledRecycleViewBtn.text = "完成"

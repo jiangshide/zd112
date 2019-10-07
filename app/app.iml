@@ -156,25 +156,25 @@
     <orderEntry type="module" module-name="developer-base" />
     <orderEntry type="module" module-name="img" />
     <orderEntry type="module" module-name="matisse" />
-    <orderEntry type="module" module-name="zd112-channel" />
+    <orderEntry type="module" module-name="channel" />
     <orderEntry type="module" module-name="basic-login" />
     <orderEntry type="module" module-name="basic-main" />
     <orderEntry type="module" module-name="zd112-user" />
-    <orderEntry type="module" module-name="core-router" />
+    <orderEntry type="module" module-name="router" />
     <orderEntry type="module" module-name="developer-utils" />
     <orderEntry type="module" module-name="developer-widget" />
     <orderEntry type="module" module-name="http" />
-    <orderEntry type="module" module-name="network" />
+    <orderEntry type="module" module-name="basic-network" />
     <orderEntry type="module" module-name="core-event" />
-    <orderEntry type="module" module-name="core-plugin" />
-    <orderEntry type="module" module-name="cache" />
-    <orderEntry type="module" module-name="permission" />
-    <orderEntry type="module" module-name="developer-refresh" />
-    <orderEntry type="module" module-name="developer-adapter" />
+    <orderEntry type="module" module-name="plugin" />
+    <orderEntry type="module" module-name="basic-cache" />
+    <orderEntry type="module" module-name="basic-permission" />
+    <orderEntry type="module" module-name="refresh" />
+    <orderEntry type="module" module-name="adapter" />
     <orderEntry type="module" module-name="developer-skin" />
-    <orderEntry type="module" module-name="platform-third-location" />
+    <orderEntry type="module" module-name="location" />
     <orderEntry type="module" module-name="entity" />
-    <orderEntry type="module" module-name="developer-tablayout" />
-    <orderEntry type="module" module-name="core-annotations" />
+    <orderEntry type="module" module-name="tablayout" />
+    <orderEntry type="module" module-name="annotations" />
   </component>
 </module>

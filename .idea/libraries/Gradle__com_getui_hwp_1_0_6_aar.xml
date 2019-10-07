@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: com.getui:hwp:1.0.6@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b44550c29dd3c0ec45585d7596ca0550/hwp-1.0.6/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b44550c29dd3c0ec45585d7596ca0550/hwp-1.0.6/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

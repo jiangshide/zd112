@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: com.getui:gssdk:2.2.8.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b5ab13a270b25d324b9963da49f1fc2e/jetified-gssdk-2.2.8.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b5ab13a270b25d324b9963da49f1fc2e/jetified-gssdk-2.2.8.0/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

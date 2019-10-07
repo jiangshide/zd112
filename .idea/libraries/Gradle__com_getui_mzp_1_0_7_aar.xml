@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: com.getui:mzp:1.0.7@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b79cab5c4ef47c46a58aa1df3796e518/mzp-1.0.7/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b79cab5c4ef47c46a58aa1df3796e518/mzp-1.0.7/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

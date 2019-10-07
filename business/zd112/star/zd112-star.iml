@@ -26,7 +26,7 @@
       </configuration>
     </facet>
   </component>
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+  <component name="NewModuleRootManager">
     <output url="file://$MODULE_DIR$/build/intermediates/javac/debug/classes" />
     <output-test url="file://$MODULE_DIR$/build/intermediates/javac/debugUnitTest/classes" />
     <exclude-output />
@@ -88,7 +88,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src/test/shaders" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/build" />
     </content>
-    <orderEntry type="jdk" jdkName="Android API 29 Platform" jdkType="Android SDK" />
+    <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-common:2.1.0@jar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.arch.core:core-common:2.1.0@jar" level="project" />
@@ -154,20 +154,21 @@
     <orderEntry type="module" module-name="developer-base" />
     <orderEntry type="module" module-name="img" />
     <orderEntry type="module" module-name="matisse" />
-    <orderEntry type="module" module-name="core-router" />
+    <orderEntry type="module" module-name="router" />
     <orderEntry type="module" module-name="developer-utils" />
     <orderEntry type="module" module-name="developer-widget" />
     <orderEntry type="module" module-name="http" />
-    <orderEntry type="module" module-name="network" />
+    <orderEntry type="module" module-name="basic-network" />
     <orderEntry type="module" module-name="core-event" />
-    <orderEntry type="module" module-name="core-plugin" />
-    <orderEntry type="module" module-name="cache" />
-    <orderEntry type="module" module-name="permission" />
-    <orderEntry type="module" module-name="developer-refresh" />
-    <orderEntry type="module" module-name="developer-adapter" />
+    <orderEntry type="module" module-name="plugin" />
+    <orderEntry type="module" module-name="basic-cache" />
+    <orderEntry type="module" module-name="basic-permission" />
+    <orderEntry type="module" module-name="refresh" />
+    <orderEntry type="module" module-name="adapter" />
     <orderEntry type="module" module-name="developer-skin" />
-    <orderEntry type="module" module-name="platform-third-location" />
-    <orderEntry type="module" module-name="developer-tablayout" />
-    <orderEntry type="module" module-name="core-annotations" />
+    <orderEntry type="module" module-name="location" />
+    <orderEntry type="module" module-name="tablayout" />
+    <orderEntry type="module" module-name="annotations" />
+    <orderEntry type="library" name="Gradle: android-android-29" level="project" />
   </component>
 </module>

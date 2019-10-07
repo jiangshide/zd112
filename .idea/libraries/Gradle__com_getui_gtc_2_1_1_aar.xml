@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: com.getui:gtc:2.1.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c92ae2a70c3b770ca96c88c1fb8dbddf/gtc-2.1.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c92ae2a70c3b770ca96c88c1fb8dbddf/gtc-2.1.1/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

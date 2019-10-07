@@ -8,7 +8,6 @@ import com.android.base.BaseActivity;
 import com.android.channel.vm.ChannelVM;
 import com.android.entity.Entity;
 import com.android.entity.entity.Channel;
-import com.android.entity.entity.ContentType;
 import com.android.http.vm.LiveResult;
 import com.android.utils.annotation.ContentView;
 import com.android.zdannotations.BindPath;

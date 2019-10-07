@@ -8,30 +8,49 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/ZdAnnotations" />
-            <option value="$PROJECT_DIR$/ZdAnnotations_Compile" />
-            <option value="$PROJECT_DIR$/ZdPlugin" />
-            <option value="$PROJECT_DIR$/ZdRouter" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/base" />
-            <option value="$PROJECT_DIR$/cache" />
-            <option value="$PROJECT_DIR$/event" />
-            <option value="$PROJECT_DIR$/home" />
-            <option value="$PROJECT_DIR$/host" />
-            <option value="$PROJECT_DIR$/login" />
-            <option value="$PROJECT_DIR$/main" />
-            <option value="$PROJECT_DIR$/monitor" />
-            <option value="$PROJECT_DIR$/network" />
-            <option value="$PROJECT_DIR$/permission" />
-            <option value="$PROJECT_DIR$/shop" />
-            <option value="$PROJECT_DIR$/skin" />
-            <option value="$PROJECT_DIR$/star" />
-            <option value="$PROJECT_DIR$/user" />
-            <option value="$PROJECT_DIR$/utils" />
-            <option value="$PROJECT_DIR$/widget" />
+            <option value="$PROJECT_DIR$/business/basic/login" />
+            <option value="$PROJECT_DIR$/business/basic/main" />
+            <option value="$PROJECT_DIR$/business/basic/matisse" />
+            <option value="$PROJECT_DIR$/business/basic/publish" />
+            <option value="$PROJECT_DIR$/business/zd112/blog" />
+            <option value="$PROJECT_DIR$/business/zd112/channel" />
+            <option value="$PROJECT_DIR$/business/zd112/entity" />
+            <option value="$PROJECT_DIR$/business/zd112/home" />
+            <option value="$PROJECT_DIR$/business/zd112/shop" />
+            <option value="$PROJECT_DIR$/business/zd112/star" />
+            <option value="$PROJECT_DIR$/business/zd112/user" />
+            <option value="$PROJECT_DIR$/platform/basic/cache" />
+            <option value="$PROJECT_DIR$/platform/basic/db" />
+            <option value="$PROJECT_DIR$/platform/basic/file" />
+            <option value="$PROJECT_DIR$/platform/basic/http" />
+            <option value="$PROJECT_DIR$/platform/basic/img" />
+            <option value="$PROJECT_DIR$/platform/basic/jsbridge" />
+            <option value="$PROJECT_DIR$/platform/basic/monitor" />
+            <option value="$PROJECT_DIR$/platform/basic/network" />
+            <option value="$PROJECT_DIR$/platform/basic/permission" />
+            <option value="$PROJECT_DIR$/platform/basic/player" />
+            <option value="$PROJECT_DIR$/platform/core/annotations" />
+            <option value="$PROJECT_DIR$/platform/core/compile" />
+            <option value="$PROJECT_DIR$/platform/core/dynamic" />
+            <option value="$PROJECT_DIR$/platform/core/event" />
+            <option value="$PROJECT_DIR$/platform/core/host" />
+            <option value="$PROJECT_DIR$/platform/core/plugin" />
+            <option value="$PROJECT_DIR$/platform/core/router" />
+            <option value="$PROJECT_DIR$/platform/developer/adapter" />
+            <option value="$PROJECT_DIR$/platform/developer/base" />
+            <option value="$PROJECT_DIR$/platform/developer/recycleview" />
+            <option value="$PROJECT_DIR$/platform/developer/refresh" />
+            <option value="$PROJECT_DIR$/platform/developer/skin" />
+            <option value="$PROJECT_DIR$/platform/developer/tablayout" />
+            <option value="$PROJECT_DIR$/platform/developer/utils" />
+            <option value="$PROJECT_DIR$/platform/developer/widget" />
+            <option value="$PROJECT_DIR$/platform/third/location" />
+            <option value="$PROJECT_DIR$/platform/third/push" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
+        <option name="testRunner" value="PLATFORM" />
       </GradleProjectSettings>
     </option>
   </component>

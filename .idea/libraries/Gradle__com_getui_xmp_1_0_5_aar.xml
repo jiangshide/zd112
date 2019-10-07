@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: com.getui:xmp:1.0.5@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/eeae6a069b33df133e1afea9c92d6559/xmp-1.0.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/eeae6a069b33df133e1afea9c92d6559/xmp-1.0.5/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -6,24 +6,62 @@
       <module fileurl="file://$PROJECT_DIR$/ZdAnnotations_Compile/ZdAnnotations_Compile.iml" filepath="$PROJECT_DIR$/ZdAnnotations_Compile/ZdAnnotations_Compile.iml" />
       <module fileurl="file://$PROJECT_DIR$/ZdPlugin/ZdPlugin.iml" filepath="$PROJECT_DIR$/ZdPlugin/ZdPlugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/ZdRouter/ZdRouter.iml" filepath="$PROJECT_DIR$/ZdRouter/ZdRouter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/platform/developer/adapter/adapter.iml" filepath="$PROJECT_DIR$/platform/developer/adapter/adapter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/platform/core/annotations/annotations.iml" filepath="$PROJECT_DIR$/platform/core/annotations/annotations.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/base/base.iml" filepath="$PROJECT_DIR$/base/base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/platform/basic/cache/basic-cache.iml" filepath="$PROJECT_DIR$/platform/basic/cache/basic-cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/business/basic/login/basic-login.iml" filepath="$PROJECT_DIR$/business/basic/login/basic-login.iml" />
+      <module fileurl="file://$PROJECT_DIR$/business/basic/main/basic-main.iml" filepath="$PROJECT_DIR$/business/basic/main/basic-main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/platform/basic/monitor/basic-monitor.iml" filepath="$PROJECT_DIR$/platform/basic/monitor/basic-monitor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/platform/basic/network/basic-network.iml" filepath="$PROJECT_DIR$/platform/basic/network/basic-network.iml" />
+      <module fileurl="file://$PROJECT_DIR$/platform/basic/permission/basic-permission.iml" filepath="$PROJECT_DIR$/platform/basic/permission/basic-permission.iml" />
+      <module fileurl="file://$PROJECT_DIR$/business/zd112/blog/blog.iml" filepath="$PROJECT_DIR$/business/zd112/blog/blog.iml" />
       <module fileurl="file://$PROJECT_DIR$/cache/cache.iml" filepath="$PROJECT_DIR$/cache/cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/business/zd112/channel/channel.iml" filepath="$PROJECT_DIR$/business/zd112/channel/channel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/platform/core/compile/compile.iml" filepath="$PROJECT_DIR$/platform/core/compile/compile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/platform/core/event/core-event.iml" filepath="$PROJECT_DIR$/platform/core/event/core-event.iml" />
+      <module fileurl="file://$PROJECT_DIR$/platform/core/host/core-host.iml" filepath="$PROJECT_DIR$/platform/core/host/core-host.iml" />
+      <module fileurl="file://$PROJECT_DIR$/platform/basic/db/db.iml" filepath="$PROJECT_DIR$/platform/basic/db/db.iml" />
+      <module fileurl="file://$PROJECT_DIR$/platform/developer/base/developer-base.iml" filepath="$PROJECT_DIR$/platform/developer/base/developer-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/platform/developer/skin/developer-skin.iml" filepath="$PROJECT_DIR$/platform/developer/skin/developer-skin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/platform/developer/utils/developer-utils.iml" filepath="$PROJECT_DIR$/platform/developer/utils/developer-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/platform/developer/widget/developer-widget.iml" filepath="$PROJECT_DIR$/platform/developer/widget/developer-widget.iml" />
+      <module fileurl="file://$PROJECT_DIR$/platform/core/dynamic/dynamic.iml" filepath="$PROJECT_DIR$/platform/core/dynamic/dynamic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/business/zd112/entity/entity.iml" filepath="$PROJECT_DIR$/business/zd112/entity/entity.iml" />
       <module fileurl="file://$PROJECT_DIR$/event/event.iml" filepath="$PROJECT_DIR$/event/event.iml" />
+      <module fileurl="file://$PROJECT_DIR$/platform/basic/file/file.iml" filepath="$PROJECT_DIR$/platform/basic/file/file.iml" />
       <module fileurl="file://$PROJECT_DIR$/home/home.iml" filepath="$PROJECT_DIR$/home/home.iml" />
       <module fileurl="file://$PROJECT_DIR$/host/host.iml" filepath="$PROJECT_DIR$/host/host.iml" />
+      <module fileurl="file://$PROJECT_DIR$/platform/basic/http/http.iml" filepath="$PROJECT_DIR$/platform/basic/http/http.iml" />
+      <module fileurl="file://$PROJECT_DIR$/platform/basic/img/img.iml" filepath="$PROJECT_DIR$/platform/basic/img/img.iml" />
+      <module fileurl="file://$PROJECT_DIR$/platform/basic/jsbridge/jsbridge.iml" filepath="$PROJECT_DIR$/platform/basic/jsbridge/jsbridge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/platform/third/location/location.iml" filepath="$PROJECT_DIR$/platform/third/location/location.iml" />
       <module fileurl="file://$PROJECT_DIR$/login/login.iml" filepath="$PROJECT_DIR$/login/login.iml" />
       <module fileurl="file://$PROJECT_DIR$/main/main.iml" filepath="$PROJECT_DIR$/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/business/basic/matisse/matisse.iml" filepath="$PROJECT_DIR$/business/basic/matisse/matisse.iml" />
       <module fileurl="file://$PROJECT_DIR$/monitor/monitor.iml" filepath="$PROJECT_DIR$/monitor/monitor.iml" />
       <module fileurl="file://$PROJECT_DIR$/network/network.iml" filepath="$PROJECT_DIR$/network/network.iml" />
       <module fileurl="file://$PROJECT_DIR$/permission/permission.iml" filepath="$PROJECT_DIR$/permission/permission.iml" />
+      <module fileurl="file://$PROJECT_DIR$/platform/basic/player/player.iml" filepath="$PROJECT_DIR$/platform/basic/player/player.iml" />
+      <module fileurl="file://$PROJECT_DIR$/platform/core/plugin/plugin.iml" filepath="$PROJECT_DIR$/platform/core/plugin/plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/business/basic/publish/publish.iml" filepath="$PROJECT_DIR$/business/basic/publish/publish.iml" />
+      <module fileurl="file://$PROJECT_DIR$/platform/third/push/push.iml" filepath="$PROJECT_DIR$/platform/third/push/push.iml" />
+      <module fileurl="file://$PROJECT_DIR$/platform/developer/recycleview/recycleview.iml" filepath="$PROJECT_DIR$/platform/developer/recycleview/recycleview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/platform/developer/refresh/refresh.iml" filepath="$PROJECT_DIR$/platform/developer/refresh/refresh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/platform/core/router/router.iml" filepath="$PROJECT_DIR$/platform/core/router/router.iml" />
       <module fileurl="file://$PROJECT_DIR$/shop/shop.iml" filepath="$PROJECT_DIR$/shop/shop.iml" />
       <module fileurl="file://$PROJECT_DIR$/skin/skin.iml" filepath="$PROJECT_DIR$/skin/skin.iml" />
       <module fileurl="file://$PROJECT_DIR$/star/star.iml" filepath="$PROJECT_DIR$/star/star.iml" />
+      <module fileurl="file://$PROJECT_DIR$/platform/developer/tablayout/tablayout.iml" filepath="$PROJECT_DIR$/platform/developer/tablayout/tablayout.iml" />
       <module fileurl="file://$PROJECT_DIR$/user/user.iml" filepath="$PROJECT_DIR$/user/user.iml" />
       <module fileurl="file://$PROJECT_DIR$/utils/utils.iml" filepath="$PROJECT_DIR$/utils/utils.iml" />
       <module fileurl="file://$PROJECT_DIR$/widget/widget.iml" filepath="$PROJECT_DIR$/widget/widget.iml" />
       <module fileurl="file://$PROJECT_DIR$/zd112.iml" filepath="$PROJECT_DIR$/zd112.iml" />
+      <module fileurl="file://$PROJECT_DIR$/business/zd112/home/zd112-home.iml" filepath="$PROJECT_DIR$/business/zd112/home/zd112-home.iml" />
+      <module fileurl="file://$PROJECT_DIR$/business/zd112/shop/zd112-shop.iml" filepath="$PROJECT_DIR$/business/zd112/shop/zd112-shop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/business/zd112/star/zd112-star.iml" filepath="$PROJECT_DIR$/business/zd112/star/zd112-star.iml" />
+      <module fileurl="file://$PROJECT_DIR$/business/zd112/user/zd112-user.iml" filepath="$PROJECT_DIR$/business/zd112/user/zd112-user.iml" />
     </modules>
   </component>
 </project>
