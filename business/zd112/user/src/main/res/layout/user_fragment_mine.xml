@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--第一部分：伸缩工具栏-->
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="183dp"
+        app:elevation="0dp">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/coolToolLayout"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:fitsSystemWindows="true"
+            app:collapsedTitleTextAppearance="@color/black"
+            app:contentScrim="@color/white"
+            app:expandedTitleMarginEnd="10dp"
+            app:expandedTitleMarginStart="10dp"
+            app:expandedTitleTextAppearance="@color/alpha"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            >
+
+            <include layout="@layout/user_fragment_mine_head"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_collapseMode="parallax"
+                app:layout_collapseParallaxMultiplier="0.8"
+                />
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:minHeight="46dp"
+                app:layout_collapseMode="pin"
+                app:navigationIcon="@mipmap/ic_settings"
+                app:collapsedTitleGravity="center_horizontal"
+                android:visibility="gone"
+                app:title="">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="个人主页"
+                    android:textColor="@android:color/white"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+            </androidx.appcompat.widget.Toolbar>
+            <RelativeLayout
+                android:id="@+id/rlayout_tool_bar"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/title_bar_height"
+                app:layout_collapseMode="pin"
+                android:visibility="gone"
+                >
+                <TextView
+                    android:id="@+id/tv_user_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:singleLine="true"
+                    android:textColor="@color/text_3"
+                    android:textSize="@dimen/text_size_15"/>
+
+                <ImageButton
+                    android:id="@+id/img_settings"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/text_margin"
+                    android:background="@null"
+                    android:src="@mipmap/ic_settings"/>
+            </RelativeLayout>
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center">
+
+            <com.android.tablayout.ZdTabLayout
+                android:id="@+id/tabTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:background="#00000000" />
+
+            <ImageView
+                android:id="@+id/mineDotImg"
+                android:layout_width="5dp"
+                android:layout_height="5dp"
+                android:layout_marginLeft="-15dp"
+                android:layout_marginBottom="5dp"
+                android:src="@drawable/red_dot"
+                android:visibility="gone" />
+        </LinearLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <com.android.widget.ZdViewPager
+        android:id="@+id/tabView"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

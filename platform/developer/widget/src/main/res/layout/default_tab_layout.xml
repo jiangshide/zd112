@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:gravity="center_vertical"
+      >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:gravity="center">
+
+      <com.android.tablayout.ZdTabLayout
+          android:id="@+id/tabTitle"
+          android:layout_width="wrap_content"
+          android:layout_weight="1"
+          android:layout_height="35dp"
+          android:background="#00000000" />
+
+      <ImageView
+          android:id="@+id/dotImg"
+          android:layout_width="5dp"
+          android:layout_height="5dp"
+          android:layout_marginLeft="-15dp"
+          android:layout_marginBottom="5dp"
+          android:src="@drawable/red_dot"
+          android:visibility="gone" />
+    </LinearLayout>
+    <com.android.widget.ZdButton
+        android:id="@+id/tabBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/alpha"
+        android:textColor="@color/gray"
+        android:textSize="25sp"
+        android:text="+"
+        android:visibility="visible"
+        app:normal_color="@color/alpha"
+        app:press_color="@color/alpha"
+        />
+  </LinearLayout>
+  <com.android.widget.ZdViewPager
+      android:id="@+id/tabView"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" />
+</LinearLayout>

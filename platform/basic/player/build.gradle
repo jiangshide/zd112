@@ -1,0 +1,69 @@
+apply plugin: 'com.android.library'
+
+android {
+
+    signingConfigs {
+        sign {
+            storeFile file("$rootDir/$STORE_FILE")
+            storePassword STORE_PSW
+            keyAlias = KEY_ALIAS
+            keyPassword KEY_PSW
+
+            v1SigningEnabled = true
+            v2SigningEnabled = true
+        }
+    }
+
+    compileSdkVersion COMPILE_SDK_VERSION.toInteger()
+
+    defaultConfig {
+        minSdkVersion MIN_SDK_VERSION.toInteger()
+        targetSdkVersion TARGET_SDK_VERSION.toInteger()
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        ndk {
+//            abiFilters 'armeabi', 'armeabi-v7a', 'x86'
+            abiFilters 'armeabi-v7a'
+        }
+    }
+
+    buildTypes {
+        debug {
+            minifyEnabled false
+            signingConfig signingConfigs.sign
+        }
+
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.sign
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility = JAVA_VERSION
+        targetCompatibility = JAVA_VERSION
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation 'androidx.appcompat:appcompat:1.0.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test:runner:1.1.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.0'
+
+    implementation project(path: ':utils')
+//    api 'tv.danmaku.ijk.media:ijkplayer-java:0.8.8'
+    api 'tv.danmaku.ijk.media:ijkplayer-java:0.8.8'
+    //    compile 'tv.danmaku.ijk.media:ijkplayer-exo:0.8.3'
+//    api 'tv.danmaku.ijk.media:ijkplayer-armv7a:0.8.8'
+//    api 'tv.danmaku.ijk.media:ijkplayer-armv5:0.8.8'
+    //    compile 'tv.danmaku.ijk.media:ijkplayer-arm64:0.8.3'
+//    api 'tv.danmaku.ijk.media:ijkplayer-x86:0.8.8'
+
+    implementation project(path: ':cache')
+}

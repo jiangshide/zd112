@@ -1,0 +1,59 @@
+<resources>
+    <string name="protocal">登录既同意<u>Zd112用户协议Login</u></string>
+
+    <string name="share_success">分享成功</string>
+    <string name="weixin_false">微信拒绝</string>
+    <string name="back">返回</string>
+
+    <string name="tips">提示</string>
+
+    <string name="sure_exit">您确定要退出吗?</string>
+    <string name="cancel">取消</string>
+    <string name="off">关闭</string>
+    <string name="sure">确定</string>
+    <string name="settings">设置</string>
+    <string name="no_content">对不起，你还没有新的内容!</string>
+    <string name="no_wifi">请检查网络!</string>
+
+    <string name="dot">·</string>
+
+    <string name="permission_tip">本App需要使用(%s)权限，您是否同意?点击"设置"去开启此权限\n您可在“设置”>“应用”>“权限”中配置权限</string>
+
+    <string name="tips_not_wifi">You are currently using the mobile network, the player will continue to consume traffic</string>
+    <string name="tips_not_wifi_confirm">Resume</string>
+    <string name="tips_not_wifi_cancel">Stop play</string>
+    <string name="no_url">No mUrl</string>
+
+    <!--the home start-->
+    <string name="recommend">推荐</string>
+    <string name="world">世界</string>
+    <!--the home end-->
+
+    <!--the channel start-->
+    <string name="channleManager">频道管理</string>
+    <string name="createChannel">创建频道</string>
+    <string name="channelList">频道列表</string>
+    <!--the channel end-->
+
+    <!--the user start-->
+    <string name="me">我</string>
+    <string name="app_settings">设置</string>
+    <string name="modify_persion_info">修改个人资料</string>
+    <string name="settings_history_box">回忆箱</string>
+    <string name="me_created_channel">我创建的频道</string>
+    <string name="black_list">黑名单管理</string>
+    <string name="clear_cache">清除缓存</string>
+    <string name="msg_notification">消息通知</string>
+    <string name="about">关于《飞文吧》</string>
+    <string name="action_logout">退出登录</string>
+    <string name="settings_logout_tip">是否退出登陆</string>
+    <string name="all">全部</string>
+    <string name="app_album">相册</string>
+    <!--the user end-->
+
+    <string name="checkVersion">检查新版本</string>
+    <string name="downVersion">下载新版本</string>
+    <string name="downing">正在下载</string>
+    <string name="updateVersion">安装新版本</string>
+    <string name="noUpdate">没有发现新版本!</string>
+</resources>

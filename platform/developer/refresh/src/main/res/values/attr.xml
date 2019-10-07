@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- the refresh start -->
+    <declare-styleable name="RefreshView">
+        <attr name="rfPrimaryColor" />
+        <attr name="rfAccentColor" />
+        <attr name="rfReboundDuration" format="integer" />
+        <attr name="rfHeaderHeight" format="dimension" />
+        <attr name="rfFooterHeight" format="dimension" />
+        <attr name="rfHeaderInsetStart" format="dimension" />
+        <attr name="rfFooterInsetStart" format="dimension" />
+        <attr name="rfDragRate" format="float" />
+        <attr name="rfHeaderMaxDragRate" format="float" />
+        <attr name="rfFooterMaxDragRate" format="float" />
+        <attr name="rfHeaderTriggerRate" format="float" />
+        <attr name="rfFooterTriggerRate" format="float" />
+        <attr name="rfEnableRefresh" format="boolean" />
+        <attr name="rfEnableLoadMore" format="boolean" />
+        <attr name="rfEnableHeaderTranslationContent" format="boolean" />
+        <attr name="rfEnableFooterTranslationContent" format="boolean" />
+        <attr name="rfHeaderTranslationViewId" format="reference" />
+        <attr name="rfFooterTranslationViewId" format="reference" />
+        <attr name="rfEnablePreviewInEditMode" format="boolean" />
+        <attr name="rfEnableAutoLoadMore" format="boolean" />
+        <attr name="rfEnableOverScrollBounce" format="boolean" />
+        <attr name="rfEnablePureScrollMode" format="boolean" />
+        <attr name="rfEnableNestedScrolling" format="boolean" />
+        <attr name="rfEnableScrollContentWhenLoaded" format="boolean" />
+        <attr name="rfEnableScrollContentWhenRefreshed" format="boolean" />
+        <attr name="rfEnableLoadMoreWhenContentNotFull" format="boolean" />
+        <attr name="rfEnableFooterFollowWhenLoadFinished" format="boolean" />
+        <attr name="rfEnableClipHeaderWhenFixedBehind" format="boolean" />
+        <attr name="rfEnableClipFooterWhenFixedBehind" format="boolean" />
+        <attr name="rfEnableOverScrollDrag" format="boolean" />
+        <attr name="rfDisableContentWhenRefresh" format="boolean" />
+        <attr name="rfDisableContentWhenLoading" format="boolean" />
+        <attr name="rfFixedHeaderViewId" format="reference" />
+        <attr name="rfFixedFooterViewId" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="RefreshView_Layout">
+        <attr name="layout_rfSpinnerStyle" />
+        <attr name="layout_rfBackgroundColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="ClassicsHeader">
+        <attr name="rfClassicsSpinnerStyle" />
+        <attr name="rfPrimaryColor" />
+        <attr name="rfAccentColor" />
+        <attr name="rfFinishDuration" />
+        <attr name="rfDrawableArrow" />
+        <attr name="rfDrawableProgress" />
+        <attr name="rfDrawableMarginRight" />
+        <attr name="rfDrawableSize" />
+        <attr name="rfDrawableArrowSize" />
+        <attr name="rfDrawableProgressSize" />
+        <attr name="rfTextSizeTitle" />
+        <attr name="rfTextSizeTime" />
+        <attr name="rfTextTimeMarginTop" format="dimension" />
+        <attr name="rfEnableLastTime" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="ClassicsFooter">
+        <attr name="rfClassicsSpinnerStyle" />
+        <attr name="rfPrimaryColor" />
+        <attr name="rfAccentColor" />
+        <attr name="rfFinishDuration" />
+        <attr name="rfTextSizeTitle" />
+        <attr name="rfDrawableArrow" />
+        <attr name="rfDrawableProgress" />
+        <attr name="rfDrawableMarginRight" />
+        <attr name="rfDrawableSize" />
+        <attr name="rfDrawableArrowSize" />
+        <attr name="rfDrawableProgressSize" />
+    </declare-styleable>
+
+    <declare-styleable name="MaterialHeader">
+        <attr name="mhPrimaryColor" format="color" />
+        <attr name="mhShadowColor" format="color" />
+        <attr name="mhShadowRadius" format="dimension" />
+        <attr name="mhShowBezierWave" format="boolean" />
+    </declare-styleable>
+
+    <!-- the refresh end -->
+</resources>

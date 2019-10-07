@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <array name="skinTyep">
+    <item>background</item>
+    <item>textColor</item>
+    <item>color</item>
+    <item>src</item>
+  </array>
+</resources>

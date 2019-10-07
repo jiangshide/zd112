@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":annotations" external.linked.project.path="$MODULE_DIR$/../platform/core/annotations" external.root.project.path="$MODULE_DIR$/.." external.system.id="GRADLE" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file://$MODULE_DIR$/../platform/core/annotations/build/classes/java/main" />
+    <output-test url="file://$MODULE_DIR$/../platform/core/annotations/build/classes/java/test" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../platform/core/annotations">
+      <sourceFolder url="file://$MODULE_DIR$/../platform/core/annotations/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../platform/core/annotations/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../platform/core/annotations/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../platform/core/annotations/src/test/resources" type="java-test-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../platform/core/annotations/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../platform/core/annotations/build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

@@ -1,0 +1,3 @@
+<resources>
+  <string name="error_gif">x or y bound size should be at least %1$dpx and file size should be no more than %2$sM</string>
+</resources>

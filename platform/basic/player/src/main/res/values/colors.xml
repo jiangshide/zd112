@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="line">#E6E6E6</color>
+    <color name="alpha">#00000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="yellowLight">#ffd200</color>
+    <color name="dialog_bg">#bc000000</color>
+
+</resources>

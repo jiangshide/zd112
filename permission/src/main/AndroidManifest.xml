@@ -1,9 +1,0 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.permission" >
-    <application>
-        <activity
-            android:name=".PermissionActivity"
-            android:theme="@style/translucent"
-            />
-    </application>
-</manifest>

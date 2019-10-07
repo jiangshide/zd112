@@ -1,0 +1,87 @@
+if(IS_LOGIN_APP.toBoolean()){
+    apply plugin: 'com.android.application'
+}else{
+    apply plugin: 'com.android.library'
+}
+
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-android'
+
+android {
+
+    signingConfigs {
+        sign {
+            storeFile file("$rootDir/$STORE_FILE")
+            storePassword STORE_PSW
+            keyAlias = KEY_ALIAS
+            keyPassword KEY_PSW
+
+            v1SigningEnabled = true
+            v2SigningEnabled = true
+        }
+    }
+
+    compileSdkVersion COMPILE_SDK_VERSION.toInteger()
+    if(IS_PREFIX.toBoolean()){
+        resourcesPrefix "login"
+    }
+    defaultConfig {
+        if(IS_LOGIN_APP.toBoolean()){
+            applicationId "com.android.login"
+        }
+        minSdkVersion MIN_SDK_VERSION.toInteger()
+        targetSdkVersion TARGET_SDK_VERSION.toInteger()
+        versionCode 1
+        versionName "1.0"
+    }
+
+    sourceSets.main{
+        if(IS_LOGIN_APP.toBoolean()){
+            manifest.srcFile 'src/main/app/AndroidManifest.xml'
+        }else{
+            manifest.srcFile 'src/main/AndroidManifest.xml'
+        }
+    }
+
+    buildTypes {
+        debug {
+            minifyEnabled false
+            signingConfig signingConfigs.sign
+        }
+
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.sign
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility = JAVA_VERSION
+        targetCompatibility = JAVA_VERSION
+    }
+
+    if(IS_LOGIN_APP.toBoolean()){
+        assemble.doLast {
+            android.applicationVariants.all { variant ->
+                if (variant.name == "release") {
+                    variant.outputs.each { output ->
+                        File originFile = output.outputFile
+                        println originFile.absolutePath
+                        copy {
+                            from originFile
+                            into "$rootDir/host/src/main/assets"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    annotationProcessor project(path: ':compile')
+    implementation project(path: ':base')
+}

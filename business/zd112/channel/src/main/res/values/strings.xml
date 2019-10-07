@@ -1,0 +1,13 @@
+<resources>
+  <string-array name="channel">
+    <item>关注</item>
+    <item>推荐</item>
+    <item>热点</item>
+    <item>视频</item>
+    <item>音频</item>
+    <item>图片</item>
+    <item>程序员</item>
+    <item>小说</item>
+    <item>美食</item>
+  </string-array>
+</resources>

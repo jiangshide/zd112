@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+  <com.android.widget.ZdButton
+      android:id="@+id/channelItemBtn"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_margin="6dp"
+      android:background="@color/light"
+      android:gravity="center"
+      android:padding="@dimen/padding"
+      android:textSize="@dimen/normal"
+      android:enabled="false"
+      android:maxLines="1"
+      android:focusable="false"
+      android:textColor="@color/normal"
+      app:corner="@dimen/cornerSmall"
+      app:normal_color="@color/light"
+      />
+  <ImageView
+      android:id="@+id/channelItemImg"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="right"
+      android:src="@drawable/input_delete"
+      android:visibility="gone"
+      />
+</FrameLayout>

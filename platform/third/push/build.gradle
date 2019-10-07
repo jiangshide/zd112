@@ -1,0 +1,62 @@
+apply plugin: 'com.android.library'
+
+android {
+
+  signingConfigs {
+    sign {
+      storeFile file("$rootDir/$STORE_FILE")
+      storePassword STORE_PSW
+      keyAlias = KEY_ALIAS
+      keyPassword KEY_PSW
+
+      v1SigningEnabled = true
+      v2SigningEnabled = true
+    }
+  }
+
+  compileSdkVersion COMPILE_SDK_VERSION.toInteger()
+  buildToolsVersion SUPPORT_SDK_VERSION
+
+  defaultConfig {
+    minSdkVersion MIN_SDK_VERSION.toInteger()
+    targetSdkVersion TARGET_SDK_VERSION.toInteger()
+
+    versionCode 1
+    versionName "1.0"
+
+    consumerProguardFiles 'consumer-rules.pro'
+  }
+
+  buildTypes {
+    debug {
+      minifyEnabled false
+      signingConfig signingConfigs.sign
+    }
+
+    release {
+      minifyEnabled true
+      proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+      signingConfig signingConfigs.sign
+    }
+  }
+
+  compileOptions {
+    sourceCompatibility = JAVA_VERSION
+    targetCompatibility = JAVA_VERSION
+  }
+}
+
+dependencies {
+  implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+  implementation project(':base')
+
+  implementation 'com.getui:sdk:2.13.3.0'
+  implementation 'com.getui:gisdk:3.1.9.0'
+  implementation 'com.assist:oppo:1.0.2'
+  implementation 'com.assist:vivo:1.0.1'
+  implementation 'com.getui:hwp:1.0.6'
+  implementation 'com.getui:mzp:1.0.7'
+  implementation 'com.getui:xmp:1.0.5'
+  implementation 'com.getui:gssdk:2.2.8.0'
+}

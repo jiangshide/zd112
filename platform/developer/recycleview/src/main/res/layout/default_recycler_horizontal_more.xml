@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.android.zdrecycleview.recycler.ProgressWheel
+        android:id="@+id/drop_down_list_footer_progress_bar"
+        style="@style/drop_down_list_footer_progress_bar_style"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_centerInParent="true"
+        android:layout_margin="5dp"
+        app:progressIndeterminate="true"
+        app:barWidth="2dp"
+        app:barColor="@color/colorPrimary" />
+
+</RelativeLayout>

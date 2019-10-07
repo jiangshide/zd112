@@ -1,0 +1,55 @@
+<resources>
+    <dimen name="navigation_height">43dp</dimen>
+    <dimen name="navigation_txt_size">4sp</dimen>
+    <dimen name="navigation_port">13dp</dimen>
+    <dimen name="navigation_port_size">4sp</dimen>
+    <dimen name="navigation_port_no_size">2sp</dimen>
+    <dimen name="default_con">5dp</dimen>
+    <dimen name="default_corner">10dp</dimen>
+    <dimen name="view_corner">6dp</dimen>
+    <dimen name="line">0.5dp</dimen>
+    <dimen name="txt_normal_size">14sp</dimen>
+    <dimen name="dialog_screen">3dp</dimen>
+
+    <dimen name="start_button_w_h_normal">45dp</dimen>
+    <dimen name="start_button_w_h_fullscreen">62dp</dimen>
+    <dimen name="henry_width">13dp</dimen>
+
+    <dimen name="dp10">10dp</dimen>
+    <dimen name="dp5">5dp</dimen>
+
+    <dimen name="img2_height">260dp</dimen>
+
+    <dimen name="jc_start_button_w_h_normal">45dp</dimen>
+    <dimen name="jc_start_button_w_h_fullscreen">62dp</dimen>
+
+    <dimen name="drop_down_list_footer_progress_bar_height">36dp</dimen>
+    <dimen name="drop_down_list_header_progress_bar_height">36dp</dimen>
+
+
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="title_bar_height">50dp</dimen>
+
+    <dimen name="padding5">5dp</dimen>
+    <dimen name="padding8">8dp</dimen>
+    <dimen name="padding10">10dp</dimen>
+    <dimen name="padding15">15dp</dimen>
+    <dimen name="padding20">20dp</dimen>
+    <dimen name="padding25">25dp</dimen>
+    <dimen name="padding30">30dp</dimen>
+
+    <!-- front size -->
+    <dimen name="text_size_big_title">25sp</dimen>
+    <dimen name="text_size_9">9sp</dimen>
+    <dimen name="text_size_10">10sp</dimen>
+    <dimen name="text_size_11">11sp</dimen>
+    <dimen name="text_size_least_small">12sp</dimen>
+    <dimen name="text_size_small">13sp</dimen>
+    <dimen name="text_size_mid">14sp</dimen>
+    <dimen name="text_size_15">15sp</dimen>
+    <dimen name="text_size_big">18.5sp</dimen>
+    <dimen name="text_size_16">16sp</dimen>
+    <dimen name="text_size_17">17sp</dimen>
+    <dimen name="text_size_20">20sp</dimen>
+    <dimen name="text_size_30">30sp</dimen>
+</resources>

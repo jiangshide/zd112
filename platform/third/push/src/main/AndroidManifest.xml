@@ -1,0 +1,37 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.push" >
+  <!-- iBeancon功能所需权限 -->
+  <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+  <uses-permission android:name="android.permission.BLUETOOTH"/>
+  <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+  <!-- 个推3.0电子围栏功能所需权限 -->
+  <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION"/>
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+  <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+
+  <application>
+    <activity android:name=".activity.PushActivity"
+        android:exported="true"
+        >
+      <intent-filter>
+        <!-- category 为必须设置项 设置为 android.intent.category.DEFAULT 即可-->
+        <category android:name="android.intent.category.DEFAULT" />
+        <action android:name="android.intent.action.oppopush" />
+      </intent-filter>
+    </activity>
+
+    <service android:name=".getui.service.GeTuiPushService"
+        android:exported="true"
+        android:label="PushService"
+        android:process=":pushservice"
+        />
+    <service android:name=".getui.service.GeTuiIntentService"
+        android:permission="android.permission.BIND_JOB_SERVICE"
+        />
+    <receiver android:name=".receiver.PushReceiver"
+        android:exported="true"
+        android:enabled="true"
+        />
+  </application>
+</manifest>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/userAvatar"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="@dimen/padding15"
+        android:layout_marginTop="40dp"
+        android:src="@mipmap/ic_me_user" />
+
+    <ImageView
+        android:id="@+id/userFlag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/userAvatar"
+        android:layout_alignBottom="@id/userAvatar"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/userName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/userAvatar"
+        android:layout_marginLeft="@dimen/padding8"
+        android:layout_marginTop="@dimen/padding5"
+        android:layout_marginRight="@dimen/padding8"
+        android:layout_toRightOf="@id/userAvatar"
+        android:singleLine="true"
+        android:textColor="@color/text_3"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/userContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/userName"
+        android:layout_marginLeft="@dimen/padding8"
+        android:layout_marginTop="@dimen/padding5"
+        android:layout_toRightOf="@id/userAvatar"
+        android:text="内容数："
+        android:textColor="@color/text_8c"
+        android:textSize="@dimen/text_size_mid"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/userContentNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/userContent"
+        android:layout_toRightOf="@+id/userContent"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/mineSexAgeAddr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/userContent"
+        android:layout_marginLeft="@dimen/padding8"
+        android:layout_marginTop="@dimen/padding5"
+        android:layout_toRightOf="@id/userAvatar"
+        android:textColor="@color/text_9"
+        android:textSize="@dimen/text_size_mid" />
+
+</RelativeLayout>

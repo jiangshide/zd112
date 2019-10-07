@@ -1,0 +1,22 @@
+apply plugin: 'java-library'
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation project(path: ':annotations')
+
+//    annotationProcessor 'com.google.auto.service:auto-service:1.0-rc4'
+//    compileOnly 'com.google.auto.service:auto-service:1.0-rc4'
+//    implementation "com.squareup:javapoet:1.9.0"
+
+    implementation "com.google.auto.service:auto-service:1.0-rc4"//自动配置的
+    annotationProcessor "com.google.auto.service:auto-service:1.0-rc4" //这个在gradle5.0以上需要的
+    implementation 'com.squareup:javapoet:1.11.1'//方便编写代码的
+}
+
+//  解决build 错误：编码GBK的不可映射字符
+tasks.withType(JavaCompile) {
+    options.encoding = "UTF-8"
+}
+
+sourceCompatibility = JAVA_VERSION
+targetCompatibility = JAVA_VERSION
