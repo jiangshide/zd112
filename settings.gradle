@@ -1,1 +1,65 @@
-include ':app', ':ZdRouter', ':ZdAnnotations', ':ZdAnnotations_Compile', ':user', ':host', ':home', ':widget', ':utils', ':base', ':event', ':network', ':skin', ':login', ':shop', ':star', ':main', ':cache', ':monitor', ':ZdPlugin', ':permission'
+include ':app', ':router', ':annotations', ':compile', ':user', ':host', ':home', ':dynamic', ':publish', ':matisse', ':entity', ':file',
+    ':widget', ':utils', ':base', ':event', ':network', ':skin', ':login', ':shop', ':main',
+    ':cache', ':monitor', ':plugin', ':permission', ':http', ':img', ':player', ':location',
+    ':blog', ':jsbridge', ':refresh', ':star', ':recycleview', ':tablayout', ':db', ':push',
+    ':adapter', ':channel'
+
+
+//###############---business start------#################
+//basic
+project(':main').projectDir = new File('business/basic/main')
+project(':login').projectDir = new File('business/basic/login')
+project(':publish').projectDir = new File('business/basic/publish')
+project(':matisse').projectDir = new File('business/basic/matisse')
+
+
+//zd112
+project(':home').projectDir = new File('business/zd112/home')
+project(':channel').projectDir = new File('business/zd112/channel')
+project(':shop').projectDir = new File('business/zd112/shop')
+project(':star').projectDir = new File('business/zd112/star')
+project(':user').projectDir = new File('business/zd112/user')
+project(':blog').projectDir = new File('business/zd112/blog')
+project(':entity').projectDir = new File('business/zd112/entity')
+
+
+//###############---business end------#################
+
+//###############---platform start------#################
+//basic
+project(':cache').projectDir = new File('platform/basic/cache')
+project(':db').projectDir = new File('platform/basic/db')
+project(':http').projectDir = new File('platform/basic/http')
+project(':img').projectDir = new File('platform/basic/img')
+project(':jsbridge').projectDir = new File('platform/basic/jsbridge')
+project(':monitor').projectDir = new File('platform/basic/monitor')
+project(':network').projectDir = new File('platform/basic/network')
+project(':permission').projectDir = new File('platform/basic/permission')
+project(':player').projectDir = new File('platform/basic/player')
+project(':file').projectDir = new File('platform/basic/file')
+
+//core
+project(':annotations').projectDir = new File('platform/core/annotations')
+project(':compile').projectDir = new File('platform/core/compile')
+project(':event').projectDir = new File('platform/core/event')
+project(':host').projectDir = new File('platform/core/host')
+project(':plugin').projectDir = new File('platform/core/plugin')
+project(':router').projectDir = new File('platform/core/router')
+project(':dynamic').projectDir = new File('platform/core/dynamic')
+
+//developer
+project(':adapter').projectDir = new File('platform/developer/adapter')
+project(':base').projectDir = new File('platform/developer/base')
+project(':recycleview').projectDir = new File('platform/developer/recycleview')
+project(':refresh').projectDir = new File('platform/developer/refresh')
+project(':skin').projectDir = new File('platform/developer/skin')
+project(':utils').projectDir = new File('platform/developer/utils')
+project(':widget').projectDir = new File('platform/developer/widget')
+project(':tablayout').projectDir = new File('platform/developer/tablayout')
+
+
+//third
+project(':location').projectDir = new File('platform/third/location')
+project(':push').projectDir = new File('platform/third/push')
+
+//###############---platform end------#################
