@@ -57,8 +57,8 @@ Platfor |	Module | Status	|	Open Level
 #### 3.6 jsbridge
 #### 3.7 widget
 
-### 4.相关基础知识
-#### 4.1 android | framework | java
+### 4.相关基础知识：以特定版本为准
+#### 4.1 android(9.0) | framework | java
 
 ##### 4.1.1 Activity启动流程(冷启动与热启动)
 ![Image](https://github.com/jiangshide/zd112/blob/master/imgs/activity.jpg)
@@ -66,11 +66,11 @@ Platfor |	Module | Status	|	Open Level
 ##### 4.1.3 WindowManagerService管理流程
 ##### 4.1.4 PackageManagerService管理流程
 
-#### 4.2 android | framework | c
+#### 4.2 android(9.0,不针对老版本做比对) | framework | c
 
-#### 4.3 flutter | framework | dart
+#### 4.3 flutter(1.9.1) | framework | dart
 
-#### 4.3 flutter | engine | c
+#### 4.3 flutter(1.9.1) | engine | c
 
 ### 5.第三方支持
 

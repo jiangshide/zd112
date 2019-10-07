@@ -131,6 +131,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d9669fc-a5a4-4849-942d-0d1efb89b394" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/platform/developer/widget/src/main/java/com/android/widget/ZdBigImg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -193,11 +195,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imgs/activity.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gradle.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="202">
@@ -209,8 +206,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="470">
-              <caret line="72" column="28" selection-start-line="72" selection-start-column="28" selection-end-line="72" selection-end-column="28" />
+            <state relative-caret-position="398">
+              <caret line="74" column="11" lean-forward="true" selection-start-line="74" selection-start-column="11" selection-end-line="74" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -241,7 +238,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/permission/src/main/java/com/android/permission/listener/IPermission.java" />
         <option value="$PROJECT_DIR$/base/src/main/java/com/android/base/CommActivity.java" />
         <option value="$PROJECT_DIR$/ZdRouter/src/main/java/com/android/zdrouter/ZdRouter.java" />
         <option value="$PROJECT_DIR$/network/src/main/AndroidManifest.xml" />
@@ -291,12 +287,13 @@
         <option value="$PROJECT_DIR$/permission/src/main/java/com/android/permission/PermissionActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/android/zd112/SplashActivity.java" />
         <option value="$PROJECT_DIR$/business/zd112/channel/src/main/java/com/android/channel/fragment/ManagerChannelFragment.kt" />
+        <option value="$PROJECT_DIR$/platform/developer/widget/src/main/java/com/android/widget/ZdBigImg.java" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="402" />
+    <option name="x" value="-208" />
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="845" />
@@ -322,12 +319,15 @@
             <path>
               <item name="zd112" type="b2602c69:ProjectViewProjectNode" />
               <item name="zd112" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="gradle" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="zd112" type="b2602c69:ProjectViewProjectNode" />
               <item name="zd112" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="imgs" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -802,13 +802,13 @@
       <window_info anchor="right" id="Flutter Inspector" order="3" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info anchor="right" id="Flutter Outline" order="5" weight="0.3297568" />
-      <window_info anchor="right" id="Gradle" order="6" sideWeight="0.18271606" visible="true" weight="0.1502146" />
+      <window_info anchor="right" id="Gradle" order="6" sideWeight="0.18271606" weight="0.1502146" />
       <window_info anchor="right" id="FIR.im" order="7" side_tool="true" />
       <window_info anchor="right" id="Preview" order="8" />
     </layout>
     <layout-to-restore>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.7564935" visible="true" weight="0.22889842" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.7564935" visible="true" weight="0.22889842" />
       <window_info id="Structure" order="2" sideWeight="0.24350649" side_tool="true" weight="0.23390558" />
       <window_info id="Build Variants" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
@@ -816,38 +816,30 @@
       <window_info id="Resources Explorer" order="6" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Favorites" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="0" weight="0.6232687" />
-      <window_info anchor="bottom" id="Run" order="1" weight="0.6565097" />
-      <window_info active="true" anchor="bottom" id="Logcat" order="2" sideWeight="0.49928468" visible="true" weight="0.43905818" />
-      <window_info anchor="bottom" id="TODO" order="3" weight="0.32963988" />
-      <window_info anchor="bottom" id="Android Profiler" order="4" weight="0.32825485" />
-      <window_info anchor="bottom" id="Find" order="5" weight="0.44875348" />
-      <window_info anchor="bottom" id="Terminal" order="6" weight="0.8767313" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.6108033" />
-      <window_info anchor="bottom" id="Flutter Performance" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007153" side_tool="true" weight="0.5745856" />
+      <window_info anchor="bottom" id="CheckStyle" order="0" />
+      <window_info anchor="bottom" id="Build" order="1" weight="0.62284195" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.6560425" />
+      <window_info anchor="bottom" id="Logcat" internal_type="SLIDING" order="3" sideWeight="0.4985694" type="SLIDING" weight="0.5470914" />
+      <window_info anchor="bottom" id="TODO" order="4" weight="0.32963988" />
+      <window_info anchor="bottom" id="Android Profiler" order="5" weight="0.32825485" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.44751382" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.87649405" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.6108033" />
+      <window_info anchor="bottom" id="Flutter Performance" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50143063" side_tool="true" weight="0.95844877" />
       <window_info anchor="right" id="Device File Explorer" order="0" sideWeight="0.8172839" side_tool="true" weight="0.1502146" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
       <window_info anchor="right" id="Flutter Inspector" order="3" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info anchor="right" id="Flutter Outline" order="5" weight="0.3297568" />
-      <window_info anchor="right" id="Gradle" order="6" sideWeight="0.18271606" weight="0.1502146" />
+      <window_info anchor="right" id="Gradle" order="6" sideWeight="0.18271606" visible="true" weight="0.1502146" />
       <window_info anchor="right" id="FIR.im" order="7" side_tool="true" />
       <window_info anchor="right" id="Preview" order="8" />
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/skin/src/main/res/values/styles.xml" />
-    <entry file="file://$PROJECT_DIR$/skin/src/main/res/drawable/progress_style.xml" />
-    <entry file="file://$PROJECT_DIR$/widget/src/main/res/layout/default_dialog.xml" />
-    <entry file="file://$PROJECT_DIR$/skin/src/main/res/mipmap-xxhdpi/ic_launcher.png" />
-    <entry file="file://$PROJECT_DIR$/widget/src/main/res/layout/default_dialog_wheel.xml" />
-    <entry file="file://$PROJECT_DIR$/widget/src/main/java/com/android/widget/ZdDialog.java" />
-    <entry file="file://$PROJECT_DIR$/skin/build/outputs/aar/skin-debug.aar" />
-    <entry file="file://$USER_HOME$/Documents/AndroidStudio/DeviceExplorer/emulator-5554/sdcard/skin.apk" />
-    <entry file="file://$PROJECT_DIR$/skin/src/main/res/drawable/bg.jpg" />
     <entry file="file://$PROJECT_DIR$/skin/src/main/res/values/strings.xml" />
     <entry file="file://$PROJECT_DIR$/skin/src/main/res/values/colors.xml" />
     <entry file="file://$PROJECT_DIR$/base/src/main/java/com/android/base/BaseApplication.java" />
@@ -951,6 +943,77 @@
     <entry file="file://$PROJECT_DIR$/imgs/activity.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/platform/basic/img/src/main/java/com/android/img/Img.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="47" column="3" selection-start-line="47" selection-start-column="3" selection-end-line="47" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platform/developer/widget/src/main/java/com/android/widget/ZdEditText.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platform/developer/widget/src/main/java/com/android/widget/ZdDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platform/developer/widget/src/main/java/com/android/widget/ZdNavigator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platform/developer/widget/src/main/java/com/android/widget/ZdImageView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="135" column="32" selection-start-line="135" selection-start-column="32" selection-end-line="135" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platform/basic/img/src/main/java/com/android/img/ZdImageLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="22" column="3" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-29/android/graphics/BitmapRegionDecoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="115" column="31" selection-start-line="115" selection-start-column="20" selection-end-line="115" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platform/developer/widget/src/main/java/com/android/widget/ZdBigImg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" column="10" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4634#4635#0" expanded="true" />
+            <element signature="e#4662#4663#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platform/basic/file/src/main/java/com/android/file/ZdFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="76" column="16" lean-forward="true" selection-start-line="76" selection-start-column="16" selection-end-line="76" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/gradle.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
@@ -960,8 +1023,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="72" column="28" selection-start-line="72" selection-start-column="28" selection-end-line="72" selection-end-column="28" />
+        <state relative-caret-position="398">
+          <caret line="74" column="11" lean-forward="true" selection-start-line="74" selection-start-column="11" selection-end-line="74" selection-end-column="11" />
         </state>
       </provider>
     </entry>
