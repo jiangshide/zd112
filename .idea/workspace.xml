@@ -131,304 +131,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d9669fc-a5a4-4849-942d-0d1efb89b394" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars____Users_jiangshide_developer_android_workspace_zd112_platform_third_location_libs_AMapSearch_6_5_0_AMapLocation_4_4_0_20181122_jar_unspecified_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_android_29.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_annotation_annotation_1_0_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_annotation_annotation_1_0_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_annotation_annotation_1_1_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_0_2_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_common_2_0_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_common_2_1_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_asynclayoutinflater_asynclayoutinflater_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cardview_cardview_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_collection_collection_1_0_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_collection_collection_1_1_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_1_1_3_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_solver_1_1_3_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_coordinatorlayout_coordinatorlayout_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_0_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_customview_customview_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_documentfile_documentfile_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_documentfile_documentfile_1_0_0_rc01_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_ui_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_rc01_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_v4_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_0_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_1_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_extensions_2_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_process_2_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_service_2_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_rc01_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_media_media_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_multidex_multidex_instrumentation_2_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_print_print_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_print_print_1_0_0_rc01_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_recyclerview_recyclerview_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_room_room_common_2_0_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_room_room_runtime_2_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_savedstate_savedstate_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_slidingpanelayout_slidingpanelayout_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_sqlite_sqlite_2_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_sqlite_sqlite_framework_2_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_swiperefreshlayout_swiperefreshlayout_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_core_3_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_core_3_2_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_idling_resource_3_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_idling_resource_3_2_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_monitor_1_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_monitor_1_2_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_runner_1_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_runner_1_2_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_transition_transition_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_0_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_aliyun_dpa_oss_android_sdk_2_9_2_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_assist_oppo_1_0_2_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_assist_vivo_1_0_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_network_connectionclass_connectionclass_1_0_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_getui_sdk_2_13_3_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_annotations_4_9_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_disklrucache_4_9_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_gifdecoder_4_9_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_glide_4_9_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_okhttp3_integration_4_9_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp3_okhttp_3_11_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp3_okhttp_3_9_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okio_okio_1_13_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okio_okio_1_14_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__it_sephiroth_android_library_easing_library_1_0_2_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__it_sephiroth_android_library_imagezoom_library_1_0_4_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__javapoet_1_11_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_3_50_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_3_50_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_3_50_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_3_50_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__tv_danmaku_ijk_media_ijkplayer_java_0_8_8_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/platform/basic/cache/basic-cache.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/platform/basic/network/basic-network.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/platform/basic/permission/basic-permission.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_common_1_1_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_runtime_1_1_1_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_common_1_1_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_extensions_1_1_1_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_1_1_1_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_core_1_1_1_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_1_1_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_viewmodel_1_1_1_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_28_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_28_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_asynclayoutinflater_28_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_cardview_v7_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_getui_mzp_1_0_7_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_collections_28_0_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_1_1_3_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_getui_gssdk_2_2_8_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_solver_1_1_3_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_coordinatorlayout_28_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_cursoradapter_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_getui_gisdk_3_1_9_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_customview_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_getui_hwp_1_0_6_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_design_28_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_documentfile_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_getui_gtc_2_1_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_drawerlayout_28_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_interpolator_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_getui_xmp_1_0_5_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_loader_28_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_localbroadcastmanager_28_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_multidex_1_0_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_multidex_multidex_2_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_multidex_instrumentation_1_0_2_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_print_28_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_recyclerview_v7_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_material_material_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_slidingpanelayout_28_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_annotations_28_0_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_28_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_ui_28_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_utils_28_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_28_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_media_compat_28_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_v4_28_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_vector_drawable_28_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_swiperefreshlayout_28_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_core_3_0_2_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_idling_resource_3_0_2_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_monitor_1_0_2_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_runner_1_0_2_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_transition_28_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_versionedparcelable_28_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_viewpager_28_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_gson_gson_2_8_2_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_reactivex_rxjava2_rxandroid_2_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_reactivex_rxjava2_rxandroid_2_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_3_41_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_3_41_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_3_41_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_3_41_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/android/zd112/SplashActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/android/zd112/SplashActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/login/basic-login.iml" beforeDir="false" afterPath="$PROJECT_DIR$/business/basic/login/basic-login.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/main/basic-main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/business/basic/main/basic-main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/output.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/annotation_processor_list/debug/annotationProcessors.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/incremental/debug-mergeNativeLibs/merge-state" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/incremental/mergeDebugShaders/merger.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/incremental/packageDebugAssets/merger.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/incremental/packageDebugResources/merged.dir/values-ar/values-ar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/incremental/packageDebugResources/merged.dir/values-ca/values-ca.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/incremental/packageDebugResources/merged.dir/values-de/values-de.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/incremental/packageDebugResources/merged.dir/values-es/values-es.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/incremental/packageDebugResources/merged.dir/values-it/values-it.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/incremental/packageDebugResources/merged.dir/values-ko/values-ko.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/incremental/packageDebugResources/merged.dir/values-pl/values-pl.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/incremental/packageDebugResources/merged.dir/values-pt-rBR/values-pt-rBR.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/incremental/packageDebugResources/merged.dir/values-ru/values-ru.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/incremental/packageDebugResources/merged.dir/values-tr-rTR/values-tr-rTR.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/incremental/packageDebugResources/merged.dir/values-uk/values-uk.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/incremental/packageDebugResources/merged.dir/values-zh-rTW/values-zh-rTW.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/incremental/packageDebugResources/merged.dir/values-zh/values-zh.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/incremental/packageDebugResources/merged.dir/values/values.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/incremental/packageDebugResources/merger.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/library_manifest/debug/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/local_only_symbol_list/debug/parseDebugLibraryResources/R-def.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/merged_manifests/debug/output.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/packaged_res/debug/color/dracula_bottom_toolbar_apply.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/packaged_res/debug/color/dracula_bottom_toolbar_preview.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/packaged_res/debug/color/dracula_preview_bottom_toolbar_apply.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/packaged_res/debug/color/zhihu_bottom_toolbar_apply.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/packaged_res/debug/color/zhihu_bottom_toolbar_preview.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/packaged_res/debug/color/zhihu_preview_bottom_toolbar_apply.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/packaged_res/debug/drawable-hdpi-v4/ic_arrow_drop_down_white_24dp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/packaged_res/debug/drawable-hdpi-v4/ic_check_white_18dp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/packaged_res/debug/drawable-hdpi-v4/ic_empty_dracula.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/packaged_res/debug/drawable-hdpi-v4/ic_empty_zhihu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/packaged_res/debug/drawable-hdpi-v4/ic_gif.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/packaged_res/debug/drawable-hdpi-v4/ic_play_circle_outline_white_48dp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/packaged_res/debug/drawable-hdpi-v4/ic_preview_radio_off.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/packaged_res/debug/drawable-hdpi-v4/ic_preview_radio_on.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/packaged_res/debug/drawable-mdpi-v4/ic_arrow_drop_down_white_24dp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/packaged_res/debug/drawable-mdpi-v4/ic_check_white_18dp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/packaged_res/debug/drawable-mdpi-v4/ic_empty_dracula.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/packaged_res/debug/drawable-mdpi-v4/ic_empty_zhihu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/packaged_res/debug/drawable-mdpi-v4/ic_gif.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/packaged_res/debug/drawable-mdpi-v4/ic_play_circle_outline_white_48dp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/packaged_res/debug/drawable-mdpi-v4/ic_preview_radio_off.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/packaged_res/debug/drawable-mdpi-v4/ic_preview_radio_on.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/packaged_res/debug/drawable-xhdpi-v4/ic_arrow_drop_down_white_24dp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/packaged_res/debug/drawable-xhdpi-v4/ic_check_white_18dp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/packaged_res/debug/drawable-xhdpi-v4/ic_empty_dracula.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/packaged_res/debug/drawable-xhdpi-v4/ic_empty_zhihu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/packaged_res/debug/drawable-xhdpi-v4/ic_gif.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/packaged_res/debug/drawable-xhdpi-v4/ic_play_circle_outline_white_48dp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/packaged_res/debug/drawable-xhdpi-v4/ic_preview_radio_off.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/packaged_res/debug/drawable-xhdpi-v4/ic_preview_radio_on.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/packaged_res/debug/drawable-xxhdpi-v4/ic_arrow_drop_down_white_24dp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/packaged_res/debug/drawable-xxhdpi-v4/ic_check_white_18dp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/packaged_res/debug/drawable-xxhdpi-v4/ic_empty_dracula.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/packaged_res/debug/drawable-xxhdpi-v4/ic_empty_zhihu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/packaged_res/debug/drawable-xxhdpi-v4/ic_gif.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/packaged_res/debug/drawable-xxhdpi-v4/ic_play_circle_outline_white_48dp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/packaged_res/debug/drawable-xxxhdpi-v4/ic_arrow_drop_down_white_24dp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/packaged_res/debug/drawable-xxxhdpi-v4/ic_check_white_18dp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/packaged_res/debug/drawable-xxxhdpi-v4/ic_empty_dracula.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/packaged_res/debug/drawable-xxxhdpi-v4/ic_empty_zhihu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/packaged_res/debug/drawable-xxxhdpi-v4/ic_gif.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/packaged_res/debug/drawable-xxxhdpi-v4/ic_photo_camera_white_24dp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/packaged_res/debug/drawable-xxxhdpi-v4/ic_play_circle_outline_white_48dp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/packaged_res/debug/layout/activity_matisse.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/packaged_res/debug/layout/activity_media_preview.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/packaged_res/debug/layout/album_list_item.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/packaged_res/debug/layout/fragment_media_selection.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/packaged_res/debug/layout/fragment_preview_item.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/packaged_res/debug/layout/media_grid_content.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/packaged_res/debug/layout/media_grid_item.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/packaged_res/debug/layout/photo_capture_item.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/packaged_res/debug/values-ar/values-ar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/packaged_res/debug/values-ca/values-ca.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/packaged_res/debug/values-de/values-de.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/packaged_res/debug/values-es/values-es.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/packaged_res/debug/values-it/values-it.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/packaged_res/debug/values-ko/values-ko.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/packaged_res/debug/values-pl/values-pl.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/packaged_res/debug/values-pt-rBR/values-pt-rBR.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/packaged_res/debug/values-ru/values-ru.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/packaged_res/debug/values-tr-rTR/values-tr-rTR.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/packaged_res/debug/values-uk/values-uk.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/packaged_res/debug/values-zh-rTW/values-zh-rTW.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/packaged_res/debug/values-zh/values-zh.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/packaged_res/debug/values/values.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/intermediates/symbols/debug/R.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/matisse/matisse.iml" beforeDir="false" afterPath="$PROJECT_DIR$/business/basic/matisse/matisse.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/basic/publish/publish.iml" beforeDir="false" afterPath="$PROJECT_DIR$/business/basic/publish/publish.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/zd112/blog/blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/business/zd112/blog/blog.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/zd112/channel/channel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/business/zd112/channel/channel.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/zd112/channel/src/main/java/com/android/channel/fragment/ManagerChannelFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/business/zd112/channel/src/main/java/com/android/channel/fragment/ManagerChannelFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/zd112/entity/entity.iml" beforeDir="false" afterPath="$PROJECT_DIR$/business/zd112/entity/entity.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/zd112/home/zd112-home.iml" beforeDir="false" afterPath="$PROJECT_DIR$/business/zd112/home/zd112-home.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/zd112/shop/zd112-shop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/business/zd112/shop/zd112-shop.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/zd112/star/zd112-star.iml" beforeDir="false" afterPath="$PROJECT_DIR$/business/zd112/star/zd112-star.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/zd112/user/zd112-user.iml" beforeDir="false" afterPath="$PROJECT_DIR$/business/zd112/user/zd112-user.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/basic/db/db.iml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/basic/db/db.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/basic/file/file.iml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/basic/file/file.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/basic/http/http.iml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/basic/http/http.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/basic/img/img.iml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/basic/img/img.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/basic/jsbridge/jsbridge.iml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/basic/jsbridge/jsbridge.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/basic/monitor/basic-monitor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/basic/monitor/basic-monitor.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/basic/player/player.iml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/basic/player/player.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/core/annotations/annotations.iml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/core/annotations/annotations.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/core/compile/compile.iml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/core/compile/compile.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/core/dynamic/dynamic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/core/dynamic/dynamic.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/core/event/core-event.iml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/core/event/core-event.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/core/host/core-host.iml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/core/host/core-host.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/core/plugin/plugin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/core/plugin/plugin.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/core/router/router.iml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/core/router/router.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/developer/adapter/adapter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/developer/adapter/adapter.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/developer/base/developer-base.iml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/developer/base/developer-base.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/developer/recycleview/recycleview.iml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/developer/recycleview/recycleview.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/developer/refresh/refresh.iml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/developer/refresh/refresh.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/developer/skin/developer-skin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/developer/skin/developer-skin.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/developer/tablayout/tablayout.iml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/developer/tablayout/tablayout.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/developer/utils/developer-utils.iml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/developer/utils/developer-utils.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/developer/widget/developer-widget.iml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/developer/widget/developer-widget.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/third/location/location.iml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/third/location/location.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/third/push/push.iml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/third/push/push.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -506,8 +209,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
-              <caret line="64" column="36" lean-forward="true" selection-start-line="64" selection-start-column="36" selection-end-line="64" selection-end-column="36" />
+            <state relative-caret-position="470">
+              <caret line="72" column="28" selection-start-line="72" selection-start-column="28" selection-end-line="72" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -593,8 +296,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-91" />
-    <option name="y" value="333" />
+    <option name="x" value="402" />
+    <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="845" />
   </component>
@@ -1257,8 +960,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="64" column="36" lean-forward="true" selection-start-line="64" selection-start-column="36" selection-end-line="64" selection-end-column="36" />
+        <state relative-caret-position="470">
+          <caret line="72" column="28" selection-start-line="72" selection-start-column="28" selection-end-line="72" selection-end-column="28" />
         </state>
       </provider>
     </entry>
