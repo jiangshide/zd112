@@ -57,13 +57,13 @@ class ZdWaveView(
             R.styleable.waveStyle_upColor, ContextCompat.getColor(context, R.color.white)
         )
       colorUpMask = array.getColor(
-          R.styleable.waveStyle_upColor, ContextCompat.getColor(context, R.color.colorAccent)
+          R.styleable.waveStyle_upColor, ContextCompat.getColor(context, R.color.yellow)
       )
       colorDown = array.getColor(
-          R.styleable.waveStyle_upColor, ContextCompat.getColor(context, R.color.colorPrimaryDark)
+          R.styleable.waveStyle_upColor, ContextCompat.getColor(context, R.color.yellow)
       )
       colorDownMask = array.getColor(
-          R.styleable.waveStyle_upColor, ContextCompat.getColor(context, R.color.colorPrimaryDark)
+          R.styleable.waveStyle_upColor, ContextCompat.getColor(context, R.color.yellow)
       )
       paint = Paint()
       array.recycle()

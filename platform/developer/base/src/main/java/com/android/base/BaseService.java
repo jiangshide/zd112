@@ -38,7 +38,7 @@ public class BaseService extends Service implements CountDown.OnCountDownTickLis
 
   private Notification getNotification() {
     Notification.Builder builder = new Notification.Builder(this)
-        .setSmallIcon(R.mipmap.ic_launcher)
+        .setSmallIcon(R.drawable.default_notification)
         .setContentTitle("title")
         .setContentText("content");
     if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {

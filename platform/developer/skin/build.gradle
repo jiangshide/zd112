@@ -30,8 +30,6 @@ android {
         targetSdkVersion TARGET_SDK_VERSION.toInteger()
         versionCode 1
         versionName "1.0"
-
-        resValue("string", "appName", APP_NAME)
     }
 
     sourceSets.main {

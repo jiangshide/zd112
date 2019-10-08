@@ -11,14 +11,14 @@ import androidx.room.PrimaryKey;
  * email:18311271399@163.com
  */
 @Entity(tableName = "channel", indices = {
-    @Index(value = "id", unique = true), @Index(value = { "name", "types" })
+    @Index(value = "id", unique = true), @Index(value = { "name", "format" })
 })
 public class Channel implements Parcelable {
   @PrimaryKey(autoGenerate = true)
   public int id;
   public String name;
   public String des;
-  public int types;
+  public int format;
   public int publish;
   public boolean isSelected;
   public boolean isEdit;
@@ -30,7 +30,7 @@ public class Channel implements Parcelable {
     id = in.readInt();
     name = in.readString();
     des = in.readString();
-    types = in.readInt();
+    format = in.readInt();
     publish = in.readInt();
     isSelected = in.readByte() != 0;
     isEdit = in.readByte() != 0;
@@ -56,7 +56,7 @@ public class Channel implements Parcelable {
     dest.writeInt(id);
     dest.writeString(name);
     dest.writeString(des);
-    dest.writeInt(types);
+    dest.writeInt(format);
     dest.writeInt(publish);
     dest.writeByte((byte) (isSelected ? 1 : 0));
     dest.writeByte((byte) (isEdit ? 1 : 0));
@@ -67,7 +67,7 @@ public class Channel implements Parcelable {
         "id=" + id +
         ", name='" + name + '\'' +
         ", des='" + des + '\'' +
-        ", types=" + types +
+        ", types=" + format +
         ", publish=" + publish +
         ", isSelected=" + isSelected +
         ", isEdit=" + isEdit +

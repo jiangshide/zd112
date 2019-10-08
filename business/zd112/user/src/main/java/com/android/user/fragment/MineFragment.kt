@@ -45,7 +45,9 @@ class MineFragment : BaseFragment(), AppBarLayout.OnOffsetChangedListener {
     super.onViewCreated(view, savedInstanceState)
 
 //    Img.loadImage("https://zd112.oss-cn-beijing.aliyuncs.com/imgs/IMG_20191003_091439.jpg?Expires=1570287645&OSSAccessKeyId=TMP.hVSUmuvnzAAtVv8anPLmck5XHumFvwA5YRGDKd5CFzBWbs5g3WRtpaccBiMb2XfEv2RiZurLDJaUxbJ5eJ7FX2Wwi5TxS6riD8ur29BVByxSJqwKkfNScCh91E9Vh7.tmp&Signature=agLylO82MPclxdGTynPf2f47ZfE%3D",userAvatar)
-    Img.loadImage("https://zd112.oss-cn-beijing.aliyuncs.com/imgs/IMG_20191003_091439.jpg",userAvatar)
+    Img.loadImage(
+        "https://zd112.oss-cn-beijing.aliyuncs.com/img/mmexport1567873967807.jpg", userAvatar
+    )
 
     tabView.setAdapter(
         tabView.create(childFragmentManager)
@@ -56,7 +58,7 @@ class MineFragment : BaseFragment(), AppBarLayout.OnOffsetChangedListener {
                 BlogFragment(),
                 AlbumFragment()
             ).initTabs(activity, tabTitle, tabView)
-            .setLinePagerIndicator(getColor(R.color.colorAccent))
+            .setLinePagerIndicator(getColor(R.color.yellow))
     )
     val headerHeight = resources.getDimensionPixelSize(R.dimen.user_header_height)
     val toolHeight =

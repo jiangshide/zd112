@@ -5,10 +5,12 @@ import androidx.annotation.Nullable;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 import com.android.base.BaseActivity;
+import com.android.base.BaseApplication;
 import com.android.channel.vm.ChannelVM;
 import com.android.entity.Entity;
 import com.android.entity.entity.Channel;
 import com.android.http.vm.LiveResult;
+import com.android.user.fragment.LoginFragment;
 import com.android.utils.annotation.ContentView;
 import com.android.zdannotations.BindPath;
 import com.android.zdrouter.ZdRouter;
@@ -23,6 +25,10 @@ public class SplashActivity extends BaseActivity {
   @Override
   protected void onCreate(@Nullable Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
+    if (BaseApplication.instance.getUid() == 0) {
+      goFragment(LoginFragment.class, true);
+      return;
+    }
     channelVM = ViewModelProviders.of(this).get(ChannelVM.class);
     channelVM.getChannel().observe(this, new Observer<LiveResult<List<Channel>>>() {
       @Override public void onChanged(LiveResult<List<Channel>> listLiveResult) {

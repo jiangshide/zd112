@@ -168,7 +168,7 @@ public class BaseFragment extends Fragment
             fragments
         )
         .initTabs(getActivity(), tabTitle, tabView)
-        .setLinePagerIndicator(getColor(R.color.colorAccent)));
+        .setLinePagerIndicator(getColor(R.color.yellow)));
     onViewCreated(view, tabTitle, dotImg, tabView, tabBtn, savedInstanceState);
     return tabView;
   }

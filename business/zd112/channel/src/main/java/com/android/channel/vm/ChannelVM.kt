@@ -66,10 +66,10 @@ class ChannelVM : BaseVM() {
   fun channel(
     name: String,
     des: String,
-    type: Int,
+    format: Int,
     publish: Int
   ) {
-    iChannel.createChannel(BaseApplication.instance.uid, name, des, type, publish)
+    iChannel.createChannel(BaseApplication.instance.uid, name, des, format, publish)
         .compose(CommonTransformer<Response<RespData<Any>>, Any>())
         .subscribeOn(Schedulers.io())
         .observeOn(AndroidSchedulers.mainThread())

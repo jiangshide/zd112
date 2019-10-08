@@ -31,7 +31,7 @@
           android:id="@+id/topTitle"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
-          android:textSize="@dimen/big"
+          android:textSize="20sp"
           android:ellipsize="end"
           android:maxLines="1"
           android:textColor="@color/black"
@@ -43,7 +43,7 @@
         android:maxLines="1"
         android:ellipsize="end"
         android:visibility="gone"
-        android:textSize="@dimen/small"
+        android:textSize="13sp"
         android:textColor="@color/gray"
         />
   </LinearLayout>

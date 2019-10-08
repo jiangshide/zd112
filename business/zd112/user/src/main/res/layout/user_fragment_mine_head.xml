@@ -7,9 +7,9 @@
         android:id="@+id/userAvatar"
         android:layout_width="80dp"
         android:layout_height="80dp"
-        android:layout_marginLeft="@dimen/padding15"
+        android:layout_marginLeft="15dp"
         android:layout_marginTop="40dp"
-        android:src="@mipmap/ic_me_user" />
+        android:src="@mipmap/default_user" />
 
     <ImageView
         android:id="@+id/userFlag"
@@ -24,9 +24,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignTop="@id/userAvatar"
-        android:layout_marginLeft="@dimen/padding8"
-        android:layout_marginTop="@dimen/padding5"
-        android:layout_marginRight="@dimen/padding8"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="8dp"
         android:layout_toRightOf="@id/userAvatar"
         android:singleLine="true"
         android:textColor="@color/text_3"
@@ -38,12 +38,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/userName"
-        android:layout_marginLeft="@dimen/padding8"
-        android:layout_marginTop="@dimen/padding5"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="5dp"
         android:layout_toRightOf="@id/userAvatar"
         android:text="内容数："
         android:textColor="@color/text_8c"
-        android:textSize="@dimen/text_size_mid"
+        android:textSize="14sp"
         android:visibility="gone" />
 
     <TextView
@@ -61,10 +61,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/userContent"
-        android:layout_marginLeft="@dimen/padding8"
-        android:layout_marginTop="@dimen/padding5"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="5dp"
         android:layout_toRightOf="@id/userAvatar"
         android:textColor="@color/text_9"
-        android:textSize="@dimen/text_size_mid" />
+        android:textSize="14sp" />
 
 </RelativeLayout>

@@ -99,14 +99,14 @@ public class ZdButton extends AppCompatButton {
   private void initAttrs(AttributeSet attrs) {
     if (attrs != null) {
       TypedArray typedArray = getContext().obtainStyledAttributes(attrs, R.styleable.ButtonStyle);
-      int color = getResources().getColor(R.color.colorPrimary);
+      int color = getResources().getColor(R.color.white);
       mNormalColor = typedArray.getColor(R.styleable.ButtonStyle_normal_color, color);
       mStrokeWidth = typedArray.getDimension(R.styleable.ButtonStyle_stroke, 0);
       mStrokeColor = typedArray.getColor(R.styleable.ButtonStyle_stroke_color, Color.TRANSPARENT);
       mPressedColor = typedArray.getColor(R.styleable.ButtonStyle_press_color,
-          getResources().getColor(R.color.colorPrimaryDark));
+          getResources().getColor(R.color.white));
       mCurrCorner = typedArray.getDimension(R.styleable.ButtonStyle_corner,
-          getResources().getDimension(R.dimen.default_con));
+          getResources().getDimension(R.dimen.default_corner));
       mLeftCorner = typedArray.getDimension(R.styleable.ButtonStyle_leftCorner, 0);
       mTopCorner = typedArray.getDimension(R.styleable.ButtonStyle_topCorner, 0);
       mRightCorner = typedArray.getDimension(R.styleable.ButtonStyle_rightCorner, 0);

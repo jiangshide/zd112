@@ -56,7 +56,7 @@ public class ZdTopView extends LinearLayout implements View.OnClickListener {
     TypedArray array = context.obtainStyledAttributes(attrs, R.styleable.ZdTopView, 0, 0);
     if (array != null) {
       mBgColor = array.getColor(R.styleable.ZdTopView_bgColor,
-          getResources().getColor(R.color.colorPrimaryDark));
+          getResources().getColor(R.color.white));
       mLeftName = array.getString(R.styleable.ZdTopView_leftName);
       mLeftTextColor = array.getColor(R.styleable.ZdTopView_leftTextColor,
           getResources().getColor(R.color.black));

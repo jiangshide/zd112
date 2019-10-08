@@ -4,7 +4,7 @@ import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.Fragment
 import com.android.base.BaseFragment
-import com.android.home.fragment.RecommendFragment
+import com.android.blog.BlogFragment
 
 /**
  * created by jiangshide on 2019-07-24.
@@ -18,7 +18,7 @@ class HomeFragment : BaseFragment() {
   ) {
     super.onViewCreated(view, savedInstanceState)
     createTabLayout(
-        view, false, listOf("推荐", "世界"), listOf<Fragment>(RecommendFragment(), RecommendFragment()),
+        view, false, listOf("推荐", "世界"), listOf<Fragment>(BlogFragment(), BlogFragment()),
         savedInstanceState
     )
   }

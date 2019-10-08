@@ -116,10 +116,10 @@ class CreateChannelFragment : BaseFragment() {
     }
     channelVM.channelCreate.observe(this, Observer {
       LogUtil.e("-----it:", it.data)
-      if(it.error ==null){
+      if (it.error == null) {
         pop()
-      }else{
-        LogUtil.e("error:",it.error)
+      } else {
+        LogUtil.e("error:", it.error)
       }
     })
     channelVM.channel(name, des, id, publish)

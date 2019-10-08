@@ -1,0 +1,14 @@
+<resources>
+
+  <dimen name="default_corner">10dp</dimen>
+  <dimen name="line">0.5dp</dimen>
+
+
+  <dimen name="small">10sp</dimen>
+  <dimen name="normal">13sp</dimen>
+  <dimen name="big">16sp</dimen>
+  <dimen name="bigSuper">20sp</dimen>
+
+  <dimen name="padding">10dp</dimen>
+  <dimen name="margin">10dp</dimen>
+</resources>

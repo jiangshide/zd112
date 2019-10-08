@@ -131,9 +131,263 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d9669fc-a5a4-4849-942d-0d1efb89b394" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/business/basic/theme/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/basic/theme/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/basic/theme/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/basic/theme/src/main/res/values/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/basic/theme/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/basic/theme/theme.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/zd112/blog/src/main/java/com/android/blog/vm/BlogVM.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/zd112/blog/src/main/java/com/android/blog/vm/remote/BlogRemote.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/zd112/blog/src/main/res/layout/blog_fragment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/zd112/blog/src/main/res/layout/blog_fragment_list.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/zd112/blog/src/main/res/layout/img1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/zd112/blog/src/main/res/layout/img2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/zd112/blog/src/main/res/layout/img3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/zd112/blog/src/main/res/layout/img4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/zd112/entity/src/main/java/com/android/entity/entity/Blog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/zd112/host/zd112-host.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/zd112/publish/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/zd112/publish/consumer-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/zd112/publish/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/zd112/publish/src/main/java/com/android/publish/vm/PublishVM.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/zd112/publish/src/main/java/com/android/publish/vm/remote/PublishRemote.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/zd112/publish/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/zd112/resource/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/zd112/resource/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/zd112/resource/consumer-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/zd112/resource/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/zd112/resource/resource.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/zd112/resource/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/zd112/resource/src/main/res/drawable/bg_blog_like.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/zd112/resource/src/main/res/mipmap-xxhdpi/ic_blog_view_count.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/zd112/resource/src/main/res/mipmap-xxhdpi/ic_like_highlight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/zd112/resource/src/main/res/mipmap-xxhdpi/ic_like_normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/zd112/resource/src/main/res/mipmap-xxhdpi/login_wechat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/zd112/resource/src/main/res/mipmap-xxhdpi/sex_man.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/zd112/resource/src/main/res/mipmap-xxhdpi/sex_women.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/zd112/resource/src/main/res/mipmap-xxhdpi/tab_icon_chat_def.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/zd112/resource/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/zd112/user/src/main/java/com/android/user/fragment/LoginFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/zd112/user/src/main/java/com/android/user/fragment/RegFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/zd112/user/src/main/java/com/android/user/vm/data/UserData.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/zd112/user/src/main/java/com/android/user/vm/remote/UserRemote.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform/developer/utils/src/main/java/com/android/utils/font/VerticalCenterSpan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform/developer/widget/src/main/java/com/android/widget/FixImgView.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform/developer/widget/src/main/res/drawable/bg_dialog_radius.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform/developer/widget/src/main/res/drawable/bg_dialog_radius_top.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform/developer/widget/src/main/res/drawable/default_notification.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform/developer/widget/src/main/res/drawable/progress_style.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform/developer/widget/src/main/res/drawable/recycler_header_arrow.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform/developer/widget/src/main/res/drawable/red_dot.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform/developer/widget/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileContent/annotation-processors.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileContent/annotation-processors.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileContent/fileContent.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_android_29.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/zd112/blog/src/main/java/com/android/blog/BlogActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/zd112/blog/src/main/java/com/android/blog/BlogActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/zd112/blog/src/main/java/com/android/blog/ImgActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/android/zd112/SplashActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/android/zd112/SplashActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/basic/basic-resource/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/basic/basic-resource/basic-resource.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/basic/basic-resource/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/basic/basic-resource/login.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/basic/basic-resource/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/basic/basic-resource/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/basic/basic-resource/src/main/app/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/basic/basic-resource/src/main/java/com/android/login/LoginActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/basic/basic-resource/src/main/java/com/android/login/RegActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/basic/basic-resource/src/main/java/com/android/login/vm/LoginVM.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/basic/basic-resource/src/main/java/com/android/login/vm/data/UserData.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/basic/basic-resource/src/main/java/com/android/login/vm/data/VerifyData.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/basic/basic-resource/src/main/java/com/android/login/vm/remote/LoginRemote.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/basic/basic-resource/src/main/res/drawable/bg_corner_yellow_20.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/basic/basic-resource/src/main/res/layout/activity_login.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/basic/basic-resource/src/main/res/layout/activity_reg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/basic/basic-resource/src/main/res/mipmap-xxhdpi/login_wechat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/basic/host/core-host.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/basic/main/basic-main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/business/basic/main/basic-main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/basic/main/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/business/basic/main/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/basic/main/src/main/res/drawable/ic_app_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/business/basic/theme/src/main/res/drawable/ic_app_home.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/basic/main/src/main/res/drawable/ic_app_me.xml" beforeDir="false" afterPath="$PROJECT_DIR$/business/basic/theme/src/main/res/drawable/ic_app_me.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/basic/main/src/main/res/drawable/ic_app_message.xml" beforeDir="false" afterPath="$PROJECT_DIR$/business/basic/theme/src/main/res/drawable/ic_app_message.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/basic/main/src/main/res/drawable/ic_app_publish.xml" beforeDir="false" afterPath="$PROJECT_DIR$/business/basic/theme/src/main/res/drawable/ic_app_publish.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/basic/main/src/main/res/drawable/ic_app_search.xml" beforeDir="false" afterPath="$PROJECT_DIR$/business/basic/theme/src/main/res/drawable/ic_app_search.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/basic/main/src/main/res/mipmap-xhdpi/ic_home_click.png" beforeDir="false" afterPath="$PROJECT_DIR$/business/basic/theme/src/main/res/mipmap-xhdpi/ic_home_click.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/basic/main/src/main/res/mipmap-xhdpi/ic_home_message.png" beforeDir="false" afterPath="$PROJECT_DIR$/business/basic/theme/src/main/res/mipmap-xhdpi/ic_home_message.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/basic/main/src/main/res/mipmap-xhdpi/ic_home_personal.png" beforeDir="false" afterPath="$PROJECT_DIR$/business/basic/theme/src/main/res/mipmap-xhdpi/ic_home_personal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/basic/main/src/main/res/mipmap-xhdpi/ic_home_publish.png" beforeDir="false" afterPath="$PROJECT_DIR$/business/basic/theme/src/main/res/mipmap-xhdpi/ic_home_publish.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/basic/main/src/main/res/mipmap-xhdpi/ic_home_search.png" beforeDir="false" afterPath="$PROJECT_DIR$/business/basic/theme/src/main/res/mipmap-xhdpi/ic_home_search.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/basic/main/src/main/res/mipmap-xhdpi/ic_home_unclicked.png" beforeDir="false" afterPath="$PROJECT_DIR$/business/basic/theme/src/main/res/mipmap-xhdpi/ic_home_unclicked.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/basic/main/src/main/res/mipmap-xhdpi/ic_home_unmessage.png" beforeDir="false" afterPath="$PROJECT_DIR$/business/basic/theme/src/main/res/mipmap-xhdpi/ic_home_unmessage.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/basic/main/src/main/res/mipmap-xhdpi/ic_home_unpersonal.png" beforeDir="false" afterPath="$PROJECT_DIR$/business/basic/theme/src/main/res/mipmap-xhdpi/ic_home_unpersonal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/basic/main/src/main/res/mipmap-xhdpi/ic_home_unsearch.png" beforeDir="false" afterPath="$PROJECT_DIR$/business/basic/theme/src/main/res/mipmap-xhdpi/ic_home_unsearch.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/basic/main/src/main/res/mipmap-xhdpi/refresh.png" beforeDir="false" afterPath="$PROJECT_DIR$/business/basic/theme/src/main/res/mipmap-xhdpi/refresh.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/basic/matisse/matisse.iml" beforeDir="false" afterPath="$PROJECT_DIR$/business/basic/matisse/matisse.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/basic/publish/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/business/basic/theme/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/basic/publish/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/business/zd112/publish/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/basic/publish/consumer-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/business/basic/theme/consumer-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/basic/publish/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/business/basic/theme/proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/basic/publish/publish.iml" beforeDir="false" afterPath="$PROJECT_DIR$/business/zd112/publish/publish.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/basic/publish/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/business/zd112/publish/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/basic/publish/src/main/app/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/business/zd112/publish/src/main/app/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/basic/publish/src/main/java/com/android/publish/PublishActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/zd112/publish/src/main/java/com/android/publish/PublishActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/basic/publish/src/main/java/com/android/publish/PublishFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/business/zd112/publish/src/main/java/com/android/publish/PublishFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/basic/publish/src/main/res/layout/publish_fragment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/business/zd112/publish/src/main/res/layout/publish_fragment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/basic/publish/src/main/res/layout/publish_fragment_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/business/zd112/publish/src/main/res/layout/publish_fragment_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/basic/publish/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/zd112/blog/blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/business/zd112/blog/blog.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/zd112/blog/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/business/zd112/blog/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/zd112/blog/src/main/java/com/android/blog/BlogFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/business/zd112/blog/src/main/java/com/android/blog/BlogFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/zd112/blog/src/main/java/com/android/blog/bean/BlogEntry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/zd112/blog/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/zd112/blog/src/main/res/layout/blog_fragment_list_img.xml" beforeDir="false" afterPath="$PROJECT_DIR$/business/zd112/user/src/main/res/layout/user_fragment_login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/zd112/channel/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/business/zd112/channel/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/zd112/channel/channel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/business/zd112/channel/channel.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/zd112/channel/src/main/java/com/android/channel/fragment/CreateChannelFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/business/zd112/channel/src/main/java/com/android/channel/fragment/CreateChannelFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/zd112/channel/src/main/java/com/android/channel/fragment/ManagerChannelFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/business/zd112/channel/src/main/java/com/android/channel/fragment/ManagerChannelFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/zd112/channel/src/main/java/com/android/channel/vm/ChannelVM.kt" beforeDir="false" afterPath="$PROJECT_DIR$/business/zd112/channel/src/main/java/com/android/channel/vm/ChannelVM.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/zd112/channel/src/main/java/com/android/channel/vm/remote/ChannelRemote.kt" beforeDir="false" afterPath="$PROJECT_DIR$/business/zd112/channel/src/main/java/com/android/channel/vm/remote/ChannelRemote.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/zd112/channel/src/main/res/layout/channel_fragment_create.xml" beforeDir="false" afterPath="$PROJECT_DIR$/business/zd112/channel/src/main/res/layout/channel_fragment_create.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/zd112/channel/src/main/res/layout/channel_fragment_manager.xml" beforeDir="false" afterPath="$PROJECT_DIR$/business/zd112/channel/src/main/res/layout/channel_fragment_manager.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/zd112/channel/src/main/res/layout/channel_fragment_manager_selected.xml" beforeDir="false" afterPath="$PROJECT_DIR$/business/zd112/channel/src/main/res/layout/channel_fragment_manager_selected.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/zd112/entity/entity.iml" beforeDir="false" afterPath="$PROJECT_DIR$/business/zd112/entity/entity.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/zd112/entity/src/main/java/com/android/entity/entity/Channel.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/zd112/entity/src/main/java/com/android/entity/entity/Channel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/zd112/home/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/business/zd112/home/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/zd112/home/src/main/java/com/android/home/HomeActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/zd112/home/src/main/java/com/android/home/HomeActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/zd112/home/src/main/java/com/android/home/HomeFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/business/zd112/home/src/main/java/com/android/home/HomeFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/zd112/home/zd112-home.iml" beforeDir="false" afterPath="$PROJECT_DIR$/business/zd112/home/zd112-home.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/zd112/shop/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/business/zd112/shop/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/zd112/shop/zd112-shop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/business/zd112/shop/zd112-shop.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/zd112/star/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/business/zd112/star/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/zd112/star/zd112-star.iml" beforeDir="false" afterPath="$PROJECT_DIR$/business/zd112/star/zd112-star.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/zd112/user/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/business/zd112/user/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/zd112/user/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/business/zd112/user/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/zd112/user/src/main/java/com/android/user/UserActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/zd112/user/src/main/java/com/android/user/UserActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/zd112/user/src/main/java/com/android/user/UserFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/business/zd112/user/src/main/java/com/android/user/UserFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/zd112/user/src/main/java/com/android/user/fragment/MineFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/business/zd112/user/src/main/java/com/android/user/fragment/MineFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/zd112/user/src/main/java/com/android/user/vm/UserVM.kt" beforeDir="false" afterPath="$PROJECT_DIR$/business/zd112/user/src/main/java/com/android/user/vm/UserVM.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/zd112/user/src/main/java/com/android/user/vm/remote/UpdateRemote.kt" beforeDir="false" afterPath="$PROJECT_DIR$/business/zd112/user/src/main/java/com/android/user/vm/remote/UpdateRemote.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/zd112/user/src/main/res/layout/user_fragment_mine.xml" beforeDir="false" afterPath="$PROJECT_DIR$/business/zd112/user/src/main/res/layout/user_fragment_mine.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/zd112/user/src/main/res/layout/user_fragment_mine_head.xml" beforeDir="false" afterPath="$PROJECT_DIR$/business/zd112/user/src/main/res/layout/user_fragment_mine_head.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/zd112/user/src/main/res/layout/user_fragment_set_about.xml" beforeDir="false" afterPath="$PROJECT_DIR$/business/zd112/user/src/main/res/layout/user_fragment_set_about.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/zd112/user/zd112-user.iml" beforeDir="false" afterPath="$PROJECT_DIR$/business/zd112/user/zd112-user.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/basic/cache/basic-cache.iml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/basic/cache/basic-cache.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/basic/db/db.iml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/basic/db/db.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/basic/file/file.iml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/basic/file/file.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/basic/file/src/main/java/com/android/file/ZdFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/platform/basic/file/src/main/java/com/android/file/ZdFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/basic/file/src/main/res/layout/default_upload.xml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/basic/file/src/main/res/layout/default_upload.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/basic/http/http.iml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/basic/http/http.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/basic/img/img.iml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/basic/img/img.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/basic/jsbridge/jsbridge.iml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/basic/jsbridge/jsbridge.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/basic/monitor/basic-monitor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/basic/monitor/basic-monitor.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/basic/network/basic-network.iml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/basic/network/basic-network.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/basic/permission/basic-permission.iml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/basic/permission/basic-permission.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/basic/player/player.iml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/basic/player/player.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/core/annotations/annotations.iml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/core/annotations/annotations.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/core/compile/compile.iml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/core/compile/compile.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/core/dynamic/dynamic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/core/dynamic/dynamic.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/core/dynamic/src/main/java/com/android/dynamic/DynamicActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/platform/core/dynamic/src/main/java/com/android/dynamic/DynamicActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/core/event/core-event.iml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/core/event/core-event.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/core/host/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/business/zd112/host/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/core/host/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/business/zd112/host/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/core/host/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/business/zd112/host/proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/core/host/src/androidTest/java/com/android/host/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/zd112/host/src/androidTest/java/com/android/host/ExampleInstrumentedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/core/host/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/business/zd112/host/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/core/host/src/main/assets/app-release.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/core/host/src/main/java/com/android/host/HostActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/zd112/host/src/main/java/com/android/host/HostActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/core/host/src/main/res/layout/activity_host.xml" beforeDir="false" afterPath="$PROJECT_DIR$/business/zd112/host/src/main/res/layout/activity_host.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/core/host/src/test/java/com/android/host/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/zd112/host/src/test/java/com/android/host/ExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/core/plugin/plugin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/core/plugin/plugin.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/core/router/router.iml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/core/router/router.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/developer/adapter/adapter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/developer/adapter/adapter.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/developer/base/developer-base.iml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/developer/base/developer-base.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/developer/base/src/main/java/com/android/base/BaseActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/platform/developer/base/src/main/java/com/android/base/BaseActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/developer/base/src/main/java/com/android/base/BaseApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/platform/developer/base/src/main/java/com/android/base/BaseApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/developer/base/src/main/java/com/android/base/BaseFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/platform/developer/base/src/main/java/com/android/base/BaseFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/developer/base/src/main/java/com/android/base/BaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/platform/developer/base/src/main/java/com/android/base/BaseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/developer/base/src/main/java/com/android/base/CommActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/platform/developer/base/src/main/java/com/android/base/CommActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/developer/base/src/main/res/layout/comm_activity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/developer/base/src/main/res/layout/comm_activity.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/developer/recycleview/recycleview.iml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/developer/recycleview/recycleview.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/developer/recycleview/src/main/res/layout/defailt_recycler_more.xml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/developer/recycleview/src/main/res/layout/defailt_recycler_more.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/developer/recycleview/src/main/res/layout/default_recycler_horizontal_more.xml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/developer/recycleview/src/main/res/layout/default_recycler_horizontal_more.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/developer/recycleview/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/developer/recycleview/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/developer/refresh/refresh.iml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/developer/refresh/refresh.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/developer/skin/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/platform/developer/skin/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/developer/skin/developer-skin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/developer/skin/developer-skin.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/developer/skin/src/main/res/drawable/bg_dialog_radius.xml" beforeDir="false" afterPath="$PROJECT_DIR$/business/zd112/resource/src/main/res/drawable/bg_dialog_radius.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/developer/skin/src/main/res/drawable/bg_dialog_radius_top.xml" beforeDir="false" afterPath="$PROJECT_DIR$/business/zd112/resource/src/main/res/drawable/bg_dialog_radius_top.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/developer/skin/src/main/res/drawable/bg_lancher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/business/zd112/resource/src/main/res/drawable/bg_lancher.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/developer/skin/src/main/res/drawable/input_delete.png" beforeDir="false" afterPath="$PROJECT_DIR$/platform/developer/widget/src/main/res/drawable/input_delete.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/developer/skin/src/main/res/drawable/progress_style.xml" beforeDir="false" afterPath="$PROJECT_DIR$/business/zd112/resource/src/main/res/drawable/progress_style.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/developer/skin/src/main/res/drawable/recycler_header_arrow.xml" beforeDir="false" afterPath="$PROJECT_DIR$/business/zd112/resource/src/main/res/drawable/recycler_header_arrow.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/developer/skin/src/main/res/drawable/red_dot.xml" beforeDir="false" afterPath="$PROJECT_DIR$/business/zd112/resource/src/main/res/drawable/red_dot.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/developer/skin/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/business/zd112/resource/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/developer/skin/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/business/zd112/resource/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/developer/skin/src/main/res/mipmap-xhdpi/ic_home_click.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/developer/skin/src/main/res/mipmap-xhdpi/ic_home_message.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/developer/skin/src/main/res/mipmap-xhdpi/ic_home_personal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/developer/skin/src/main/res/mipmap-xhdpi/ic_home_publish.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/developer/skin/src/main/res/mipmap-xhdpi/ic_home_search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/developer/skin/src/main/res/mipmap-xhdpi/ic_home_unclicked.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/developer/skin/src/main/res/mipmap-xhdpi/ic_home_unmessage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/developer/skin/src/main/res/mipmap-xhdpi/ic_home_unpersonal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/developer/skin/src/main/res/mipmap-xhdpi/ic_home_unsearch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/developer/skin/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/business/zd112/resource/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/developer/skin/src/main/res/mipmap-xxhdpi/ic_app_slogon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/developer/skin/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/developer/skin/src/main/res/mipmap-xxhdpi/ic_me_user.png" beforeDir="false" afterPath="$PROJECT_DIR$/business/basic/theme/src/main/res/mipmap-xxhdpi/default_user.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/developer/skin/src/main/res/mipmap-xxhdpi/ic_more.png" beforeDir="false" afterPath="$PROJECT_DIR$/platform/developer/widget/src/main/res/mipmap-xxhdpi/ic_more.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/developer/skin/src/main/res/mipmap-xxhdpi/ic_right_arrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/platform/developer/widget/src/main/res/mipmap-xxhdpi/ic_right_arrow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/developer/skin/src/main/res/mipmap-xxhdpi/ic_settings.png" beforeDir="false" afterPath="$PROJECT_DIR$/business/zd112/resource/src/main/res/mipmap-xxhdpi/ic_settings.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/developer/skin/src/main/res/mipmap-xxhdpi/ic_title_back.png" beforeDir="false" afterPath="$PROJECT_DIR$/platform/developer/widget/src/main/res/mipmap-xxhdpi/ic_title_back.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/developer/skin/src/main/res/mipmap-xxhdpi/location.png" beforeDir="false" afterPath="$PROJECT_DIR$/business/zd112/resource/src/main/res/mipmap-xxhdpi/location.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/developer/skin/src/main/res/mipmap-xxhdpi/no_net.png" beforeDir="false" afterPath="$PROJECT_DIR$/platform/developer/widget/src/main/res/mipmap-xxhdpi/no_net.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/developer/skin/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/business/zd112/resource/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/developer/skin/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/business/zd112/resource/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/developer/skin/src/main/res/values/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/developer/skin/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/developer/skin/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/business/zd112/resource/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/developer/tablayout/tablayout.iml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/developer/tablayout/tablayout.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/developer/utils/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/platform/developer/utils/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/developer/utils/developer-utils.iml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/developer/utils/developer-utils.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/developer/utils/src/androidTest/java/com/android/utils/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/developer/utils/src/main/java/com/android/utils/StringUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/platform/developer/utils/src/main/java/com/android/utils/StringUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/developer/utils/src/test/java/com/android/utils/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/developer/widget/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/platform/developer/widget/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/developer/widget/developer-widget.iml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/developer/widget/developer-widget.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/developer/widget/src/main/java/com/android/widget/ZdButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/platform/developer/widget/src/main/java/com/android/widget/ZdButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/developer/widget/src/main/java/com/android/widget/ZdTab.java" beforeDir="false" afterPath="$PROJECT_DIR$/platform/developer/widget/src/main/java/com/android/widget/ZdTab.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/developer/widget/src/main/java/com/android/widget/ZdTopView.java" beforeDir="false" afterPath="$PROJECT_DIR$/platform/developer/widget/src/main/java/com/android/widget/ZdTopView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/developer/widget/src/main/java/com/android/widget/ZdWaveView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/platform/developer/widget/src/main/java/com/android/widget/ZdWaveView.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/developer/widget/src/main/res/layout/default_fail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/developer/widget/src/main/res/layout/default_fail.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/developer/widget/src/main/res/layout/default_list_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/developer/widget/src/main/res/layout/default_list_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/developer/widget/src/main/res/layout/default_tab_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/developer/widget/src/main/res/layout/default_tab_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/developer/widget/src/main/res/layout/default_toast.xml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/developer/widget/src/main/res/layout/default_toast.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/developer/widget/src/main/res/layout/default_top.xml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/developer/widget/src/main/res/layout/default_top.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/developer/widget/src/main/res/values/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/developer/widget/src/main/res/values/dimens.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/developer/widget/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/developer/widget/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/developer/widget/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/developer/widget/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/third/location/location.iml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/third/location/location.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/third/push/push.iml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/third/push/push.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -142,8 +396,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_3a_API_29" />
   <component name="ExternalProjectsData">
@@ -195,56 +448,106 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/business/zd112/blog/src/main/java/com/android/blog/BlogActivity.java">
+        <entry file="file://$PROJECT_DIR$/business/zd112/user/src/main/java/com/android/user/fragment/LoginFragment.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+            <state relative-caret-position="300">
+              <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#35#555#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/business/zd112/blog/src/main/java/com/android/blog/view/FullScreenVideoView.java">
+        <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="403">
+              <caret line="72" column="36" lean-forward="true" selection-start-line="72" selection-start-column="36" selection-end-line="72" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/zd112/SplashActivity.java">
+        <entry file="file://$PROJECT_DIR$/business/zd112/user/src/main/java/com/android/user/vm/remote/UpdateRemote.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" selection-end-column="26" />
+            <state relative-caret-position="255">
+              <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/business/zd112/user/src/main/java/com/android/user/vm/UserVM.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="498">
+              <caret line="36" column="37" lean-forward="true" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#29#593#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/business/zd112/blog/src/main/java/com/android/blog/BlogFragment.kt">
+        <entry file="file://$PROJECT_DIR$/business/zd112/user/src/main/java/com/android/user/vm/remote/UserRemote.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+            <state relative-caret-position="435">
+              <caret line="29" column="77" selection-start-line="29" selection-start-column="69" selection-end-line="29" selection-end-column="77" />
+              <folding>
+                <element signature="e#36#188#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/business/zd112/blog/src/main/AndroidManifest.xml">
-          <provider editor-type-id="android-manifest" />
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/business/zd112/user/src/main/java/com/android/user/vm/data/UpdateResp.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/business/zd112/blog/src/main/res/drawable/circle_big_red.xml">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/business/zd112/user/src/main/java/com/android/user/vm/data/UserData.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="19" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/business/zd112/user/src/main/java/com/android/user/vm/data/Version.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/business/basic/main/src/main/java/com/android/main/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="61" column="28" selection-start-line="61" selection-start-column="28" selection-end-line="61" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/business/zd112/user/src/main/res/layout/user_fragment_login.xml">
+          <provider editor-type-id="android-designer2" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="237">
+              <caret line="18" column="40" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="40" />
+              <folding>
+                <element signature="e#2425#2443#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -254,14 +557,17 @@
       <list>
         <option value="Interface" />
         <option value="AnnotationType" />
-        <option value="layoutResourceFile_vertical" />
         <option value="Class" />
+        <option value="layoutResourceFile_vertical" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>Permission</find>
+      <find>login</find>
+      <find>resour</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -273,63 +579,63 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ZdRouter/src/main/java/com/android/zdrouter/ZdRouter.java" />
-        <option value="$PROJECT_DIR$/network/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/network/src/main/java/com/android/network/listener/NetType.java" />
-        <option value="$PROJECT_DIR$/network/src/main/java/com/android/network/receiver/NetStateReciver.kt" />
-        <option value="$PROJECT_DIR$/network/src/main/java/com/android/network/NetWorkApi.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/android/zd112/Contains.java" />
-        <option value="$PROJECT_DIR$/permission/src/main/java/com/android/permission/annotation/Permission.java" />
-        <option value="$PROJECT_DIR$/host/build.gradle" />
-        <option value="$PROJECT_DIR$/user/build.gradle" />
-        <option value="$PROJECT_DIR$/star/build.gradle" />
-        <option value="$PROJECT_DIR$/login/build.gradle" />
-        <option value="$PROJECT_DIR$/base/build.gradle" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="$PROJECT_DIR$/ZdPlugin/build.gradle" />
-        <option value="$PROJECT_DIR$/home/build.gradle" />
-        <option value="$PROJECT_DIR$/permission/build.gradle" />
-        <option value="$PROJECT_DIR$/login/src/main/res/layout/activity_login.xml" />
-        <option value="$PROJECT_DIR$/utils/build.gradle" />
-        <option value="$PROJECT_DIR$/widget/src/main/res/values/colors.xml" />
-        <option value="$PROJECT_DIR$/widget/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/widget/src/main/res/values/styles.xml" />
-        <option value="$PROJECT_DIR$/widget/build.gradle" />
-        <option value="$PROJECT_DIR$/skin/src/main/app/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/widget/src/main/java/com/android/widget/refresh/component/InternalClassics.java" />
-        <option value="$PROJECT_DIR$/widget/src/main/java/com/android/widget/refresh/component/ClassicsHeader.java" />
-        <option value="$PROJECT_DIR$/widget/src/main/res/layout/default_dialog_list.xml" />
-        <option value="$PROJECT_DIR$/widget/src/main/res/layout/default_dialog_wheel.xml" />
-        <option value="$PROJECT_DIR$/widget/src/main/java/com/android/widget/ZdDialog.java" />
-        <option value="$PROJECT_DIR$/skin/src/main/res/drawable/progress_style.xml" />
-        <option value="$PROJECT_DIR$/skin/src/main/res/values/styles.xml" />
-        <option value="$PROJECT_DIR$/widget/src/main/res/layout/default_dialog.xml" />
-        <option value="$PROJECT_DIR$/gradle.properties" />
-        <option value="$PROJECT_DIR$/skin/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/skin/src/main/res/values/colors.xml" />
-        <option value="$PROJECT_DIR$/base/src/main/java/com/android/base/BaseApplication.java" />
-        <option value="$PROJECT_DIR$/utils/src/main/java/com/android/utils/StringUtil.java" />
+        <option value="$PROJECT_DIR$/business/basic/theme/build.gradle" />
+        <option value="$PROJECT_DIR$/business/zd112/resource/build.gradle" />
+        <option value="$PROJECT_DIR$/business/zd112/star/build.gradle" />
+        <option value="$PROJECT_DIR$/business/zd112/home/build.gradle" />
+        <option value="$PROJECT_DIR$/business/basic/theme/src/main/res/values/colors.xml" />
+        <option value="$PROJECT_DIR$/business/basic/publish/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/business/basic/theme/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/business/zd112/resource/src/main/res/values/colors.xml" />
+        <option value="$PROJECT_DIR$/business/basic/theme/src/main/res/values/dimens.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" />
-        <option value="$PROJECT_DIR$/skin/src/main/res/values/attr.xml" />
-        <option value="$PROJECT_DIR$/base/src/main/java/com/android/base/BaseActivity.java" />
-        <option value="$PROJECT_DIR$/skin/src/main/java/com/android/skin/factory/SkinFactory.java" />
-        <option value="$PROJECT_DIR$/skin/src/main/java/com/android/skin/SkinActivity.java" />
-        <option value="$PROJECT_DIR$/skin/src/main/java/com/android/skin/Skin.java" />
-        <option value="$PROJECT_DIR$/skin/src/main/java/com/android/skin/model/SkinViewItemModel.java" />
-        <option value="$PROJECT_DIR$/skin/src/main/java/com/android/skin/model/SkinViewModel.java" />
-        <option value="$PROJECT_DIR$/permission/src/main/java/com/android/permission/process/PermissionProcess.java" />
-        <option value="$PROJECT_DIR$/permission/src/main/java/com/android/permission/PermissionActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/android/zd112/SplashActivity.java" />
+        <option value="$PROJECT_DIR$/business/basic/main/build.gradle" />
+        <option value="$PROJECT_DIR$/business/zd112/blog/build.gradle" />
+        <option value="$PROJECT_DIR$/business/zd112/channel/build.gradle" />
+        <option value="$PROJECT_DIR$/business/zd112/shop/build.gradle" />
+        <option value="$PROJECT_DIR$/business/zd112/blog/src/main/res/layout/blog_fragment_list.xml" />
+        <option value="$PROJECT_DIR$/business/zd112/user/src/main/res/layout/user_fragment_mine_head.xml" />
+        <option value="$PROJECT_DIR$/business/basic/publish/src/main/res/layout/publish_fragment_item.xml" />
+        <option value="$PROJECT_DIR$/business/zd112/publish/build.gradle" />
+        <option value="$PROJECT_DIR$/business/zd112/channel/src/main/res/layout/channel_fragment_create.xml" />
+        <option value="$PROJECT_DIR$/business/zd112/channel/src/main/res/layout/channel_fragment_manager.xml" />
+        <option value="$PROJECT_DIR$/business/zd112/channel/src/main/res/layout/channel_fragment_manager_selected.xml" />
+        <option value="$PROJECT_DIR$/platform/developer/widget/src/main/res/values/colors.xml" />
+        <option value="$PROJECT_DIR$/business/zd112/publish/src/main/res/layout/publish_fragment_item.xml" />
+        <option value="$PROJECT_DIR$/platform/developer/widget/src/main/res/drawable/default_notification.xml" />
+        <option value="$PROJECT_DIR$/platform/developer/base/src/main/java/com/android/base/BaseService.java" />
         <option value="$PROJECT_DIR$/business/zd112/channel/src/main/java/com/android/channel/fragment/ManagerChannelFragment.kt" />
-        <option value="$PROJECT_DIR$/platform/developer/widget/src/main/java/com/android/widget/ZdBigImg.java" />
+        <option value="$PROJECT_DIR$/business/zd112/user/src/main/java/com/android/user/UserFragment.kt" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/platform/core/dynamic/src/main/java/com/android/dynamic/DynamicActivity.java" />
+        <option value="$PROJECT_DIR$/platform/developer/widget/src/main/res/layout/default_list_item.xml" />
+        <option value="$PROJECT_DIR$/platform/developer/recycleview/src/main/res/layout/defailt_recycler_more.xml" />
+        <option value="$PROJECT_DIR$/platform/developer/recycleview/src/main/res/layout/default_recycler_horizontal_more.xml" />
+        <option value="$PROJECT_DIR$/business/basic/host/src/main/java/com/android/host/HostActivity.java" />
+        <option value="$PROJECT_DIR$/business/basic/host/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/settings.gradle" />
+        <option value="$PROJECT_DIR$/business/zd112/host/build.gradle" />
+        <option value="$PROJECT_DIR$/platform/developer/base/src/main/java/com/android/base/BaseApplication.java" />
+        <option value="$PROJECT_DIR$/business/zd112/user/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/platform/developer/base/src/main/java/com/android/base/BaseActivity.java" />
+        <option value="$PROJECT_DIR$/business/zd112/user/src/main/java/com/android/user/UserActivity.java" />
+        <option value="$PROJECT_DIR$/platform/developer/widget/src/main/java/com/android/widget/ZdTab.java" />
+        <option value="$PROJECT_DIR$/platform/developer/base/src/main/java/com/android/base/CommActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/android/zd112/SplashActivity.java" />
+        <option value="$PROJECT_DIR$/platform/developer/base/src/main/res/layout/comm_activity.xml" />
+        <option value="$PROJECT_DIR$/business/zd112/user/src/main/res/layout/user_fragment_login.xml" />
+        <option value="$PROJECT_DIR$/business/zd112/user/src/main/java/com/android/user/vm/remote/UpdateRemote.kt" />
+        <option value="$PROJECT_DIR$/business/zd112/user/src/main/java/com/android/user/vm/data/UserData.kt" />
+        <option value="$PROJECT_DIR$/business/zd112/user/src/main/java/com/android/user/vm/remote/UserRemote.kt" />
+        <option value="$PROJECT_DIR$/business/zd112/user/src/main/java/com/android/user/vm/UserVM.kt" />
+        <option value="$PROJECT_DIR$/business/zd112/user/src/main/java/com/android/user/fragment/LoginFragment.kt" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/business/zd112/blog/src/main/java/com/android/blog/BlogActivity.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-97" />
-    <option name="y" value="375" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-12" />
+    <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="845" />
   </component>
@@ -339,6 +645,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -397,14 +704,14 @@
               <item name="zd112" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="business" type="462c0819:PsiDirectoryNode" />
               <item name="zd112" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="user" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="zd112" type="b2602c69:ProjectViewProjectNode" />
               <item name="zd112" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="business" type="462c0819:PsiDirectoryNode" />
               <item name="zd112" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="user" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -412,82 +719,83 @@
               <item name="zd112" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="business" type="462c0819:PsiDirectoryNode" />
               <item name="zd112" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zd112" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zd112" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="business" type="462c0819:PsiDirectoryNode" />
-              <item name="zd112" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="user" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="zd112" type="b2602c69:ProjectViewProjectNode" />
               <item name="zd112" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="business" type="462c0819:PsiDirectoryNode" />
               <item name="zd112" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="user" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="zd112" type="b2602c69:ProjectViewProjectNode" />
               <item name="zd112" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="business" type="462c0819:PsiDirectoryNode" />
               <item name="zd112" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="user" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="bean" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="zd112" type="b2602c69:ProjectViewProjectNode" />
               <item name="zd112" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="business" type="462c0819:PsiDirectoryNode" />
               <item name="zd112" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="user" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="fragment" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="zd112" type="b2602c69:ProjectViewProjectNode" />
               <item name="zd112" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="business" type="462c0819:PsiDirectoryNode" />
               <item name="zd112" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="user" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="vm" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="zd112" type="b2602c69:ProjectViewProjectNode" />
               <item name="zd112" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="business" type="462c0819:PsiDirectoryNode" />
               <item name="zd112" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="user" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="vm" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zd112" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zd112" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="business" type="462c0819:PsiDirectoryNode" />
+              <item name="zd112" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="vm" type="462c0819:PsiDirectoryNode" />
+              <item name="remote" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -497,7 +805,7 @@
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="device.picker.selection" value="Pixel_XL_API_28" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/platform/third/location" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/platform/developer/widget/src/main/res/drawable" />
     <property name="not.eligible.for.single.variant.sync" value="true" />
     <property name="project.structure.last.edited" value="Dependencies" />
     <property name="project.structure.proportion" value="0.17" />
@@ -506,19 +814,26 @@
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/business/zd112" />
+      <recent name="$PROJECT_DIR$/business/basic" />
+      <recent name="$PROJECT_DIR$/business/basic/theme/src/main/res/drawable" />
+      <recent name="$PROJECT_DIR$/business/basic/theme/src/main/res" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.android.permission" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.android.utils.font" />
       <recent name="com.android.permission.listener" />
       <recent name="com.android.zd112" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/platform/third/location" />
-      <recent name="$PROJECT_DIR$/skin/src/main/res/drawable" />
-      <recent name="$PROJECT_DIR$/skin/src/main/res/values" />
-      <recent name="$PROJECT_DIR$/skin/src/main/res" />
-      <recent name="$PROJECT_DIR$/permission/src/main/java/com/android/permission/model" />
+      <recent name="$PROJECT_DIR$/platform/developer/widget/src/main/res/drawable" />
+      <recent name="$PROJECT_DIR$/business/basic/theme/src/main/res/mipmap-xxhdpi" />
+      <recent name="$PROJECT_DIR$/business/zd112/resource/src/main/res/values" />
+      <recent name="$PROJECT_DIR$/business/zd112/resource/src/main/res/mipmap-xxhdpi" />
+      <recent name="$PROJECT_DIR$/business/basic/theme/src/main/res/values" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -556,6 +871,59 @@
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
       <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="basic-host" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="basic-host" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
       <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
@@ -859,6 +1227,59 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="zd112-host" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="zd112-host" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="zd112:app [assemble]" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -926,11 +1347,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="845" extended-state="6" />
+    <frame x="-12" y="23" width="1440" height="845" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.7564935" visible="true" weight="0.22889842" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.7564935" visible="true" weight="0.26323318" />
       <window_info id="Structure" order="2" sideWeight="0.24350649" side_tool="true" weight="0.23390558" />
       <window_info id="Build Variants" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
@@ -938,18 +1359,18 @@
       <window_info id="Resources Explorer" order="6" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Favorites" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="CheckStyle" />
-      <window_info anchor="bottom" id="Build" order="0" weight="0.62284195" />
-      <window_info anchor="bottom" id="Run" order="1" weight="0.6560425" />
-      <window_info anchor="bottom" id="Logcat" internal_type="SLIDING" order="2" sideWeight="0.4985694" type="SLIDING" weight="0.5470914" />
-      <window_info anchor="bottom" id="TODO" order="3" weight="0.32963988" />
-      <window_info anchor="bottom" id="Android Profiler" order="4" weight="0.32825485" />
-      <window_info anchor="bottom" id="Find" order="5" weight="0.44751382" />
-      <window_info anchor="bottom" id="Terminal" order="6" weight="0.87649405" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.6108033" />
-      <window_info anchor="bottom" id="Flutter Performance" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50143063" side_tool="true" weight="0.95844877" />
+      <window_info anchor="bottom" id="CheckStyle" order="0" />
+      <window_info anchor="bottom" id="Build" order="1" weight="0.62284195" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.6560425" />
+      <window_info anchor="bottom" id="Logcat" internal_type="SLIDING" order="3" sideWeight="0.4985694" type="SLIDING" weight="0.5471448" />
+      <window_info anchor="bottom" id="TODO" order="4" weight="0.32963988" />
+      <window_info anchor="bottom" id="Android Profiler" order="5" weight="0.32825485" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.44621515" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.87649405" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.6108033" />
+      <window_info anchor="bottom" id="Flutter Performance" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50143063" side_tool="true" weight="0.95844877" />
       <window_info anchor="right" id="Device File Explorer" order="0" sideWeight="0.8172839" side_tool="true" weight="0.1502146" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
@@ -962,7 +1383,7 @@
     </layout>
     <layout-to-restore>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.7564935" visible="true" weight="0.22889842" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.7564935" visible="true" weight="0.26323318" />
       <window_info id="Structure" order="2" sideWeight="0.24350649" side_tool="true" weight="0.23390558" />
       <window_info id="Build Variants" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
@@ -973,10 +1394,10 @@
       <window_info anchor="bottom" id="CheckStyle" order="0" />
       <window_info anchor="bottom" id="Build" order="1" weight="0.62284195" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.6560425" />
-      <window_info anchor="bottom" id="Logcat" internal_type="SLIDING" order="3" sideWeight="0.4985694" type="SLIDING" weight="0.5470914" />
+      <window_info anchor="bottom" id="Logcat" internal_type="SLIDING" order="3" sideWeight="0.4985694" type="SLIDING" weight="0.5471448" />
       <window_info anchor="bottom" id="TODO" order="4" weight="0.32963988" />
       <window_info anchor="bottom" id="Android Profiler" order="5" weight="0.32825485" />
-      <window_info anchor="bottom" id="Find" order="6" weight="0.44751382" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.44621515" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.87649405" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.6108033" />
       <window_info anchor="bottom" id="Flutter Performance" order="9" side_tool="true" />
@@ -988,223 +1409,344 @@
       <window_info anchor="right" id="Flutter Inspector" order="3" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info anchor="right" id="Flutter Outline" order="5" weight="0.3297568" />
-      <window_info anchor="right" id="Gradle" order="6" sideWeight="0.18271606" visible="true" weight="0.1502146" />
+      <window_info anchor="right" id="Gradle" order="6" sideWeight="0.18271606" weight="0.1502146" />
       <window_info anchor="right" id="FIR.im" order="7" side_tool="true" />
       <window_info anchor="right" id="Preview" order="8" />
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/zd112/Contains.java">
+    <entry file="file://$PROJECT_DIR$/platform/developer/tablayout/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platform/developer/tablayout/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platform/developer/tablayout/src/main/java/com/android/tablayout/ZdTabLayout.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml">
+    <entry file="file://$PROJECT_DIR$/platform/developer/skin/src/main/res/values/attr.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platform/developer/skin/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platform/developer/refresh/src/main/res/values/attr.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-644" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platform/developer/refresh/src/main/res/values/colors.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platform/developer/refresh/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platform/developer/refresh/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platform/developer/widget/src/main/res/values/colors.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platform/developer/recycleview/src/main/res/layout/defailt_recycler_more.xml">
       <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+        <state relative-caret-position="240">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/src/main/java/com/android/utils/StringUtil.java" />
-    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-28/java/lang/ClassLoader.java">
+    <entry file="file://$PROJECT_DIR$/platform/developer/recycleview/src/main/res/layout/default_recycler_empty.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platform/developer/recycleview/src/main/res/layout/default_recycler_horizontal_more.xml">
+      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="310" column="29" selection-start-line="310" selection-start-column="20" selection-end-line="310" selection-end-column="29" />
+        <state relative-caret-position="285">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/base/src/main/java/com/android/base/BaseActivity.java" />
-    <entry file="file://$PROJECT_DIR$/skin/src/main/res/values/attr.xml" />
-    <entry file="file://$PROJECT_DIR$/utils/src/main/java/com/android/utils/ViewUtils.java" />
-    <entry file="file://$PROJECT_DIR$/widget/src/main/java/com/android/widget/ZdTab.java" />
-    <entry file="file://$PROJECT_DIR$/widget/src/main/res/layout/default_tab.xml" />
-    <entry file="file://$PROJECT_DIR$/skin/src/main/java/com/android/skin/Skin.java" />
-    <entry file="file://$PROJECT_DIR$/skin/src/main/java/com/android/skin/model/SkinViewModel.java" />
-    <entry file="file://$PROJECT_DIR$/skin/src/main/java/com/android/skin/model/SkinViewItemModel.java" />
-    <entry file="file://$PROJECT_DIR$/skin/src/main/java/com/android/skin/factory/SkinFactory.java" />
-    <entry file="file://$PROJECT_DIR$/skin/src/main/AndroidManifest.xml" />
-    <entry file="file://$PROJECT_DIR$/skin/src/main/java/com/android/skin/SkinActivity.java" />
-    <entry file="file://$PROJECT_DIR$/skin/build.gradle" />
-    <entry file="file://$PROJECT_DIR$/skin/src/main/app/AndroidManifest.xml" />
-    <entry file="file://$PROJECT_DIR$/ZdPlugin/src/main/java/com/android/zdplugin/ZdPlugin.java" />
-    <entry file="file://$PROJECT_DIR$/ZdPlugin/src/main/java/com/android/zdplugin/FixDex.java" />
-    <entry file="file://$PROJECT_DIR$/permission/src/main/java/com/android/permission/annotation/Permission.java" />
-    <entry file="file://$PROJECT_DIR$/permission/src/main/java/com/android/permission/annotation/PermissionResult.java" />
-    <entry file="file://$PROJECT_DIR$/permission/src/main/java/com/android/permission/process/PermissionProcess.java" />
-    <entry file="file://$PROJECT_DIR$/permission/src/main/java/com/android/permission/listener/IPermission.java" />
-    <entry file="file://$PROJECT_DIR$/permission/src/main/java/com/android/permission/model/GrantModel.java" />
-    <entry file="file://$PROJECT_DIR$/permission/src/main/java/com/android/permission/PermissionActivity.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+    <entry file="file://$PROJECT_DIR$/platform/developer/recycleview/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platform/developer/recycleview/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platform/developer/recycleview/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platform/developer/base/src/main/res/layout/loading_progressbar.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platform/developer/adapter/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platform/developer/adapter/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/business/zd112/host/src/main/java/com/android/host/HostActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/business/zd112/host/src/main/res/layout/activity_host.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/business/zd112/host/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="45" column="1" lean-forward="true" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/business/zd112/host/src/main/AndroidManifest.xml">
       <provider editor-type-id="android-manifest" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="270">
+          <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/platform/third/location/build.gradle">
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-29/android/content/Context.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="49" column="32" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
+        <state relative-caret-position="317">
+          <caret line="2857" column="26" selection-start-line="2857" selection-start-column="26" selection-end-line="2857" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/build/outputs/apk/release/app-release.apk">
-      <provider selected="true" editor-type-id="apk-viewer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/business/zd112/channel/src/main/java/com/android/channel/fragment/ManagerChannelFragment.kt">
+    <entry file="file://$PROJECT_DIR$/platform/developer/base/src/main/java/com/android/base/BaseService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="85" column="16" lean-forward="true" selection-start-line="85" selection-start-column="16" selection-end-line="85" selection-end-column="16" />
+        <state relative-caret-position="46">
+          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imgs/zd112.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imgs/component.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imgs/app.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imgs/activity.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platform/basic/img/src/main/java/com/android/img/Img.java">
+    <entry file="file://$PROJECT_DIR$/platform/developer/base/src/main/java/com/android/base/BaseApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="47" column="3" selection-start-line="47" selection-start-column="3" selection-end-line="47" selection-end-column="3" />
+        <state relative-caret-position="228">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/platform/developer/widget/src/main/java/com/android/widget/ZdEditText.java">
+    <entry file="file://$PROJECT_DIR$/business/zd112/user/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/platform/developer/widget/src/main/java/com/android/widget/ZdDialog.java">
+    <entry file="file://$PROJECT_DIR$/business/zd112/user/src/main/app/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/business/zd112/user/src/main/java/com/android/user/UserFragment.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/platform/developer/widget/src/main/java/com/android/widget/ZdNavigator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platform/developer/widget/src/main/java/com/android/widget/ZdImageView.java">
+    <entry file="file://$PROJECT_DIR$/business/zd112/user/src/main/java/com/android/user/UserActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="135" column="32" selection-start-line="135" selection-start-column="32" selection-end-line="135" selection-end-column="32" />
+          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/platform/basic/img/src/main/java/com/android/img/ZdImageLoader.java">
+    <entry file="file://$PROJECT_DIR$/platform/developer/base/src/main/java/com/android/base/BaseActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43">
-          <caret line="22" column="3" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+        <state relative-caret-position="180">
+          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#3300#3301#0" expanded="true" />
+            <element signature="e#3360#3361#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-29/android/graphics/BitmapRegionDecoder.java">
+    <entry file="file://$PROJECT_DIR$/platform/developer/widget/src/main/java/com/android/widget/ZdTab.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="115" column="31" selection-start-line="115" selection-start-column="20" selection-end-line="115" selection-end-column="31" />
+        <state relative-caret-position="216">
+          <caret line="362" column="27" selection-start-line="362" selection-start-column="27" selection-end-line="362" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/platform/developer/widget/src/main/java/com/android/widget/ZdBigImg.java">
+    <entry file="file://$PROJECT_DIR$/platform/developer/base/src/main/java/com/android/base/BaseFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" column="10" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4634#4635#0" expanded="true" />
-            <element signature="e#4662#4663#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platform/basic/file/src/main/java/com/android/file/ZdFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="76" column="16" lean-forward="true" selection-start-line="76" selection-start-column="16" selection-end-line="76" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="66" column="20" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradle.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/business/zd112/blog/src/main/res/drawable/circle_big_red.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/business/zd112/blog/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest" />
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/business/zd112/blog/src/main/java/com/android/blog/ImgActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/business/zd112/blog/src/main/java/com/android/blog/BlogFragment.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+        <state relative-caret-position="335">
+          <caret line="135" selection-start-line="135" selection-end-line="135" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/zd112/SplashActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" selection-end-column="26" />
+        <state relative-caret-position="376">
+          <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/business/zd112/blog/src/main/java/com/android/blog/BlogActivity.java">
+    <entry file="file://$PROJECT_DIR$/platform/developer/base/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platform/developer/base/src/main/res/layout/comm_activity.xml">
+      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+        <state relative-caret-position="165">
+          <caret line="11" column="40" lean-forward="true" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platform/developer/base/src/main/java/com/android/base/CommActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platform/developer/widget/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/business/zd112/user/src/main/res/layout/user_fragment_mine.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="55" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platform/developer/widget/src/main/java/com/android/widget/ZdButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="102" column="77" selection-start-line="102" selection-start-column="65" selection-end-line="102" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/business/basic/main/src/main/java/com/android/main/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="61" column="28" selection-start-line="61" selection-start-column="28" selection-end-line="61" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/business/zd112/user/src/main/res/layout/user_fragment_login.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="18" column="40" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="40" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#2425#2443#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/business/zd112/blog/src/main/java/com/android/blog/view/FullScreenVideoView.java">
+    <entry file="file://$PROJECT_DIR$/business/zd112/user/src/main/java/com/android/user/vm/remote/UpdateRemote.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="255">
+          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/business/zd112/user/src/main/java/com/android/user/vm/data/UpdateResp.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/business/zd112/user/src/main/java/com/android/user/vm/data/UserData.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/business/zd112/user/src/main/java/com/android/user/vm/data/Version.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/business/zd112/user/src/main/java/com/android/user/vm/remote/UserRemote.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="77" selection-start-line="29" selection-start-column="69" selection-end-line="29" selection-end-column="77" />
+          <folding>
+            <element signature="e#36#188#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/business/zd112/user/src/main/java/com/android/user/vm/UserVM.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="36" column="37" lean-forward="true" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
+          <folding>
+            <element signature="e#29#593#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/business/zd112/user/src/main/java/com/android/user/fragment/LoginFragment.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+          <folding>
+            <element signature="e#35#555#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="72" column="36" lean-forward="true" selection-start-line="72" selection-start-column="36" selection-end-line="72" selection-end-column="36" />
         </state>
       </provider>
     </entry>

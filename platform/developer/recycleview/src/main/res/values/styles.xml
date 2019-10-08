@@ -25,7 +25,7 @@
     </declare-styleable>
 
     <style name="drop_down_list_footer_progress_bar_style">
-        <item name="android:minHeight">@dimen/drop_down_list_footer_progress_bar_height</item>
-        <item name="android:maxHeight">@dimen/drop_down_list_footer_progress_bar_height</item>
+        <item name="android:minHeight">36dp</item>
+        <item name="android:maxHeight">36dp</item>
     </style>
 </resources>

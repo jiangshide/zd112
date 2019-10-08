@@ -87,9 +87,9 @@ class ManagerChannelFragment : BaseFragment() {
           channelItemImg.visibility = View.GONE
         }
         if (it.isSelected) {
-          channelItemBtn.setTextColor(getColor(R.color.colorPrimaryDark))
+          channelItemBtn.setTextColor(getColor(R.color.white))
         } else {
-          channelItemBtn.setTextColor(getColor(R.color.normal))
+          channelItemBtn.setTextColor(getColor(R.color.black))
         }
       }, {
         LogUtil.e(" this:", this)

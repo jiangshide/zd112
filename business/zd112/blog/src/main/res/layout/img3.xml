@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/blogAlbumL3"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:orientation="horizontal"
+        android:visibility="gone"
+>
+    <ImageView
+            android:id="@+id/blogAlbumImg31"
+            android:layout_width="0dp"
+            android:layout_height="260dp"
+            android:layout_weight="2"
+            android:scaleType="centerCrop"
+    />
+    <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+    />
+    <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="260dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+    >
+
+        <ImageView
+                android:id="@+id/blogAlbumImg32"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:scaleType="centerCrop"
+        />
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/white"
+        />
+        <ImageView
+                android:id="@+id/blogAlbumImg33"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:scaleType="centerCrop"
+        />
+    </LinearLayout>
+</LinearLayout>

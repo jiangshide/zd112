@@ -17,8 +17,8 @@
       android:enabled="false"
       android:maxLines="1"
       android:focusable="false"
-      android:textColor="@color/normal"
-      app:corner="@dimen/cornerSmall"
+      android:textColor="@color/black"
+      app:corner="@dimen/default_corner"
       app:normal_color="@color/light"
       />
   <ImageView

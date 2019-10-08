@@ -1,104 +1,96 @@
-if(IS_MAIN_APP.toBoolean()){
-    apply plugin: 'com.android.application'
-}else{
-    apply plugin: 'com.android.library'
+if (IS_MAIN_APP.toBoolean()) {
+  apply plugin: 'com.android.application'
+} else {
+  apply plugin: 'com.android.library'
 }
 
 apply plugin: 'kotlin-android-extensions'
 apply plugin: 'kotlin-android'
 android {
 
-    signingConfigs {
-        sign {
-            storeFile file("$rootDir/$STORE_FILE")
-            storePassword STORE_PSW
-            keyAlias = KEY_ALIAS
-            keyPassword KEY_PSW
+  signingConfigs {
+    sign {
+      storeFile file("$rootDir/$STORE_FILE")
+      storePassword STORE_PSW
+      keyAlias = KEY_ALIAS
+      keyPassword KEY_PSW
 
-            v1SigningEnabled = true
-            v2SigningEnabled = true
-        }
+      v1SigningEnabled = true
+      v2SigningEnabled = true
+    }
+  }
+
+  compileSdkVersion COMPILE_SDK_VERSION.toInteger()
+  if (IS_PREFIX.toBoolean()) {
+    resourcesPrefix "main"
+  }
+  defaultConfig {
+    if (IS_MAIN_APP.toBoolean()) {
+      applicationId "com.android.main"
+    }
+    minSdkVersion MIN_SDK_VERSION.toInteger()
+    targetSdkVersion TARGET_SDK_VERSION.toInteger()
+    versionCode 1
+    versionName "1.0"
+
+    testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+  }
+
+  sourceSets.main {
+    if (IS_MAIN_APP.toBoolean()) {
+      manifest.srcFile 'src/main/app/AndroidManifest.xml'
+    } else {
+      manifest.srcFile 'src/main/AndroidManifest.xml'
+    }
+  }
+
+  buildTypes {
+    debug {
+      minifyEnabled false
+      signingConfig signingConfigs.sign
     }
 
-    compileSdkVersion COMPILE_SDK_VERSION.toInteger()
-    if(IS_PREFIX.toBoolean()){
-        resourcesPrefix "main"
+    release {
+      minifyEnabled true
+      proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+      signingConfig signingConfigs.sign
     }
-    defaultConfig {
-        if(IS_MAIN_APP.toBoolean()){
-            applicationId "com.android.main"
-        }
-        minSdkVersion MIN_SDK_VERSION.toInteger()
-        targetSdkVersion TARGET_SDK_VERSION.toInteger()
-        versionCode 1
-        versionName "1.0"
+  }
 
-        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-    }
+  compileOptions {
+    sourceCompatibility = JAVA_VERSION
+    targetCompatibility = JAVA_VERSION
+  }
 
-    sourceSets.main{
-        if(IS_MAIN_APP.toBoolean()){
-            manifest.srcFile 'src/main/app/AndroidManifest.xml'
-        }else{
-            manifest.srcFile 'src/main/AndroidManifest.xml'
-        }
-    }
-
-    buildTypes {
-        debug {
-            minifyEnabled false
-            signingConfig signingConfigs.sign
-        }
-
-        release {
-            minifyEnabled true
-            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
-            signingConfig signingConfigs.sign
-        }
-    }
-
-    compileOptions {
-        sourceCompatibility = JAVA_VERSION
-        targetCompatibility = JAVA_VERSION
-    }
-
-    if(IS_MAIN_APP.toBoolean()){
-        assemble.doLast {
-            android.applicationVariants.all { variant ->
-                if (variant.name == "release") {
-                    variant.outputs.each { output ->
-                        File originFile = output.outputFile
-                        println originFile.absolutePath
-                        copy {
-                            from originFile
-                            into "$rootDir/host/src/main/assets"
-                        }
-                    }
-                }
+  if (IS_MAIN_APP.toBoolean()) {
+    assemble.doLast {
+      android.applicationVariants.all { variant ->
+        if (variant.name == "release") {
+          variant.outputs.each { output ->
+            File originFile = output.outputFile
+            println originFile.absolutePath
+            copy {
+              from originFile
+              into "$rootDir/host/src/main/assets"
             }
+          }
         }
+      }
     }
+  }
 }
 
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
+  implementation fileTree(dir: 'libs', include: ['*.jar'])
 
-    annotationProcessor project(path: ':compile')
-    implementation project(path: ':base')
-//    implementation project(':push')
-    implementation project(':publish')
+  annotationProcessor project(path: ':compile')
+  implementation project(path: ':base')
+  //    implementation project(':push')
+  implementation project(':publish')
+  implementation project(':theme')
 
-    if(!IS_HOME_APP.toBoolean()){
-        implementation project(path: ':home')
-    }
-    if(!IS_CHANNEL_APP.toBoolean()){
-        implementation project(":channel")
-    }
-    if(!IS_SHOP_APP.toBoolean()){
-        implementation project(path: ':shop')
-    }
-    if(!IS_USER_APP.toBoolean()){
-        implementation project(path: ':user')
-    }
-
+  implementation project(path: ':home')
+  implementation project(":channel")
+  implementation project(path: ':shop')
+  implementation project(path: ':user')
 }

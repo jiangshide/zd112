@@ -1,5 +1,5 @@
-include ':app', ':router', ':annotations', ':compile', ':user', ':host', ':home', ':dynamic', ':publish', ':matisse', ':entity', ':file',
-    ':widget', ':utils', ':base', ':event', ':network', ':skin', ':login', ':shop', ':main',
+include ':app', ':router', ':annotations', ':compile', ':user', ':host', ':home', ':dynamic', ':publish', ':matisse', ':entity', ':file', ':resource', ':theme',
+    ':widget', ':utils', ':base', ':event', ':network', ':skin', ':shop', ':main',
     ':cache', ':monitor', ':plugin', ':permission', ':http', ':img', ':player', ':location',
     ':blog', ':jsbridge', ':refresh', ':star', ':recycleview', ':tablayout', ':db', ':push',
     ':adapter', ':channel'
@@ -7,16 +7,17 @@ include ':app', ':router', ':annotations', ':compile', ':user', ':host', ':home'
 
 //###############---business start------#################
 //basic
+project(':theme').projectDir = new File('business/basic/theme')
 project(':main').projectDir = new File('business/basic/main')
-project(':login').projectDir = new File('business/basic/login')
-project(':publish').projectDir = new File('business/basic/publish')
 project(':matisse').projectDir = new File('business/basic/matisse')
 
-
 //zd112
+project(':resource').projectDir = new File('business/zd112/resource')
+project(':host').projectDir = new File('business/zd112/host')
 project(':home').projectDir = new File('business/zd112/home')
 project(':channel').projectDir = new File('business/zd112/channel')
 project(':shop').projectDir = new File('business/zd112/shop')
+project(':publish').projectDir = new File('business/zd112/publish')
 project(':star').projectDir = new File('business/zd112/star')
 project(':user').projectDir = new File('business/zd112/user')
 project(':blog').projectDir = new File('business/zd112/blog')
@@ -42,7 +43,6 @@ project(':file').projectDir = new File('platform/basic/file')
 project(':annotations').projectDir = new File('platform/core/annotations')
 project(':compile').projectDir = new File('platform/core/compile')
 project(':event').projectDir = new File('platform/core/event')
-project(':host').projectDir = new File('platform/core/host')
 project(':plugin').projectDir = new File('platform/core/plugin')
 project(':router').projectDir = new File('platform/core/router')
 project(':dynamic').projectDir = new File('platform/core/dynamic')

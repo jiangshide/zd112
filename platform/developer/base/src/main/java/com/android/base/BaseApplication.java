@@ -14,6 +14,7 @@ import com.android.location.Location;
 import com.android.skin.Skin;
 import com.android.utils.FileUtil;
 import com.android.utils.LogUtil;
+import com.android.utils.SPUtil;
 import com.android.zdplugin.ZdPlugin;
 import com.android.zdrouter.ZdRouter;
 import com.tencent.mm.opensdk.openapi.IWXAPI;
@@ -30,11 +31,9 @@ public class BaseApplication extends Application {
 
   private HttpProxyCacheServer httpProxyCacheServer;
 
-  private long uid = 99893323;
+  public String UID = "uid";
 
   public static BaseApplication instance;
-
-  //private OSS oss = null;
 
   @Override
   protected void attachBaseContext(Context base) {
@@ -61,28 +60,9 @@ public class BaseApplication extends Application {
     super.onCreate();
     //Push.getInstance().init(this,this).setChannel("jsd");
     //loop();
-    Intent service = new Intent(getApplicationContext(), BaseService.class);
-    getApplicationContext().startService(service);
-    //oss();
+    //Intent service = new Intent(getApplicationContext(), BaseService.class);
+    //getApplicationContext().startService(service);
   }
-
-  //public OSS oss() {
-  //  if (oss != null) return oss;
-  //  String endpoint = "http://oss-cn-hangzhou.aliyuncs.com";
-  //  ClientConfiguration clientConfiguration = new ClientConfiguration();
-  //  clientConfiguration.setConnectionTimeout(15 * 1000);
-  //  clientConfiguration.setSocketTimeout(15 * 1000);
-  //  clientConfiguration.setMaxConcurrentRequest(5);
-  //  clientConfiguration.setMaxErrorRetry(2);
-  //  OSSLog.enableLog();
-  //  String token =
-  //      OSSUtils.sign("LTAI4FsdfLivkjuXYSeQUgzC", "vk0Nk5MGeceZhhLDWUnJoV7w5F2CuY", "jankey");
-  //  LogUtil.e("---------token:", token);
-  //  OSSCredentialProvider credentialProvider =
-  //      new OSSStsTokenCredentialProvider("LTAI4FsdfLivkjuXYSeQUgzC",
-  //          "vk0Nk5MGeceZhhLDWUnJoV7w5F2CuY", token);
-  //  return oss = new OSSClient(this, endpoint, credentialProvider, clientConfiguration);
-  //}
 
   private void loop() {
     new Handler(Looper.getMainLooper()).post(new Runnable() {
@@ -120,12 +100,8 @@ public class BaseApplication extends Application {
     return getProxy(this, isAudio).getProxyUrl(url);
   }
 
-  public void setUid(long uid) {
-    this.uid = uid;
-  }
-
   public long getUid() {
-    return uid;
+    return SPUtil.getLong(UID);
   }
 
   @Override

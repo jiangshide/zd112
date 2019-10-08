@@ -1,0 +1,53 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/jiangshide/developer/android/workspace/zd112/business/basic/matisse/src/main/AndroidManifest.xml:17:1-36:12
+INJECTED from /Users/jiangshide/developer/android/workspace/zd112/business/basic/matisse/src/main/AndroidManifest.xml:17:1-36:12
+INJECTED from /Users/jiangshide/developer/android/workspace/zd112/business/basic/matisse/src/main/AndroidManifest.xml:17:1-36:12
+	package
+		ADDED from /Users/jiangshide/developer/android/workspace/zd112/business/basic/matisse/src/main/AndroidManifest.xml:19:5-32
+		INJECTED from /Users/jiangshide/developer/android/workspace/zd112/business/basic/matisse/src/main/AndroidManifest.xml
+		INJECTED from /Users/jiangshide/developer/android/workspace/zd112/business/basic/matisse/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/jiangshide/developer/android/workspace/zd112/business/basic/matisse/src/main/AndroidManifest.xml:18:5-63
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/jiangshide/developer/android/workspace/zd112/business/basic/matisse/src/main/AndroidManifest.xml:21:5-80
+	android:name
+		ADDED from /Users/jiangshide/developer/android/workspace/zd112/business/basic/matisse/src/main/AndroidManifest.xml:21:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/jiangshide/developer/android/workspace/zd112/business/basic/matisse/src/main/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from /Users/jiangshide/developer/android/workspace/zd112/business/basic/matisse/src/main/AndroidManifest.xml:22:22-77
+application
+ADDED from /Users/jiangshide/developer/android/workspace/zd112/business/basic/matisse/src/main/AndroidManifest.xml:24:5-35:19
+activity#com.zhihu.matisse.ui.MatisseActivity
+ADDED from /Users/jiangshide/developer/android/workspace/zd112/business/basic/matisse/src/main/AndroidManifest.xml:26:9-28:15
+	android:theme
+		ADDED from /Users/jiangshide/developer/android/workspace/zd112/business/basic/matisse/src/main/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from /Users/jiangshide/developer/android/workspace/zd112/business/basic/matisse/src/main/AndroidManifest.xml:26:19-70
+activity#com.zhihu.matisse.internal.ui.AlbumPreviewActivity
+ADDED from /Users/jiangshide/developer/android/workspace/zd112/business/basic/matisse/src/main/AndroidManifest.xml:29:9-31:15
+	android:theme
+		ADDED from /Users/jiangshide/developer/android/workspace/zd112/business/basic/matisse/src/main/AndroidManifest.xml:30:13-72
+	android:name
+		ADDED from /Users/jiangshide/developer/android/workspace/zd112/business/basic/matisse/src/main/AndroidManifest.xml:29:19-84
+activity#com.zhihu.matisse.internal.ui.SelectedPreviewActivity
+ADDED from /Users/jiangshide/developer/android/workspace/zd112/business/basic/matisse/src/main/AndroidManifest.xml:32:9-34:15
+	android:theme
+		ADDED from /Users/jiangshide/developer/android/workspace/zd112/business/basic/matisse/src/main/AndroidManifest.xml:33:13-72
+	android:name
+		ADDED from /Users/jiangshide/developer/android/workspace/zd112/business/basic/matisse/src/main/AndroidManifest.xml:32:19-87
+uses-sdk
+INJECTED from /Users/jiangshide/developer/android/workspace/zd112/business/basic/matisse/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/jiangshide/developer/android/workspace/zd112/business/basic/matisse/src/main/AndroidManifest.xml
+INJECTED from /Users/jiangshide/developer/android/workspace/zd112/business/basic/matisse/src/main/AndroidManifest.xml
+INJECTED from /Users/jiangshide/developer/android/workspace/zd112/business/basic/matisse/src/main/AndroidManifest.xml
+INJECTED from /Users/jiangshide/developer/android/workspace/zd112/business/basic/matisse/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/jiangshide/developer/android/workspace/zd112/business/basic/matisse/src/main/AndroidManifest.xml
+		ADDED from /Users/jiangshide/developer/android/workspace/zd112/business/basic/matisse/src/main/AndroidManifest.xml
+		INJECTED from /Users/jiangshide/developer/android/workspace/zd112/business/basic/matisse/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/jiangshide/developer/android/workspace/zd112/business/basic/matisse/src/main/AndroidManifest.xml
+		ADDED from /Users/jiangshide/developer/android/workspace/zd112/business/basic/matisse/src/main/AndroidManifest.xml
+		INJECTED from /Users/jiangshide/developer/android/workspace/zd112/business/basic/matisse/src/main/AndroidManifest.xml

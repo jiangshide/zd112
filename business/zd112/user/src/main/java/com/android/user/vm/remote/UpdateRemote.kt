@@ -19,4 +19,5 @@ interface UpdateRemote {
             @Query("platform") platform: String? = "Android"
     ): Observable<Response<RespData<UpdateResp>>>
 
+
 }

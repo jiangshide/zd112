@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="light">@color/gray_EB</color>
+
+  <color name="text_d5">#D5D5D5</color>
+
+  <color name="text_8c">#8C8D93</color>
+
+  <color name="text_3">#333333</color>
+  <color name="text_9">#999999</color>
+  <color name="gray_EB">#EBEBEB</color>
+</resources>

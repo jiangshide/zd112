@@ -82,5 +82,6 @@ dependencies {
 
     annotationProcessor project(path: ':compile')
     implementation project(':base')
+    implementation project(':resource')
     implementation project(':blog')
 }

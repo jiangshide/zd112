@@ -66,7 +66,7 @@ Platfor |	Module | Status	|	Open Level
 ##### 4.1.3 WindowManagerService管理流程
 ##### 4.1.4 PackageManagerService管理流程
 
-#### 4.2 android(9.0,不针对老版本做比对) | framework | c
+#### 4.2 android(9.0) | framework | c
 
 #### 4.3 flutter(1.9.1) | framework | dart
 

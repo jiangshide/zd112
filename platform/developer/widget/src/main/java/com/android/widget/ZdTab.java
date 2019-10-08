@@ -464,7 +464,6 @@ public class ZdTab extends ZdTabHost implements FragmentManager.OnBackStackChang
 
   public ZdTab pop() {
     fragmentManager.popBackStack();
-    LogUtil.e("---------pop");
     return this;
   }
 
@@ -519,6 +518,7 @@ public class ZdTab extends ZdTabHost implements FragmentManager.OnBackStackChang
 
   @Override public void onClick(View view) {
     long currentTime = System.currentTimeMillis();
+    LogUtil.e("-------view:",view);
     if (currentTime - mLastClickTime > MIN_CLICK_DELAY_TIME) {
       mLastClickTime = currentTime;
       if (view.getId() == R.id.topLeftBtn) {

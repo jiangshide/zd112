@@ -50,7 +50,7 @@
         android:id="@+id/listItemDes"
         android:layout_width="wrap_content" android:layout_height="wrap_content"
         android:layout_marginRight="9dp"
-        android:textColor="@color/text_9"
+        android:textColor="@color/gray"
         android:textSize="14sp"
         />
     <ImageView

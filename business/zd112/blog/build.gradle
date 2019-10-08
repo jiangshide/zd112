@@ -61,7 +61,7 @@ android {
         targetCompatibility = JAVA_VERSION
     }
 
-    if(IS_LOGIN_APP.toBoolean()){
+    if(IS_BLOG_APP.toBoolean()){
         assemble.doLast {
             android.applicationVariants.all { variant ->
                 if (variant.name == "release") {
@@ -83,7 +83,8 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
     annotationProcessor project(path: ':compile')
-
-    api project(":base")
-    api project(":player")
+    implementation project(':resource')
+    implementation project(':base')
+    implementation project(':player')
+    implementation project(':entity')
 }

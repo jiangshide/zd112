@@ -25,6 +25,7 @@ import com.alibaba.sdk.android.oss.model.PutObjectResult;
 import com.android.img.Img;
 import com.android.utils.AppUtil;
 import com.android.utils.FileUtil;
+import com.android.utils.LogUtil;
 import com.android.widget.ZdButton;
 import com.android.widget.ZdToast;
 import java.util.ArrayList;
@@ -33,7 +34,7 @@ import java.util.ArrayList;
  * created by jiangshide on 2019-10-05.
  * email:18311271399@163.com
  */
-public class ZdFile extends Thread implements Runnable {
+public class ZdFile {
 
   private static class ZdFileHolder {
     private static ZdFile instance = new ZdFile();
@@ -97,9 +98,12 @@ public class ZdFile extends Thread implements Runnable {
     return this;
   }
 
-  @Override public void run() {
-    super.run();
-    request(0);
+  public void go() {
+    new Thread(new Runnable() {
+      @Override public void run() {
+        request(0);
+      }
+    }).start();
   }
 
   private void request(int i) {
@@ -124,7 +128,6 @@ public class ZdFile extends Thread implements Runnable {
     String name = FileUtil.getFileName(path);
     PutObjectRequest put =
         new PutObjectRequest(BuildConfig.BUCKET, fileType + "/" + name, path);
-
     put.setProgressCallback(new OSSProgressCallback<PutObjectRequest>() {
       @Override
       public void onProgress(PutObjectRequest request, long currentSize, long totalSize) {
@@ -141,7 +144,13 @@ public class ZdFile extends Thread implements Runnable {
         oss.asyncPutObject(put, new OSSCompletedCallback<PutObjectRequest, PutObjectResult>() {
           @Override
           public void onSuccess(PutObjectRequest request, PutObjectResult result) {
-            String url = BuildConfig.ENDPOINT + "/" + fileType + "/" + name;
+            LogUtil.e("--------------request:", request);
+            String url = "https://"
+                + BuildConfig.BUCKET
+                + ".oss-cn-beijing.aliyuncs.com/"
+                + fileType
+                + "/"
+                + name;
             if (urlS != null) {
               urlS.append(url).append(",");
             }

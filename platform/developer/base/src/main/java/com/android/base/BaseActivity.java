@@ -77,7 +77,7 @@ public class BaseActivity<T> extends AppCompatActivity
     mZdTab.setTab(tab);
   }
 
-  public void selecteImgs(int selected, Set<MimeType> mimeTypes){
+  public void selecteImgs(int selected, Set<MimeType> mimeTypes) {
   }
 
   @PermissionResult
@@ -107,6 +107,20 @@ public class BaseActivity<T> extends AppCompatActivity
 
   public ZdTab pop(String tag, int flags) {
     return mZdTab.pop(tag, flags);
+  }
+
+  /**
+   * 依赖组件间跳转
+   */
+  public void goFragment(Class<T> _class) {
+    this.goFragment(null, _class, new Bundle(), false);
+  }
+
+  /**
+   * 依赖组件间跳转
+   */
+  public void goFragment(Class<T> _class, boolean isFinissh) {
+    this.goFragment(null, _class, new Bundle(), isFinissh);
   }
 
   /**

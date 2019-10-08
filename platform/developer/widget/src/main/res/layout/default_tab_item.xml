@@ -28,7 +28,7 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:visibility="gone"
-        android:textSize="@dimen/small"
+        android:textSize="13sp"
         />
 
   </LinearLayout>

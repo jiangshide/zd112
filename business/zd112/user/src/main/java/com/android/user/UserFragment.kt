@@ -21,8 +21,8 @@ class UserFragment : BaseFragment() {
     savedInstanceState: Bundle?
   ) {
     super.onViewCreated(view, savedInstanceState)
-    createTabLayout(view,false, listOf(getString(com.android.base.R.string.me),
-        getString(com.android.base.R.string.app_settings)), listOf(MineFragment.newInstance(),
+    createTabLayout(view,false, listOf(getString(R.string.me),
+        getString(R.string.app_settings)), listOf(MineFragment.newInstance(),
         SetFragment.newInstance()),savedInstanceState)
   }
 }

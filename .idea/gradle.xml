@@ -9,14 +9,16 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/business/basic/login" />
             <option value="$PROJECT_DIR$/business/basic/main" />
             <option value="$PROJECT_DIR$/business/basic/matisse" />
-            <option value="$PROJECT_DIR$/business/basic/publish" />
+            <option value="$PROJECT_DIR$/business/basic/theme" />
             <option value="$PROJECT_DIR$/business/zd112/blog" />
             <option value="$PROJECT_DIR$/business/zd112/channel" />
             <option value="$PROJECT_DIR$/business/zd112/entity" />
             <option value="$PROJECT_DIR$/business/zd112/home" />
+            <option value="$PROJECT_DIR$/business/zd112/host" />
+            <option value="$PROJECT_DIR$/business/zd112/publish" />
+            <option value="$PROJECT_DIR$/business/zd112/resource" />
             <option value="$PROJECT_DIR$/business/zd112/shop" />
             <option value="$PROJECT_DIR$/business/zd112/star" />
             <option value="$PROJECT_DIR$/business/zd112/user" />
@@ -34,7 +36,6 @@
             <option value="$PROJECT_DIR$/platform/core/compile" />
             <option value="$PROJECT_DIR$/platform/core/dynamic" />
             <option value="$PROJECT_DIR$/platform/core/event" />
-            <option value="$PROJECT_DIR$/platform/core/host" />
             <option value="$PROJECT_DIR$/platform/core/plugin" />
             <option value="$PROJECT_DIR$/platform/core/router" />
             <option value="$PROJECT_DIR$/platform/developer/adapter" />

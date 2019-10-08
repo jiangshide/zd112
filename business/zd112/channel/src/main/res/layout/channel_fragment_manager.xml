@@ -12,7 +12,7 @@
       android:layout_height="wrap_content"
       android:layout_marginTop="@dimen/margin"
       android:text="我的频道"
-      android:textColor="@color/normal"
+      android:textColor="@color/black"
       android:textSize="@dimen/normal"
       />
   <TextView
@@ -33,7 +33,7 @@
       android:layout_below="@+id/channeledRecycleView"
       android:layout_marginTop="@dimen/margin"
       android:text="推荐频道"
-      android:textColor="@color/normal"
+      android:textColor="@color/black"
       android:textSize="@dimen/normal"
       />
 
@@ -61,7 +61,7 @@
       android:paddingTop="3dp"
       android:text="编辑"
       android:textColor="@color/red"
-      app:corner="@dimen/cornerBig"
+      app:corner="90dp"
       app:normal_color="@color/white"
       app:stroke="@dimen/line"
       app:stroke_color="@color/red"

@@ -66,9 +66,4 @@ dependencies {
     implementation project(path: ':img')
 
     api project(":tablayout")
-
-    if(!IS_SKIN_APP.toBoolean()){
-        implementation project(path: ':skin')
-    }
-
 }

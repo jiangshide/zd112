@@ -19,7 +19,7 @@
         <option name="ALLOW_USER_CONFIGURATION" value="false" />
         <option name="MANIFEST_FILE_RELATIVE_PATH" value="/src/main/AndroidManifest.xml" />
         <option name="RES_FOLDER_RELATIVE_PATH" value="/src/main/res" />
-        <option name="RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/src/main/res" />
+        <option name="RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/src/main/res;file://$MODULE_DIR$/build/generated/res/resValues/debug" />
         <option name="TEST_RES_FOLDERS_RELATIVE_PATH" value="" />
         <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/src/main/assets" />
       </configuration>
@@ -156,8 +156,9 @@
     <orderEntry type="module" module-name="developer-base" />
     <orderEntry type="module" module-name="img" />
     <orderEntry type="module" module-name="matisse" />
+    <orderEntry type="module" module-name="resource" />
     <orderEntry type="module" module-name="channel" />
-    <orderEntry type="module" module-name="basic-login" />
+    <orderEntry type="module" module-name="entity" />
     <orderEntry type="module" module-name="basic-main" />
     <orderEntry type="module" module-name="zd112-user" />
     <orderEntry type="module" module-name="router" />
@@ -173,7 +174,7 @@
     <orderEntry type="module" module-name="adapter" />
     <orderEntry type="module" module-name="developer-skin" />
     <orderEntry type="module" module-name="location" />
-    <orderEntry type="module" module-name="entity" />
+    <orderEntry type="module" module-name="theme" />
     <orderEntry type="module" module-name="tablayout" />
     <orderEntry type="module" module-name="annotations" />
   </component>

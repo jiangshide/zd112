@@ -2,106 +2,99 @@ apply plugin: 'com.android.application'
 apply plugin: 'android-aspectjx'
 
 android {
-    signingConfigs {
-        sign {
-            storeFile file("$rootDir/$STORE_FILE")
-            storePassword STORE_PSW
-            keyAlias = KEY_ALIAS
-            keyPassword KEY_PSW
+  signingConfigs {
+    sign {
+      storeFile file("$rootDir/$STORE_FILE")
+      storePassword STORE_PSW
+      keyAlias = KEY_ALIAS
+      keyPassword KEY_PSW
 
-            v1SigningEnabled = true
-            v2SigningEnabled = true
+      v1SigningEnabled = true
+      v2SigningEnabled = true
+    }
+  }
+  compileSdkVersion COMPILE_SDK_VERSION.toInteger()
+  defaultConfig {
+    applicationId APPLICATION_ID
+    minSdkVersion MIN_SDK_VERSION.toInteger()
+    targetSdkVersion TARGET_SDK_VERSION.toInteger()
+    versionCode APP_VERSION_CODE.toInteger()
+    versionName APP_VERSION_NAME
+
+    manifestPlaceholders = [appName: APP_NAME]
+    buildConfigField('String', 'appNAME', "\"${APP_NAME}\"")
+
+    multiDexEnabled true
+
+    manifestPlaceholders = [
+        GETUI_APP_ID: PUSH_APPID,
+        GETUI_APP_KEY: PUSH_APPKEY,
+        GETUI_APP_SECRET: PUSH_APPSECRET,
+        GI_APPID: GI_APPID,
+        GS_APPID: GS_APPID,
+        GT_INSTALL_CHANNEL: "getui",
+        HUAWEI_APP_ID: HW_APP_ID,
+        MEIZU_APP_ID: MEIZU_APP_ID,
+        MEIZU_APP_KEY: MEIZU_APP_KEY,
+        XIAOMI_APP_ID: XIAOMI_APP_ID,
+        XIAOMI_APP_KEY: XIAOMI_APP_KEY,
+        OPPO_APP_KEY: OPPO_APP_KEY,
+        OPPO_APP_SECRET: OPPO_APP_SECRET,
+        VIVO_APP_ID: VIVO_APP_ID,
+        VIVO_APP_KEY: VIVO_APP_KEY,
+    ]
+  }
+  buildTypes {
+    debug {
+      minifyEnabled false
+      signingConfig signingConfigs.sign
+      //            applicationIdSuffix 'debug'
+    }
+
+    release {
+      minifyEnabled true
+      //            shrinkResources true
+      proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+      signingConfig signingConfigs.sign
+    }
+  }
+
+  compileOptions {
+    sourceCompatibility = JAVA_VERSION
+    targetCompatibility = JAVA_VERSION
+  }
+
+  assemble.doLast {
+    android.applicationVariants.all { variant ->
+      if (variant.name == "release") {
+        variant.outputs.each { output ->
+          File originFile = output.outputFile
+          println originFile.absolutePath
+          copy {
+            from originFile
+            into "$rootDir/host/src/main/assets"
+          }
         }
+      }
     }
-    compileSdkVersion COMPILE_SDK_VERSION.toInteger()
-    defaultConfig {
-        applicationId APPLICATION_ID
-        minSdkVersion MIN_SDK_VERSION.toInteger()
-        targetSdkVersion TARGET_SDK_VERSION.toInteger()
-        versionCode APP_VERSION_CODE.toInteger()
-        versionName APP_VERSION_NAME
+  }
 
-        manifestPlaceholders = [appName: APP_NAME]
-        buildConfigField('String', 'appNAME', "\"${APP_NAME}\"")
-
-        multiDexEnabled true
-
-        manifestPlaceholders = [
-            GETUI_APP_ID    : PUSH_APPID,
-            GETUI_APP_KEY   : PUSH_APPKEY,
-            GETUI_APP_SECRET: PUSH_APPSECRET,
-            GI_APPID : GI_APPID,
-            GS_APPID : GS_APPID,
-            GT_INSTALL_CHANNEL : "getui",
-            HUAWEI_APP_ID : HW_APP_ID,
-            MEIZU_APP_ID:MEIZU_APP_ID,
-            MEIZU_APP_KEY:MEIZU_APP_KEY,
-            XIAOMI_APP_ID:XIAOMI_APP_ID,
-            XIAOMI_APP_KEY:XIAOMI_APP_KEY,
-            OPPO_APP_KEY:OPPO_APP_KEY,
-            OPPO_APP_SECRET:OPPO_APP_SECRET,
-            VIVO_APP_ID:VIVO_APP_ID,
-            VIVO_APP_KEY:VIVO_APP_KEY,
-        ]
-
-    }
-    buildTypes {
-        debug {
-            minifyEnabled false
-            signingConfig signingConfigs.sign
-//            applicationIdSuffix 'debug'
-        }
-
-        release {
-            minifyEnabled true
-//            shrinkResources true
-            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
-            signingConfig signingConfigs.sign
-        }
-    }
-
-    compileOptions {
-        sourceCompatibility = JAVA_VERSION
-        targetCompatibility = JAVA_VERSION
-    }
-
-    assemble.doLast {
-        android.applicationVariants.all { variant ->
-            if (variant.name == "release") {
-                variant.outputs.each { output ->
-                    File originFile = output.outputFile
-                    println originFile.absolutePath
-                    copy {
-                        from originFile
-                        into "$rootDir/host/src/main/assets"
-                    }
-                }
-            }
-        }
-    }
-
-//    dexOptions {
-//        preDexLibraries = false
-//        additionalParameters=['--core-library']
-//    }
+  //    dexOptions {
+  //        preDexLibraries = false
+  //        additionalParameters=['--core-library']
+  //    }
 }
 
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
+  implementation fileTree(dir: 'libs', include: ['*.jar'])
 
-    annotationProcessor project(path: ':compile')
-    implementation project(path: ':base')
+  annotationProcessor project(path: ':compile')
+  implementation project(path: ':base')
+  implementation project(':resource')
 
+  implementation project(':channel')
+  implementation project(':entity')
 
-    implementation project(':channel')
-
-    if (!IS_LOGIN_APP.toBoolean()) {
-        implementation project(path: ':login')
-    }
-    if (!IS_MAIN_APP.toBoolean()) {
-        implementation project(path: ':main')
-    }
-    if (!IS_USER_APP.toBoolean()) {
-        implementation project(path: ':user')
-    }
+  implementation project(path: ':main')
+  implementation project(path: ':user')
 }

@@ -28,7 +28,7 @@ interface ChannelRemote {
     @Field("uid") uid: Long,
     @Field("name") name: String,
     @Field("des") des: String,
-    @Field("type") type: Int,
+    @Field("format") format: Int,
     @Field("publish") publish: Int
   ): Observable<Response<RespData<Any>>>
 }

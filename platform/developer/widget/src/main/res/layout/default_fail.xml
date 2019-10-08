@@ -17,6 +17,6 @@
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:text="没有网络链接，请检查网络"
-      android:textSize="@dimen/small"
+      android:textSize="13sp"
       />
 </LinearLayout>

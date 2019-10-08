@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_weight="1">
+
+    <ImageView
+        android:id="@+id/loginIcon"
+        android:layout_width="83dp"
+        android:layout_height="83dp"
+        android:layout_centerInParent="true"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loginIcon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text="一起战斗吧"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+  </RelativeLayout>
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_marginBottom="30dp"
+      android:layout_weight="1"
+      android:visibility="visible"
+      >
+    <com.android.widget.ZdEditText
+        android:id="@+id/loginName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="账号"
+        android:background="@color/alpha"
+        android:gravity="center"
+      />
+    <com.android.widget.ZdEditText
+        android:id="@+id/loginPsw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="密码"
+        android:gravity="center"
+        android:layout_below="@+id/loginName"
+        android:background="@color/alpha"
+        android:layout_marginTop="30dp"
+        />
+    <com.android.widget.ZdButton
+        android:id="@+id/loginSubmit"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="登录"
+        android:padding="6dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/loginPsw"
+        android:layout_marginTop="30dp"
+        app:normal_color="@color/gray"
+        />
+    <LinearLayout
+        android:id="@+id/loginWxL"
+        android:layout_width="240dp"
+        android:layout_height="44dp"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+      <ImageView
+          android:layout_width="25dp"
+          android:layout_height="25dp"
+          android:scaleType="centerCrop"
+          android:src="@mipmap/login_wechat" />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="5dp"
+          android:text="微信登录"
+          android:textColor="@color/red"
+          android:textSize="18sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/protocolTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/protocal" />
+  </RelativeLayout>
+</LinearLayout>
